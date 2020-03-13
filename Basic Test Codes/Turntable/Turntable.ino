@@ -8,9 +8,9 @@ int rot_mtr_n=9;
 
 void setup() 
 {
-  pinMode(2,INPUT);  //sensor
-  pinMode(3,INPUT_PULLUP); // sw1
-  pinMode(4,INPUT_PULLUP); //sw2
+  pinMode(5,INPUT);  //sensor
+  pinMode(6,INPUT_PULLUP); // sw1
+  pinMode(7,INPUT_PULLUP); //sw2
   pinMode(8,OUTPUT); //r
   pinMode(9,OUTPUT); //r
   pinMode(10,OUTPUT); //l
@@ -25,14 +25,16 @@ void setup()
 void loop() 
 {
 int sens=digitalRead(2);
-int lt_sw1=digitalRead(3);
-int lt_sw2=digitalRead(4);
-Serial.println(lt_sw1);
-//if(lt_sw2==0)
-//{
-//digitalWrite(8,LOW);
-//digitalWrite(9,HIGH);
-//}
+int lt_sw1=digitalRead(6);
+int lt_sw2=digitalRead(7);
+Serial.println(lt_sw2);
+ digitalWrite(9,LOW);
+ digitalWrite(8,HIGH);
+if(lt_sw1==0)
+{
+digitalWrite(8,HIGH);
+digitalWrite(9,HIGH);
+}
 //if(lt_sw1==0)
 //{
 //digitalWrite(8,HIGH);
@@ -41,36 +43,36 @@ Serial.println(lt_sw1);
 //}
 //digitalWrite(9,LOW);
 //digitalWrite(8,HIGH);
-if(sens==0 && lt_sw1==0)
-{
-digitalWrite(10,HIGH);
-digitalWrite(11,LOW);
-digitalWrite(8,HIGH);
-digitalWrite(9,HIGH);
-
-}
-if(sens==1 && lt_sw1==0)
-{
-digitalWrite(10,HIGH);
-digitalWrite(11,HIGH);  
-digitalWrite(8,LOW);
-digitalWrite(9,HIGH); 
-}
-if(lt_sw2==0 && sens==1)
-{
-  {
-digitalWrite(8,HIGH);
-digitalWrite(9,HIGH);
-digitalWrite(10,LOW);
-digitalWrite(11,HIGH);
-  }
-delay(2000);
-}
-if(lt_sw2==0 && sens==0)
-{
-digitalWrite(8,HIGH);
-digitalWrite(9,LOW);
-digitalWrite(10,HIGH);
-digitalWrite(11,HIGH);
-}
+//if(sens==0 && lt_sw1==0)
+//{
+//digitalWrite(10,HIGH);
+//digitalWrite(11,LOW);
+//digitalWrite(8,HIGH);
+//digitalWrite(9,HIGH);
+//
+//}
+//if(sens==1 && lt_sw1==0)
+//{
+//digitalWrite(10,HIGH);
+//digitalWrite(11,HIGH);  
+//digitalWrite(8,LOW);
+//digitalWrite(9,HIGH); 
+//}
+//if(lt_sw2==0 && sens==1)
+//{
+//  {
+//digitalWrite(8,HIGH);
+//digitalWrite(9,HIGH);
+//digitalWrite(10,LOW);
+//digitalWrite(11,HIGH);
+//  }
+//delay(2000);
+//}
+//if(lt_sw2==0 && sens==0)
+//{
+//digitalWrite(8,HIGH);
+//digitalWrite(9,LOW);
+//digitalWrite(10,HIGH);
+//digitalWrite(11,HIGH);
+//}
 }
