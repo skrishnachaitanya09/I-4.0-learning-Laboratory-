@@ -39,7 +39,7 @@ void loop()
 //
 //  Serial.print(sensor1);
 //  Serial.print(" ");
-//  Serial.println(sensor2);
+  Serial.println(reading);
    // RED LED IS HIGH
   
   if((reading>ambientReading + THRESHOLD) && state == r)
@@ -69,8 +69,9 @@ void loop()
   {
     
     digitalWrite(LEDPIN,HIGH);
-    digitalWrite(motorpos,HIGH);
-    digitalWrite(motorneg,HIGH);//STOP CONVEYOR
+    object = true;
+    // digitalWrite(motorpos,HIGH);
+   //  digitalWrite(motorneg,HIGH);//STOP CONVEYOR
   }
   if(sensor2==1 && state==g &&(reading>ambientReading + THRESHOLD))
   {
@@ -80,7 +81,7 @@ void loop()
     digitalWrite(LEDPIN,LOW);
   }
 
-  if(sensor1 ==0 && sensor2==0 && (reading<ambientReading + THRESHOLD) && state==g && object)
+  if(sensor1 ==0 && sensor2==0 && (reading>ambientReading + THRESHOLD) && state==g && object)
   {
     
     digitalWrite(motorpos,HIGH);
