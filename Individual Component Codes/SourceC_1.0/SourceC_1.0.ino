@@ -39,7 +39,7 @@ void loop()
 //
 //  Serial.print(sensor1);
 //  Serial.print(" ");
-  Serial.println(reading);
+  //Serial.println(reading);
    // RED LED IS HIGH
   
   if((reading>ambientReading + THRESHOLD) && state == r)
