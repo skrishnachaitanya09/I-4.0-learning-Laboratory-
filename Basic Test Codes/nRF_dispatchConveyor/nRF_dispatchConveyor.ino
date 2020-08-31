@@ -22,6 +22,7 @@ int state = 0;
 uint8_t txMessage;
 uint8_t rxMessage;
 bool correctMessage;
+bool sent;
 
 void setup(){
   pinMode(2,INPUT);
@@ -41,10 +42,8 @@ void setup(){
   
 }  
 void loop(){  
-
   bool startingSensor = digitalRead(2);
   bool endingSensor = digitalRead(3);
-
 
   if(startingSensor && state == 0) {
     state = 1;
@@ -52,99 +51,75 @@ void loop(){
   else if(endingSensor && state == 1) {
     state = 2;
   }
+
   Serial.println(state);
   switch(state) {
     case 0:
       digitalWrite(9, LOW);
       digitalWrite(10, LOW);
       break;
+
     case 1:
       digitalWrite(9, LOW);
       digitalWrite(10, HIGH);
       break;
+
     case 2:
       digitalWrite(9, LOW);
       digitalWrite(10, LOW);
 
       radio.stopListening();
       txMessage = 0xaa;
-      bool sent = false;
-      while(!sent) {
-        sent = radio.write(&txMessage, sizeof(txMessage));
+      Serial.println("Sending 0xaa");
+      sent = radio.write(&txMessage, sizeof(txMessage));
+      if(sent) {
+        Serial.println("Sent 0xaa");
+        state = 3;
       }
-      Serial.println("Sent 0xaa");
-      state = 3;
       break;
+
     case 3:
-      correctMessage = false;
       radio.startListening();
-      while(!correctMessage) {
-        Serial.println("Checking for messages");
-        while (!radio.available());
-        radio.read(&rxMessage, sizeof(rxMessage));
-        Serial.print("Received ");
-        Serial.println(rxMessage);        
-        radio.stopListening();
-        if(rxMessage == 0xff) {
-          correctMessage = true;
-          digitalWrite(9, LOW);
-          digitalWrite(10, HIGH);
-          state = 4;
-          radio.stopListening();
-          txMessage = 0x11;
-          bool sent = false;
-          while(!sent) {
-            Serial.println("Trying to send 0x11");
-            sent = radio.write(&txMessage, sizeof(txMessage));
-          }
-          Serial.println("Sent 0x11");
-          radio.startListening();        
-          }
-      }
-      Serial.println(correctMessage);
-      break;
-    case 4:
       correctMessage = false;
-//      uint8_t rxMessage2;
       while(!correctMessage) {
-        while (!radio.available());
+        while(!radio.available());
         radio.read(&rxMessage, sizeof(rxMessage));
         Serial.print("Received ");
         Serial.println(rxMessage);
-        radio.stopListening();
-        if(rxMessage == 0xaf) {
+        if(rxMessage == 0xbb) {
           correctMessage = true;
-          digitalWrite(9, LOW);
-          digitalWrite(10, LOW);
+          state = 4;
+        }
+      }
+      break;
+
+    case 4:
+      digitalWrite(9, LOW);
+      digitalWrite(10, HIGH);
+      radio.stopListening();
+      txMessage = 0xcc;
+      Serial.println("Sending 0xcc");
+      sent = radio.write(&txMessage, sizeof(txMessage));
+      if(sent) {
+        Serial.println("Sent 0xcc");
+      }
+      state = 5;
+      break;
+
+    case 5:
+      radio.startListening();
+      correctMessage = false;
+      while(!correctMessage) {
+        while(!radio.available());
+        radio.read(&rxMessage, sizeof(rxMessage));
+        Serial.print("Received ");
+        Serial.println(rxMessage);
+        if(rxMessage == 0xdd) {
+          correctMessage = true;
           state = 0;
         }
       }
-  }
+      break;
     
-//    bool sent = false;
-//    if(digitalRead(2)) {
-//      sent = radio.write(&text,sizeof(text));
-//      if(sent) {
-//        //motor start
-//        Serial.println("Motor Start");
-//        radio.startListening();
-//        while(!radio.available());
-//        //motor stop
-//        radio.read(&rxText, sizeof(rxText));
-//        
-//        if(!strcmp(rxText, 'A'))
-//        Serial.println("Motor A Stop");
-//        else if(!strcmp(rxText, 'B'))
-//        Serial.println("Motor B Stop");
-//        else if(!strcmp(rxText, 'C'))        
-//        Serial.println("Motor C Stop");
-//        else
-//        Serial.println("Error");
-//      }
-//    }
-
-//    if(radio.available()) {
-//      radio.stopListening();
-//      Serial.println("Transmitted");
-//    }
+  }
 }
