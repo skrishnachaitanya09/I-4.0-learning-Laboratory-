@@ -24,14 +24,17 @@ uint8_t rxMessage;
 bool correctMessage;
 bool sent;
 
+const uint64_t talking_pipes[5] = { 0xF0F0F0F0D2LL, 0xF0F0F0F0C3LL, 0xF0F0F0F0B4LL, 0xF0F0F0F0A5LL, 0xF0F0F0F096LL };
+const uint64_t listening_pipes[5] = { 0x3A3A3A3AD2LL, 0x3A3A3A3AC3LL, 0x3A3A3A3AB4LL, 0x3A3A3A3AA5LL, 0x3A3A3A3A96LL };
+
 void setup(){
   pinMode(2,INPUT);
   radio.begin();
   Serial.begin(9600);
   radio.setRetries(15, 15);
   radio.setPALevel(RF24_PA_MIN);
-  radio.openReadingPipe(1, txAddr);
-  radio.openWritingPipe(rxAddr);
+  radio.openReadingPipe(1, listening_pipes[0]);
+  radio.openWritingPipe(talking_pipes[0]);
   radio.stopListening();
 
   pinMode(9, OUTPUT);
@@ -44,7 +47,7 @@ void setup(){
 void loop(){  
   bool startingSensor = digitalRead(2);
   bool endingSensor = digitalRead(3);
-
+  
   if(startingSensor && state == 0) {
     state = 1;
   }
