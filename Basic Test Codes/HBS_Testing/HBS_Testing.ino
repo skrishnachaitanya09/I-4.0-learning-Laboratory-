@@ -3,6 +3,7 @@
 
 uint8_t source;
 char incomingBluetoothMessage;
+uint8_t incomingMessage;
 int state;
 int ack;
 bool bluetoothRequest;
@@ -90,6 +91,7 @@ void setup() {
   //      digitalWrite(25,HIGH);
 
 
+
   while (digitalRead(35)) {
     digitalWrite(30, LOW);
     digitalWrite(32, HIGH);
@@ -101,12 +103,12 @@ void setup() {
     digitalWrite(26, LOW);
     digitalWrite(24, HIGH);
   }
-  digitalWrite(26, HIGH);
   digitalWrite(24, HIGH);
+  digitalWrite(26, HIGH);
 
   while (digitalRead(27)) {
-    digitalWrite(34, HIGH);
     digitalWrite(36, LOW);
+    digitalWrite(34, HIGH);
   }
   digitalWrite(36, HIGH);
   digitalWrite(34, HIGH);
@@ -117,7 +119,6 @@ void setup() {
   }
   digitalWrite(42, HIGH);
   digitalWrite(25, HIGH);
-
   Serial.print("Number of A type in storage: ");
   Serial.println(countA);
   Serial.print("Number of B type in storage: ");
@@ -125,9 +126,6 @@ void setup() {
 }
 
 void loop() {
-
-
-
   //  while (digitalRead(37)) {
   //    digitalWrite(32, LOW);
   //    digitalWrite(30, HIGH);
@@ -159,17 +157,24 @@ void loop() {
     if (bluetoothRequest == true) {
       incomingBluetoothMessage = Serial2.read();
       if (incomingBluetoothMessage == 'a') {
+        source = 0xa1;
         if (countA == 0) {
           Serial1.write(0xaa);
-          while (Serial1.available());
-          Serial1.write(0xa2);
-          digitalWrite(8, HIGH);
-          digitalWrite(9, LOW);
-          state = 1;
+          while (bluetoothRequest == true) {
+            while (!Serial1.available());
+            incomingMessage = Serial1.read();
+            Serial.println(incomingMessage, HEX);
+            if (incomingMessage == 0xa1) {
+              Serial1.write(0xa2);
+              digitalWrite(8, HIGH);
+              digitalWrite(9, LOW);
+              state = 1;
+              bluetoothRequest = false;
+            }
+          }
         }
         else if (countA == 1) {
           while (!digitalRead(28)) {
-
             retrieve13();
           }
           countA--;
@@ -194,25 +199,29 @@ void loop() {
           }
           countA--;
           EEPROM.update(addrA, countA);
+          Serial1.write(0xa0);
           state = 4;
         }
-        bluetoothRequest = false;
-
       }
       else if (incomingBluetoothMessage == 'b') {
+        source = 0xb1;
         if (countB == 0) {
           Serial1.write(0xbb);
-          while (Serial1.available());
-          Serial1.write(0xa2);
-          digitalWrite(8, HIGH);
-          digitalWrite(9, LOW);
-          state = 1;
+          while (bluetoothRequest == true) {
+            while (!Serial1.available());
+            if (Serial1.read() == 0xb1) {
+              Serial1.write(0xa2);
+              digitalWrite(8, HIGH);
+              digitalWrite(9, LOW);
+              state = 1;
+              bluetoothRequest = false;
+            }
+          }
         }
 
         else if (countB == 1) {
           while (!digitalRead(28)) {
-            Serial.println("Retrieving..........");
-            //            retrieve13();
+            retrieveL13();
           }
           countB--;
           EEPROM.update(addrB, countB);
@@ -221,8 +230,7 @@ void loop() {
 
         else if (countB == 2) {
           while (!digitalRead(28)) {
-            Serial.println("Retrieving..........");
-            //            retrieve32();
+            retrieveL32();
           }
           countB--;
           EEPROM.update(addrB, countB);
@@ -231,15 +239,13 @@ void loop() {
 
         else if (countB == 3) {
           while (!digitalRead(28)) {
-            Serial.println("Retrieving..........");
-            //            retrieve33();
+            retrieveL33();
           }
           countB--;
           EEPROM.update(addrB, countB);
+          Serial1.write(0xb0);
           state = 4;
         }
-
-        bluetoothRequest = false;
       }
 
       else if (incomingBluetoothMessage == 'c') {
@@ -352,8 +358,8 @@ void loop() {
       digitalWrite(32, LOW);
       digitalWrite(30, LOW);
 
-      //      digitalWrite(11, HIGH);
-      //      digitalWrite(12, LOW);
+      digitalWrite(11, HIGH);
+      digitalWrite(12, LOW);
 
       while (digitalRead(48)) {
         digitalWrite(24, LOW);
@@ -379,12 +385,14 @@ void loop() {
     }
     digitalWrite(30, HIGH);
     digitalWrite(32, HIGH);
+    
     while (digitalRead(38)) {
       digitalWrite(26, LOW);
       digitalWrite(24, HIGH);
     }
     digitalWrite(24, HIGH);
     digitalWrite(26, HIGH);
+    
     //      digitalWrite(11, LOW);
     digitalWrite(3, HIGH);
     digitalWrite(13, LOW);
