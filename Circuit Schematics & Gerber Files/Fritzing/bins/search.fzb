@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module fritzingVersion="0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806" icon="Search.png" search="ir led">
+    <title>Search</title>
+    <instances>
+        <instance moduleIdRef="5DOF-v25" modelIndex="85413489" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/5DOF-v25.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="TB6612FNG Breakout v11" modelIndex="85413490" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/Motor Driver 1A Dual TB6612FNG v11.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="ISD1932 Breakout-v11" modelIndex="85413491" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/ISD1932 Breakout-v11.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="MIDI_Shield-v13" modelIndex="85413492" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/MIDI_Shield-v13.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="atlas-sientific_ORP Circuit" modelIndex="85413493" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/atlas-sientific_ORP Circuit.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="MIDI Music Shield-v13" modelIndex="85413494" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/MIDI Music Shield-v13.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="4d5dcc6408079f54cbda4d35e4d0b8fa" modelIndex="85413495" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/BASIC_Stamp_2p24.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="atlas-sientific_ENV-32X" modelIndex="85413496" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/atlas-sientific_ENV-32X.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="cb9c6041c0b15c9c1a63560527d7693a" modelIndex="85413497" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/Peppermill Power Board.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="LiPo-USB-Charger-v21" modelIndex="85413498" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/LiPo-USB-Charger-v21.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Arduino_Micro_Rev03(fix)" modelIndex="85413499" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/Arduino_Micro_Rev03(fix).fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Arduino_Leonardo_Rev3(fix)" modelIndex="85413500" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/Arduino_Leonardo_Rev3(fix).fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-LED-APA3010SF4C-" modelIndex="85413501" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/sparkfun-led-apa3010sf4c-.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+        <instance moduleIdRef="5cc9de9cdfa593d8e073514cde1c7c77" modelIndex="85413502" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/BASIC_Stamp_2px24.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Color-LCD-Shield-v14" modelIndex="85413503" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/Color-LCD-Shield-v14.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SHT1x-Breakout" modelIndex="85413504" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/SHT1x-Breakout.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="M5450_LED_Driver" modelIndex="85413505" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/M5450_LED_Driver.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="blueIOT_Rc1-final" modelIndex="85413506" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/blueIOT_Rc1-final.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="ProtoShield-v25" modelIndex="85413507" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/ProtoShield-v25.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="screwshield-v15" modelIndex="85413508" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/screwshield-v15.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Power Screwshield 1.0a" modelIndex="85413509" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/Power Screwshield 1.0a.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Trackballer-v12" modelIndex="85413510" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/Trackballer-v12.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SPARKCORE_v1_fix" modelIndex="85413511" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/SPARKCORE_v1_fix.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="bf73a00d2ecd04be25675ebfb2d130c0" modelIndex="85413512" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/Humidity_Sensor_SHT15.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-Sensors-DCM01-" modelIndex="85413513" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/sparkfun-sensors-dcm01-.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+        <instance moduleIdRef="atlas-sientific_pH Circuit" modelIndex="85413514" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/atlas-sientific_pH Circuit.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="FTDI Basic-v13" modelIndex="85413515" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/FTDI Basic-v13.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="2d505f861194750183f944ba86c13b44_28" modelIndex="85413516" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/tsop312.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="intel-arduino_galileo_gen2-(simple)" modelIndex="85413517" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/intel-arduino_galileo_gen2-simple.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="LilyPad_Arduino_USB" modelIndex="85413518" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/LilyPad_Arduino_USB.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Breadboard Power Supply - SMD v12" modelIndex="85413519" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/Breadboard Power Supply - SMD v13.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="144096d13637627703324c683e3211ec_40" modelIndex="85413520" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/OMRON_G5LE.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="FTDI Basic-v13_3.3v" modelIndex="85413521" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/FTDI Basic-v13_3.3v.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="intelEdison-HiroseDF40" modelIndex="85413522" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/intel_edison-hirosedf40.fzp" flippedSMD="true">
+            <views/>
+        </instance>
+        <instance moduleIdRef="PHOTON_fix" modelIndex="85413523" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/PHOTON_fix.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="intel_edison_minibreakout_bottom_fix" modelIndex="85413524" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/intel_edison_minibreakout-bottom_fix.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="jlpcb-089" modelIndex="85413525" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/jlpcb-089.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Real_Time_Clock_Module___DS1307_RTC_Breakout_Board" modelIndex="85413526" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/Real_Time_Clock_Module___DS1307_RTC_Breakout_Board.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="f0d627984e1614e5c1c797471f529619" modelIndex="85413527" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/BASIC_Stamp_2pe.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="mp3-trigger-v22" modelIndex="85413528" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/mp3-trigger-v22.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="blueIOT_RevB" modelIndex="85413529" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/Arduino-BLE-LowPower-RevB-final_5.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="atlas-sientific_FLO-30 Circuit" modelIndex="85413530" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/atlas-sientific_FLO-30 Circuit.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Bean_revE" modelIndex="85413531" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/Bean_revE.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="FTDI Basic-v13_lily" modelIndex="85413532" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/FTDI Basic-v13_lily.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="XBee-Regulated-v12" modelIndex="85413533" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/XBee-Regulated-v12.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="MPR121-Breakout-v13" modelIndex="85413534" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/MPR121-Breakout-v13.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Modkit Shield-v1a" modelIndex="85413535" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/Modkit Shield-v1a.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="intel-arduino_galileo_gen2" modelIndex="85413536" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/intel-arduino_galileo_gen2.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="ArduinoBluetoothMatev13" modelIndex="85413537" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/ArduinoBluetoothMatev13.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Arduino_Esplora" modelIndex="85413538" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/Arduino_Esplora.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="xbeeshield-v13" modelIndex="85413539" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/xbeeshield-v13.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="145b5412a0ffbe91a876166139419e15" modelIndex="85413540" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/BASIC_Stamp_2sx.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="pololu0002_a988" modelIndex="85413541" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/pololu0002_a988.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="intel_edison_minibreakout_fix" modelIndex="85413542" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/intel_edison_minibreakout_fix.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="RGB_matrix_v25" modelIndex="85413543" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/RGB_matrix_v25.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-LED-LTE-302-" modelIndex="85413544" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/sparkfun-led-lte-302-.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="chipkit_BasicIOShield" modelIndex="85413545" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/chipkit_BasicIOShield.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="intel-arduino_galileo" modelIndex="85413546" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/intel-arduino_galileo.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="intel-arduino_galileo-(simple)" modelIndex="85413547" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/intel-arduino_galileo-simple.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="7e3598758afd7c1363215b7f0c124af8" modelIndex="85413548" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/Digital_Panel_Meter__Voltage__DMS_20PC.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun-LED-LIGHTPIPE-7511-" modelIndex="85413549" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/sparkfun-led-lightpipe-7511-.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="PWM-Shield-v12" modelIndex="85413550" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/PWM-Shield-v12.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Memoire-1.0" modelIndex="85413551" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/Memoire-1.0.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="atlas-sientific_Conductivity Circuit" modelIndex="85413552" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/atlas-sientific_Conductivity Circuit.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="sx1509-breakout" modelIndex="85413553" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/sx1509-breakout.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="ITG-3200-v11" modelIndex="85413554" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/ITG-3200-v11.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="ArduPilotMega_v15" modelIndex="85413555" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/ArduPilotMega_v15.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Ardumoto v13" modelIndex="85413556" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/Ardumoto v13.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="LilyPad-Simple-v25" modelIndex="85413557" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/LilyPad-Simple-v25.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Shield_Eth06-PoE" modelIndex="85413558" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/Shield_Eth06-PoE.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="760832bc79fe1f34e99f420ad872a0b8" modelIndex="85413559" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/BASIC_Stamp_2.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="ESP8266-Thing-Dev" modelIndex="85413560" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/ESP8266-Thing-Dev.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="SparkFun_BadgerStick" modelIndex="85413561" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/SparkFun_BadgerStick.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="5f7b51547fafb902305f5b3cbb81bb74" modelIndex="85413562" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/BASIC_Stamp_2p40.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="atlas-sientific_Pre-AssembledFemaleBNC" modelIndex="85413563" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/atlas-sientific_Pre-AssembledFemaleBNC.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="2d3cbb853835749c51cc0d6e4bfd2c90" modelIndex="85413564" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/BASIC_Stamp_2e.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="Rotoshield-1.0a" modelIndex="85413565" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/Rotoshield-1.0a.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="RN41-v14" modelIndex="85413566" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/RN41-v14.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="PowerIR-v11" modelIndex="85413567" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/PowerIR-v11.fzp">
+            <views/>
+        </instance>
+    </instances>
+</module>

@@ -1,0 +1,860 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"  gorn="0" viewBox="0 0 560.65358 391.30711" id="svg2" width="158.2289mm" height="110.43556mm">
+    <desc >
+        <referenceFile >4RelayModule_shem.svg</referenceFile>
+    </desc>
+    <defs  id="defs4">
+        <symbol  id="*Model_Space"/>
+        <symbol  id="*Paper_Space"/>
+        <symbol  id="*Paper_Space0"/>
+    </defs>
+    <metadata  id="metadata7">
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <cc:Work xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cc="http://creativecommons.org/ns#" rdf:about="">
+                <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">image/svg+xml</dc:format>
+                <dc:type xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:resource="http://purl.org/dc/dcmitype/StillImage" xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+                <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+    <g  transform="translate(-258.92802,-381.66116)">
+        <g >
+            <g >
+                <g  gorn="0.3.0.0.0" id="layer1">
+                    <g  transform="translate(-99.259026,-83.547487)">
+                        <g >
+                            <g >
+                                <g  gorn="0.3.0.0.0.0.0.0.0" id="g3355" stroke-opacity="1" stroke="#000000" stroke-width="1"/>
+                            </g>
+                        </g>
+                    </g>
+                    <g  gorn="0.3.0.0.0.1" id="g5577">
+                        <path  gorn="0.3.0.0.0.1.0" fill="none" id="path3359" stroke-opacity="1" stroke="#000000" d="m 277.84097,599.81472 a 0.9,0.9 0 0 0 1.8,0 0.9,0.9 0 1 0 -1.8,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.1" fill="none" id="path3361" stroke-opacity="1" stroke="#000000" d="m 277.84097,536.81472 a 0.9,0.9 0 0 0 1.8,0 0.9,0.9 0 1 0 -1.8,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.2" fill="none" id="path3363" stroke-opacity="1" stroke="#000000" d="m 331.84097,536.81472 a 0.9,0.9 0 0 0 1.8,0 0.9,0.9 0 1 0 -1.8,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.3" fill="none" id="path3371" stroke-opacity="1" stroke="#000000" d="m 350.74097,536.81472 -18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.4" fill="none" id="path3373" stroke-opacity="1" stroke="#000000" d="m 332.66246,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.5" fill="none" id="path3375" stroke-opacity="1" stroke="#000000" d="m 359.74097,545.81472 0,18" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.6" fill="none" id="path3377" stroke-opacity="1" stroke="#000000" d="m 368.74097,536.81472 18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.7" fill="none" id="path3379" stroke-opacity="1" stroke="#000000" d="m 350.74097,536.81472 6.3,9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.8" fill="none" id="path3381" stroke-opacity="1" stroke="#000000" d="m 362.44097,545.81472 6.3,-9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.9" fill="none" id="path3383" stroke-opacity="1" stroke="#000000" d="m 351.64097,545.81472 16.2,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.10" fill="none" id="path3385" stroke-opacity="1" stroke="#000000" d="m 367.84097,542.21471 -3.6,-2.7 4.5,-2.69999 -0.9,5.39999 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.11" fill="none" id="path3387" stroke-opacity="1" stroke="#000000" d="m 368.74097,536.81472 -4.5,2.69999 3.6,2.7 0.9,-5.39999 0,0 z" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.12" style="font-size:5px;font-family:DroidSans" id="text3389">
+                            <text y="532.3064"  gorn="0.3.0.0.0.1.12.0" id="tspan3391" x="356.91205">Q1</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.13" fill="none" id="path3393" stroke-opacity="1" stroke="#000000" d="m 332.66246,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.14" fill="none" id="path3395" stroke-opacity="1" stroke="#000000" d="m 332.66246,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.15" fill="none" id="path3397" stroke-opacity="1" stroke="#000000" d="m 314.74097,689.81472 -9,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.16" fill="none" id="path3399" stroke-opacity="1" stroke="#000000" d="m 332.74097,689.81472 9,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.17" fill="none" id="path3401" stroke-opacity="1" stroke="#000000" d="m 314.73504,686.21256 17.85705,0 0,7.04717 -17.85705,0 0,-7.04717" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.18" style="font-size:5px;font-family:DroidSans" id="text3403">
+                            <text y="684.40637"  gorn="0.3.0.0.0.1.18.0" id="tspan3405" x="314.74097">R1</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.19" fill="none" id="path3407" stroke-opacity="1" stroke="#000000" d="m 359.74097,572.81472 0,-9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.20" fill="none" id="path3409" stroke-opacity="1" stroke="#000000" d="m 359.74097,590.81472 0,9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.21" fill="none" id="path3411" stroke-opacity="1" stroke="#000000" d="m 356.13562,572.81054 7.05649,0 0,17.8478 -7.05649,0 0,-17.8478" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.22" style="font-size:5px;font-family:DroidSans" id="text3413">
+                            <text y="580.51141"  gorn="0.3.0.0.0.1.22.0" id="tspan3415" x="364.60367">R2</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.23" fill="none" id="path3417" stroke-opacity="1" stroke="#000000" d="m 314.74097,536.81472 18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.24" fill="none" id="path3419" stroke-opacity="1" stroke="#000000" d="m 332.66246,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.25" fill="none" id="path3421" stroke-opacity="1" stroke="#000000" d="m 305.74097,536.81472 -18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.26" fill="none" id="path3423" stroke-opacity="1" stroke="#000000" d="m 314.74097,545.81472 -9,-9 9,-9 0,18 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.27" fill="none" id="path3425" stroke-opacity="1" stroke="#000000" d="m 314.74097,527.81472 -9,9 9,9 0,-18 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.28" fill="none" id="path3427" stroke-opacity="1" stroke="#000000" d="m 305.74097,545.81472 0,-18" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.29" style="font-size:5px;font-family:DroidSans" id="text3429">
+                            <text y="524.60132"  gorn="0.3.0.0.0.1.29.0" id="tspan3431" x="307.87143">D1</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.30" fill="none" id="path3433" stroke-opacity="1" stroke="#000000" d="m 332.66246,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.31" fill="none" id="path3435" stroke-opacity="1" stroke="#000000" d="m 332.66246,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.32" fill="none" id="path3437" stroke-opacity="1" stroke="#000000" d="m 359.74097,707.81472 0,-18" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.33" fill="none" id="path3439" stroke-opacity="1" stroke="#000000" d="m 359.74097,716.81472 0,18" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.34" fill="none" id="path3441" stroke-opacity="1" stroke="#000000" d="m 359.74097,716.81472 -9,-9 18,0 -9,9 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.35" fill="none" id="path3443" stroke-opacity="1" stroke="#000000" d="m 350.74097,707.81472 9,9 9,-9 -18,0 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.36" fill="none" id="path3445" stroke-opacity="1" stroke="#000000" d="m 368.74097,720.41472 6.3,6.29999" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.37" fill="none" id="path3447" stroke-opacity="1" stroke="#000000" d="m 372.34097,716.81472 6.3,6.29999" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.38" fill="none" id="path3449" stroke-opacity="1" stroke="#000000" d="m 375.04097,726.71471 -3.6,-1.79999 1.8,-1.80001 1.8,3.6 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.39" fill="none" id="path3451" stroke-opacity="1" stroke="#000000" d="m 375.04097,726.71471 -1.8,-3.6 -1.8,1.80001 3.6,1.79999 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.40" fill="none" id="path3453" stroke-opacity="1" stroke="#000000" d="m 378.64097,723.11471 -3.6,-1.79999 1.8,-1.80001 1.8,3.6 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.41" fill="none" id="path3455" stroke-opacity="1" stroke="#000000" d="m 378.64097,723.11471 -1.8,-3.6 -1.8,1.80001 3.6,1.79999 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.42" fill="none" id="path3457" stroke-opacity="1" stroke="#000000" d="m 368.74097,716.81472 -18,0" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.43" style="font-size:5px;font-family:DroidSans" id="text3459">
+                            <text y="714.10638"  gorn="0.3.0.0.0.1.43.0" id="tspan3461" x="379.54095">IN1</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.44" fill="none" id="path3463" stroke-opacity="1" stroke="#000000" d="m 341.74097,680.81472 0,9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.45" fill="none" id="path3465" stroke-opacity="1" stroke="#000000" d="m 359.74097,680.81472 0,9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.46" fill="none" id="path3467" stroke-opacity="1" stroke="#000000" d="m 341.74097,608.81472 0,-9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.47" fill="none" id="path3469" stroke-opacity="1" stroke="#000000" d="m 359.74097,608.81472 0,-9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.48" fill="none" id="path3471" stroke-opacity="1" stroke="#000000" d="m 341.74097,624.11471 5.4,5.4" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.49" fill="none" id="path3473" stroke-opacity="1" stroke="#000000" d="m 348.04097,652.91472 5.4,5.4" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.50" fill="none" id="path3475" stroke-opacity="1" stroke="#000000" d="m 343.54097,652.91472 5.4,5.4" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.51" fill="none" id="path3477" stroke-opacity="1" stroke="#000000" d="m 353.44097,629.51471 6.3,-6.3" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.52" fill="none" id="path3479" stroke-opacity="1" stroke="#000000" d="m 336.34097,610.61471 28.8,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.53" fill="none" id="path3481" stroke-opacity="1" stroke="#000000" d="m 341.74097,669.11471 18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.54" fill="none" id="path3483" stroke-opacity="1" stroke="#000000" d="m 336.34097,679.01471 28.8,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.55" fill="none" id="path3485" stroke-opacity="1" stroke="#000000" d="m 365.14097,679.01471 0,-68.4" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.56" fill="none" id="path3487" stroke-opacity="1" stroke="#000000" d="m 359.74097,623.21471 0,-14.39999" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.57" fill="none" id="path3489" stroke-opacity="1" stroke="#000000" d="m 359.74097,680.81472 0,-11.70001" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.58" fill="none" id="path3491" stroke-opacity="1" stroke="#000000" d="m 341.74097,624.11471 0,-15.29999" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.59" fill="none" id="path3493" stroke-opacity="1" stroke="#000000" d="m 341.74097,680.81472 0,-11.70001" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.60" fill="none" id="path3495" stroke-opacity="1" stroke="#000000" d="m 336.34097,679.01471 0,-68.4" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.61" fill="none" id="path3497" stroke-opacity="1" stroke="#000000" d="m 353.44097,669.11471 -7.2,7.20001 0,-14.4 7.2,7.19999 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.62" fill="none" id="path3499" stroke-opacity="1" stroke="#000000" d="m 346.24097,676.31472 0,-14.4 7.2,7.19999 -7.2,7.20001 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.63" fill="none" id="path3501" stroke-opacity="1" stroke="#000000" d="m 355.24097,676.31472 -0.9,0 0,-14.4 0.9,0 0,14.4 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.64" fill="none" id="path3503" stroke-opacity="1" stroke="#000000" d="m 354.34097,661.91472 0.9,0 0,14.4 -0.9,0 0,-14.4 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.65" fill="none" id="path3505" stroke-opacity="1" stroke="#000000" d="m 343.54097,654.71471 0,-1.79999 1.8,0 -1.8,1.79999 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.66" fill="none" id="path3507" stroke-opacity="1" stroke="#000000" d="m 345.34097,652.91472 -1.8,0 0,1.79999 1.8,-1.79999 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.67" fill="none" id="path3509" stroke-opacity="1" stroke="#000000" d="m 348.04097,654.71471 0,-1.79999 1.8,0 -1.8,1.79999 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.68" fill="none" id="path3511" stroke-opacity="1" stroke="#000000" d="m 349.84097,652.91472 -1.8,0 0,1.79999 1.8,-1.79999 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.69" fill="none" id="path3513" stroke-opacity="1" stroke="#000000" d="m 357.04097,630.41472 -12.6,0 0,-0.90001 12.6,0 0,0.90001 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.70" fill="none" id="path3515" stroke-opacity="1" stroke="#000000" d="m 344.44097,629.51471 0,0.90001 12.6,0 0,-0.90001 -12.6,0 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.71" fill="none" id="path3517" stroke-opacity="1" stroke="#000000" d="m 358.84097,626.81472 -2.7,-2.70001 2.7,0 0,2.70001 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.72" fill="none" id="path3519" stroke-opacity="1" stroke="#000000" d="m 356.14097,624.11471 2.7,0 0,2.70001 -2.7,-2.70001 0,0 z" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.73" style="font-size:5px;font-family:DroidSans" id="text3521">
+                            <text y="606.10638"  gorn="0.3.0.0.0.1.73.0" id="tspan3523" x="366.04095">U1</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.74" fill="none" id="path3525" stroke-opacity="1" stroke="#000000" d="m 296.74097,446.81472 -18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.75" fill="none" id="path3527" stroke-opacity="1" stroke="#000000" d="m 314.74097,437.81472 18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.76" fill="none" id="path3529" stroke-opacity="1" stroke="#000000" d="m 314.74097,455.81472 18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.77" fill="none" id="path3531" stroke-opacity="1" stroke="#000000" d="m 296.74097,482.81472 -18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.78" fill="none" id="path3533" stroke-opacity="1" stroke="#000000" d="m 314.74097,482.81472 18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.79" fill="none" id="path3535" stroke-opacity="1" stroke="#000000" d="m 314.74097,464.81472 0,36" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.80" fill="none" id="path3537" stroke-opacity="1" stroke="#000000" d="m 296.74097,464.81472 0,36" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.81" fill="none" id="path3539" stroke-opacity="1" stroke="#000000" d="m 296.74097,500.81472 18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.82" fill="none" id="path3541" stroke-opacity="1" stroke="#000000" d="m 296.74097,464.81472 18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.83" fill="none" id="path3543" stroke-opacity="1" stroke="#000000" d="m 300.34097,446.81472 15.3,-8.10001" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.84" fill="none" id="path3545" stroke-opacity="1" stroke="#000000" d="m 300.19041,446.73582 a 1.72659,1.72191 0 1 0 -3.45318,0 1.72659,1.72191 0 1 0 3.45318,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.85" fill="none" id="path3547" stroke-opacity="1" stroke="#000000" d="m 312.863,436.01493 a 1.721898,1.721916 0 1 0 0,3.44383 1.721898,1.721916 0 1 0 0,-3.44383 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.86" fill="none" id="path3549" stroke-opacity="1" stroke="#000000" d="m 312.863,454.01288 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.87" fill="none" id="path3551" stroke-opacity="1" stroke="#000000" d="m 305.74097,446.81472 0,3.6" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.88" fill="none" id="path3553" stroke-opacity="1" stroke="#000000" d="m 305.74097,453.11471 0,3.6" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.89" fill="none" id="path3555" stroke-opacity="1" stroke="#000000" d="m 305.74097,459.41472 0,3.59999" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.90" style="font-size:5px;font-family:DroidSans" id="text3557">
+                            <text y="432.29623"  gorn="0.3.0.0.0.1.90.0" id="tspan3559" x="300.38666">K1</text>
+                        </g>
+                        <g  gorn="0.3.0.0.0.1.91" style="font-size:5px;font-family:DroidSans" id="text3561">
+                            <text y="688.51141"  gorn="0.3.0.0.0.1.91.0" id="tspan3563" x="343.76126">1</text>
+                        </g>
+                        <g  gorn="0.3.0.0.0.1.92" style="font-size:5px;font-family:DroidSans" id="text3565">
+                            <text y="688.51141"  gorn="0.3.0.0.0.1.92.0" id="tspan3567" x="362.26636">2</text>
+                        </g>
+                        <g  gorn="0.3.0.0.0.1.93" font-size="5" style="font-family:DroidSans;" id="text3569" stroke="none">
+                            <text y="598.00635"  gorn="0.3.0.0.0.1.93.0" id="tspan3571" x="361.76126">3</text>
+                        </g>
+                        <g  gorn="0.3.0.0.0.1.94" style="font-size:5px;font-family:DroidSans" id="text3573">
+                            <text y="598.00635"  gorn="0.3.0.0.0.1.94.0" id="tspan3575" x="341.74097">4</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.95" fill="none" id="path3577" stroke-opacity="1" stroke="#000000" d="m 377.74097,545.81472 18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.96" fill="none" id="path3579" stroke-opacity="1" stroke="#000000" d="m 380.44097,548.51471 12.6,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.97" fill="none" id="path3581" stroke-opacity="1" stroke="#000000" d="m 383.14097,551.21471 7.2,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.98" fill="none" id="path3583" stroke-opacity="1" stroke="#000000" d="m 385.84097,553.91472 1.8,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.99" fill="none" id="path3585" stroke-opacity="1" stroke="#000000" d="m 386.74097,536.81472 0,9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.100" fill="none" id="path3629" stroke-opacity="1" stroke="#000000" d="m 341.74097,599.81472 -63,0 0,-63" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.101" fill="none" id="path3631" stroke-opacity="1" stroke="#000000" d="m 280.39095,599.73706 a 1.72659,1.721919 0 1 0 -3.45318,0 1.72659,1.721919 0 1 0 3.45318,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.102" fill="none" id="path3633" stroke-opacity="1" stroke="#000000" d="m 278.66436,535.01299 a 1.726587,1.726596 0 1 0 0,3.45319 1.726587,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.103" fill="none" id="path3635" stroke-opacity="1" stroke="#000000" d="m 280.39095,599.73706 a 1.72659,1.721919 0 1 0 -3.45318,0 1.72659,1.721919 0 1 0 3.45318,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.104" fill="none" id="path3637" stroke-opacity="1" stroke="#000000" d="m 278.66436,535.01299 a 1.726587,1.726596 0 1 0 0,3.45319 1.726587,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.105" fill="none" id="path3639" stroke-opacity="1" stroke="#000000" d="m 287.74097,536.81472 -9,0 0,-54" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.106" fill="none" id="path3641" stroke-opacity="1" stroke="#000000" d="m 278.66436,535.01299 a 1.726587,1.726596 0 1 0 0,3.45319 1.726587,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.107" fill="none" id="path3643" stroke-opacity="1" stroke="#000000" d="m 278.66436,535.01299 a 1.726587,1.726596 0 1 0 0,3.45319 1.726587,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.108" fill="none" id="path3645" stroke-opacity="1" stroke="#000000" d="m 332.74097,482.81472 0,54" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.109" fill="none" id="path3647" stroke-opacity="1" stroke="#000000" d="m 332.66246,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.110" fill="none" id="path3649" stroke-opacity="1" stroke="#000000" d="m 332.66246,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.111" fill="none" id="path3661" stroke-opacity="1" stroke="#000000" d="m 269.74097,386.51471 -4.5,-4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.112" fill="none" id="path3663" stroke-opacity="1" stroke="#000000" d="m 269.74097,386.51471 4.5,-4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.113" fill="none" id="path3665" stroke-opacity="1" stroke="#000000" d="m 269.74097,391.01471 -4.5,-4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.114" fill="none" id="path3667" stroke-opacity="1" stroke="#000000" d="m 269.74097,391.01471 4.5,-4.5" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.115" style="font-size:5px;font-family:DroidSans" id="text3669">
+                            <text y="395.8331"  gorn="0.3.0.0.0.1.115.0" id="tspan3671" x="273.11115">MAIN1</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.116" fill="none" id="path3673" stroke-opacity="1" stroke="#000000" d="m 269.74097,392.81472 0,-1.80001" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.117" fill="none" id="path3675" stroke-opacity="1" stroke="#000000" d="m 296.74097,386.51471 -4.5,-4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.118" fill="none" id="path3677" stroke-opacity="1" stroke="#000000" d="m 296.74097,386.51471 4.5,-4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.119" fill="none" id="path3679" stroke-opacity="1" stroke="#000000" d="m 296.74097,391.01471 -4.5,-4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.120" fill="none" id="path3681" stroke-opacity="1" stroke="#000000" d="m 296.74097,391.01471 4.5,-4.5" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.121" style="font-size:5px;font-family:DroidSans" id="text3683">
+                            <text y="395.86374"  gorn="0.3.0.0.0.1.121.0" id="tspan3685" x="300.01599">NC1</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.122" fill="none" id="path3687" stroke-opacity="1" stroke="#000000" d="m 296.74097,392.81472 0,-1.80001" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.123" fill="none" id="path3689" stroke-opacity="1" stroke="#000000" d="m 323.74097,386.51471 -4.5,-4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.124" fill="none" id="path3691" stroke-opacity="1" stroke="#000000" d="m 323.74097,386.51471 4.5,-4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.125" fill="none" id="path3693" stroke-opacity="1" stroke="#000000" d="m 323.74097,391.01471 -4.5,-4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.126" fill="none" id="path3695" stroke-opacity="1" stroke="#000000" d="m 323.74097,391.01471 4.5,-4.5" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.127" style="font-size:5px;font-family:DroidSans" id="text3697">
+                            <text y="396.0423"  gorn="0.3.0.0.0.1.127.0" id="tspan3699" x="329.53061">NO1</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.128" fill="none" id="path3701" stroke-opacity="1" stroke="#000000" d="m 323.74097,392.81472 0,-1.80001" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.129" fill="none" id="path3703" stroke-opacity="1" stroke="#000000" d="m 278.74097,446.81472 -9,0 0,-54" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.130" fill="none" id="path3705" stroke-opacity="1" stroke="#000000" d="m 332.74097,437.81472 0,-27 -36,0 0,-18" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.131" fill="none" id="path3707" stroke-opacity="1" stroke="#000000" d="m 332.74097,455.81472 9,0 0,-54 -18,0 0,-9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.132" fill="none" id="path3995" stroke-opacity="1" stroke="#000000" d="m 274.24097,608.81472 9,0" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.133" style="font-size:5px;font-family:DroidSans" id="text3997">
+                            <text y="615.00458"  gorn="0.3.0.0.0.1.133.0" id="tspan3999" x="270.30664">JD-VCC</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.134" fill="none" id="path4001" stroke-opacity="1" stroke="#000000" d="m 278.74097,599.81472 0,9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.135" fill="none" id="path4003" stroke-opacity="1" stroke="#000000" d="m 280.39095,599.73706 a 1.72659,1.721919 0 1 0 -3.45318,0 1.72659,1.721919 0 1 0 3.45318,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.136" fill="none" id="path4005" stroke-opacity="1" stroke="#000000" d="m 280.39095,599.73706 a 1.72659,1.721919 0 1 0 -3.45318,0 1.72659,1.721919 0 1 0 3.45318,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.137" fill="none" id="path4019" stroke-opacity="1" stroke="#000000" d="m 296.74097,685.31472 0,9" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.138" style="font-size:5px;font-family:DroidSans" id="text4021">
+                            <text y="691.43494"  gorn="0.3.0.0.0.1.138.0" id="tspan4023" x="284.94763">VCC</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.139" fill="none" id="path4025" stroke-opacity="1" stroke="#000000" d="m 305.74097,689.81472 -9,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.140" fill="none" id="path4035" stroke-opacity="1" stroke="#000000" d="m 736.95081,768.11471 -4.5,4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.141" fill="none" id="path4037" stroke-opacity="1" stroke="#000000" d="m 736.95081,768.11471 4.5,4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.142" fill="none" id="path4039" stroke-opacity="1" stroke="#000000" d="m 736.95081,763.61471 -4.5,4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.143" fill="none" id="path4041" stroke-opacity="1" stroke="#000000" d="m 736.95081,763.61471 4.5,4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.144" fill="none" id="path4047" stroke-opacity="1" stroke="#000000" d="m 736.95081,761.81472 0,1.79999" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.145" fill="none" id="path4049" stroke-opacity="1" stroke="#000000" d="m 655.95081,768.11471 -4.5,4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.146" fill="none" id="path4051" stroke-opacity="1" stroke="#000000" d="m 655.95081,768.11471 4.5,4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.147" fill="none" id="path4053" stroke-opacity="1" stroke="#000000" d="m 655.95081,763.61471 -4.5,4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.148" fill="none" id="path4055" stroke-opacity="1" stroke="#000000" d="m 655.95081,763.61471 4.5,4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.149" fill="none" id="path4061" stroke-opacity="1" stroke="#000000" d="m 655.95081,761.81472 0,1.79999" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.150" fill="none" id="path4063" stroke-opacity="1" stroke="#000000" d="m 646.95081,752.81472 18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.151" fill="none" id="path4065" stroke-opacity="1" stroke="#000000" d="m 649.65081,750.11471 12.6,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.152" fill="none" id="path4067" stroke-opacity="1" stroke="#000000" d="m 652.35081,747.41472 7.2,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.153" fill="none" id="path4069" stroke-opacity="1" stroke="#000000" d="m 655.05081,744.71471 1.8,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.154" fill="none" id="path4071" stroke-opacity="1" stroke="#000000" d="m 655.95081,761.81472 0,-9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.155" fill="none" id="path4073" stroke-opacity="1" stroke="#000000" d="m 682.95081,768.11471 -4.5,4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.156" fill="none" id="path4075" stroke-opacity="1" stroke="#000000" d="m 682.95081,768.11471 4.5,4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.157" fill="none" id="path4077" stroke-opacity="1" stroke="#000000" d="m 682.95081,763.61471 -4.5,4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.158" fill="none" id="path4079" stroke-opacity="1" stroke="#000000" d="m 682.95081,763.61471 4.5,4.5" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.159" style="font-size:5px;font-family:DroidSans" id="text4081">
+                            <text y="764.45978"  gorn="0.3.0.0.0.1.159.0" id="tspan4083" x="688.97937">IN1</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.160" fill="none" id="path4085" stroke-opacity="1" stroke="#000000" d="m 682.95081,761.81472 0,1.79999" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.161" fill="none" id="path4087" stroke-opacity="1" stroke="#000000" d="m 709.95081,768.11471 -4.5,4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.162" fill="none" id="path4089" stroke-opacity="1" stroke="#000000" d="m 709.95081,768.11471 4.5,4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.163" fill="none" id="path4091" stroke-opacity="1" stroke="#000000" d="m 709.95081,763.61471 -4.5,4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.164" fill="none" id="path4093" stroke-opacity="1" stroke="#000000" d="m 709.95081,763.61471 4.5,4.5" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.165" style="font-size:5px;font-family:DroidSans" id="text4095">
+                            <text y="764.22046"  gorn="0.3.0.0.0.1.165.0" id="tspan4097" x="714.35059">IN2</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.166" fill="none" id="path4099" stroke-opacity="1" stroke="#000000" d="m 709.95081,761.81472 0,1.79999" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.167" fill="none" id="path4105" stroke-opacity="1" stroke="#000000" d="m 786.45086,752.81472 9,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.168" fill="none" id="path4111" stroke-opacity="1" stroke="#000000" d="m 736.95081,761.81472 2.1e-4,-9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.169" fill="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;" id="connector1pin" stroke-opacity="1" stroke="#000000" d="m 269.73215,386.69256 0,-2.32142" stroke-width="1"/>
+                        <rect y="383.868"  gorn="0.3.0.0.0.1.170" fill="none" id="connector1terminal" width="0.002" stroke="none" height="0.00664284" stroke-width="0" x="269.731"/>
+                        <path  gorn="0.3.0.0.0.1.171" fill="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;" id="connector3pin" stroke-opacity="1" stroke="#000000" d="m 296.69643,386.87113 0,-2.32142" stroke-width="1"/>
+                        <rect y="384.046"  gorn="0.3.0.0.0.1.172" fill="none" id="connector3terminal" width="0.002" stroke="none" height="0.00664284" stroke-width="0" x="296.695"/>
+                        <path  gorn="0.3.0.0.0.1.173" fill="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;" id="connector2pin" stroke-opacity="1" stroke="#000000" d="m 323.75,386.82648 0,-2.32142" stroke-width="1"/>
+                        <rect y="384.002"  gorn="0.3.0.0.0.1.174" fill="none" id="connector2terminal" width="0.002" stroke="none" height="0.00664284" stroke-width="0" x="323.749"/>
+                        <path  gorn="0.3.0.0.0.1.175" fill="none" id="path3365" stroke-opacity="1" stroke="#000000" d="m 412.84097,599.81472 a 0.9,0.9 0 0 0 1.8,0 0.9,0.9 0 1 0 -1.8,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.176" fill="none" id="path3367" stroke-opacity="1" stroke="#000000" d="m 412.84097,536.81472 a 0.9,0.9 0 0 0 1.8,0 0.9,0.9 0 1 0 -1.8,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.177" fill="none" id="path3369" stroke-opacity="1" stroke="#000000" d="m 466.84097,536.81472 a 0.9,0.9 0 0 0 1.8,0 0.9,0.9 0 1 0 -1.8,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.178" fill="none" id="path3709" stroke-opacity="1" stroke="#000000" d="m 485.74097,536.81472 -18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.179" fill="none" id="path3711" stroke-opacity="1" stroke="#000000" d="m 467.66476,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.180" fill="none" id="path3713" stroke-opacity="1" stroke="#000000" d="m 494.74097,545.81472 0,18" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.181" fill="none" id="path3715" stroke-opacity="1" stroke="#000000" d="m 503.74097,536.81472 18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.182" fill="none" id="path3717" stroke-opacity="1" stroke="#000000" d="m 485.74097,536.81472 6.3,9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.183" fill="none" id="path3719" stroke-opacity="1" stroke="#000000" d="m 497.44097,545.81472 6.3,-9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.184" fill="none" id="path3721" stroke-opacity="1" stroke="#000000" d="m 486.64097,545.81472 16.2,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.185" fill="none" id="path3723" stroke-opacity="1" stroke="#000000" d="m 502.84097,542.21471 -3.6,-2.7 4.5,-2.69999 -0.9,5.39999 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.186" fill="none" id="path3725" stroke-opacity="1" stroke="#000000" d="m 503.74097,536.81472 -4.5,2.69999 3.6,2.7 0.9,-5.39999 0,0 z" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.187" style="font-size:5px;font-family:DroidSans" id="text3727">
+                            <text y="532.3064"  gorn="0.3.0.0.0.1.187.0" id="tspan3729" x="491.65948">Q2</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.188" fill="none" id="path3731" stroke-opacity="1" stroke="#000000" d="m 467.66476,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.189" fill="none" id="path3733" stroke-opacity="1" stroke="#000000" d="m 467.66476,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.190" fill="none" id="path3735" stroke-opacity="1" stroke="#000000" d="m 449.74097,689.81472 -9,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.191" fill="none" id="path3737" stroke-opacity="1" stroke="#000000" d="m 467.74097,689.81472 9,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.192" fill="none" id="path3739" stroke-opacity="1" stroke="#000000" d="m 449.73733,686.21256 17.84766,0 0,7.04717 -17.84766,0 0,-7.04717" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.193" style="font-size:5px;font-family:DroidSans" id="text3741">
+                            <text y="684.40637"  gorn="0.3.0.0.0.1.193.0" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:OCRA;-inkscape-font-specification:OCRA;" id="tspan3743" stroke="none" x="449.74097">R4</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.194" fill="none" id="path3745" stroke-opacity="1" stroke="#000000" d="m 494.74097,572.81472 0,-9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.195" fill="none" id="path3747" stroke-opacity="1" stroke="#000000" d="m 494.74097,590.81472 0,9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.196" fill="none" id="path3749" stroke-opacity="1" stroke="#000000" d="m 491.13791,572.81054 7.04711,0 0,17.8478 -7.04711,0 0,-17.8478" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.197" style="font-size:5px;font-family:DroidSans" id="text3751">
+                            <text y="579.50128"  gorn="0.3.0.0.0.1.197.0" id="tspan3753" x="500.36124">R3</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.198" fill="none" id="path3755" stroke-opacity="1" stroke="#000000" d="m 449.74097,536.81472 18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.199" fill="none" id="path3757" stroke-opacity="1" stroke="#000000" d="m 467.66476,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.200" fill="none" id="path3759" stroke-opacity="1" stroke="#000000" d="m 440.74097,536.81472 -18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.201" fill="none" id="path3761" stroke-opacity="1" stroke="#000000" d="m 449.74097,545.81472 -9,-9 9,-9 0,18 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.202" fill="none" id="path3763" stroke-opacity="1" stroke="#000000" d="m 449.74097,527.81472 -9,9 9,9 0,-18 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.203" fill="none" id="path3765" stroke-opacity="1" stroke="#000000" d="m 440.74097,545.81472 0,-18" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.204" style="font-size:5px;font-family:DroidSans" id="text3767">
+                            <text y="525.35895"  gorn="0.3.0.0.0.1.204.0" id="tspan3769" x="443.12393">D2</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.205" fill="none" id="path3771" stroke-opacity="1" stroke="#000000" d="m 467.66476,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.206" fill="none" id="path3773" stroke-opacity="1" stroke="#000000" d="m 467.66476,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.207" fill="none" id="path3775" stroke-opacity="1" stroke="#000000" d="m 494.74097,707.81472 0,-18" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.208" fill="none" id="path3777" stroke-opacity="1" stroke="#000000" d="m 494.74097,705.81472 -0.004,19.64808" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.209" fill="none" id="path3779" stroke-opacity="1" stroke="#000000" d="m 494.74097,705.81472 -9,-9 18,0 -9,9 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.210" fill="none" id="path3781" stroke-opacity="1" stroke="#000000" d="m 485.74097,696.81472 9,9 9,-9 -18,0 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.211" fill="none" id="path3783" stroke-opacity="1" stroke="#000000" d="m 503.74097,709.41472 6.3,6.29999" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.212" fill="none" id="path3785" stroke-opacity="1" stroke="#000000" d="m 507.34097,705.81472 6.3,6.29999" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.213" fill="none" id="path3787" stroke-opacity="1" stroke="#000000" d="m 510.04097,715.71471 -3.6,-1.79999 1.8,-1.80001 1.8,3.6 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.214" fill="none" id="path3789" stroke-opacity="1" stroke="#000000" d="m 510.04097,715.71471 -1.8,-3.6 -1.8,1.80001 3.6,1.79999 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.215" fill="none" id="path3791" stroke-opacity="1" stroke="#000000" d="m 513.64097,712.11471 -3.6,-1.79999 1.8,-1.80001 1.8,3.6 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.216" fill="none" id="path3793" stroke-opacity="1" stroke="#000000" d="m 513.64097,712.11471 -1.8,-3.6 -1.8,1.80001 3.6,1.79999 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.217" fill="none" id="path3795" stroke-opacity="1" stroke="#000000" d="m 503.74097,705.81472 -18,0" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.218" style="font-size:5px;font-family:DroidSans" id="text3797">
+                            <text y="703.10638"  gorn="0.3.0.0.0.1.218.0" id="tspan3799" x="514.54095">IN2</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.219" fill="none" id="path3801" stroke-opacity="1" stroke="#000000" d="m 476.74097,680.81472 0,9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.220" fill="none" id="path3803" stroke-opacity="1" stroke="#000000" d="m 494.74097,680.81472 0,9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.221" fill="none" id="path3805" stroke-opacity="1" stroke="#000000" d="m 476.74097,608.81472 0,-9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.222" fill="none" id="path3807" stroke-opacity="1" stroke="#000000" d="m 494.74097,608.81472 0,-9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.223" fill="none" id="path3809" stroke-opacity="1" stroke="#000000" d="m 476.74097,624.11471 5.4,5.4" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.224" fill="none" id="path3811" stroke-opacity="1" stroke="#000000" d="m 483.04097,652.91472 5.4,5.4" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.225" fill="none" id="path3813" stroke-opacity="1" stroke="#000000" d="m 478.54097,652.91472 5.4,5.4" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.226" fill="none" id="path3815" stroke-opacity="1" stroke="#000000" d="m 488.44097,629.51471 6.3,-6.3" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.227" fill="none" id="path3817" stroke-opacity="1" stroke="#000000" d="m 471.34097,610.61471 28.8,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.228" fill="none" id="path3819" stroke-opacity="1" stroke="#000000" d="m 476.74097,669.11471 18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.229" fill="none" id="path3821" stroke-opacity="1" stroke="#000000" d="m 471.34097,679.01471 28.8,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.230" fill="none" id="path3823" stroke-opacity="1" stroke="#000000" d="m 500.14097,679.01471 0,-68.4" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.231" fill="none" id="path3825" stroke-opacity="1" stroke="#000000" d="m 494.74097,623.21471 0,-14.39999" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.232" fill="none" id="path3827" stroke-opacity="1" stroke="#000000" d="m 494.74097,680.81472 0,-11.70001" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.233" fill="none" id="path3829" stroke-opacity="1" stroke="#000000" d="m 476.74097,624.11471 0,-15.29999" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.234" fill="none" id="path3831" stroke-opacity="1" stroke="#000000" d="m 476.74097,680.81472 0,-11.70001" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.235" fill="none" id="path3833" stroke-opacity="1" stroke="#000000" d="m 471.34097,679.01471 0,-68.4" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.236" fill="none" id="path3835" stroke-opacity="1" stroke="#000000" d="m 488.44097,669.11471 -7.2,7.20001 0,-14.4 7.2,7.19999 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.237" fill="none" id="path3837" stroke-opacity="1" stroke="#000000" d="m 481.24097,676.31472 0,-14.4 7.2,7.19999 -7.2,7.20001 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.238" fill="none" id="path3839" stroke-opacity="1" stroke="#000000" d="m 490.24097,676.31472 -0.9,0 0,-14.4 0.9,0 0,14.4 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.239" fill="none" id="path3841" stroke-opacity="1" stroke="#000000" d="m 489.34097,661.91472 0.9,0 0,14.4 -0.9,0 0,-14.4 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.240" fill="none" id="path3843" stroke-opacity="1" stroke="#000000" d="m 478.54097,654.71471 0,-1.79999 1.8,0 -1.8,1.79999 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.241" fill="none" id="path3845" stroke-opacity="1" stroke="#000000" d="m 480.34097,652.91472 -1.8,0 0,1.79999 1.8,-1.79999 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.242" fill="none" id="path3847" stroke-opacity="1" stroke="#000000" d="m 483.04097,654.71471 0,-1.79999 1.8,0 -1.8,1.79999 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.243" fill="none" id="path3849" stroke-opacity="1" stroke="#000000" d="m 484.84097,652.91472 -1.8,0 0,1.79999 1.8,-1.79999 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.244" fill="none" id="path3851" stroke-opacity="1" stroke="#000000" d="m 492.04097,630.41472 -12.6,0 0,-0.90001 12.6,0 0,0.90001 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.245" fill="none" id="path3853" stroke-opacity="1" stroke="#000000" d="m 479.44097,629.51471 0,0.90001 12.6,0 0,-0.90001 -12.6,0 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.246" fill="none" id="path3855" stroke-opacity="1" stroke="#000000" d="m 493.84097,626.81472 -2.7,-2.70001 2.7,0 0,2.70001 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.247" fill="none" id="path3857" stroke-opacity="1" stroke="#000000" d="m 491.14097,624.11471 2.7,0 0,2.70001 -2.7,-2.70001 0,0 z" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.248" style="font-size:5px;font-family:DroidSans" id="text3859">
+                            <text y="606.10638"  gorn="0.3.0.0.0.1.248.0" id="tspan3861" x="501.04095">U2</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.249" fill="none" id="path3863" stroke-opacity="1" stroke="#000000" d="m 431.74097,446.81472 -18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.250" fill="none" id="path3865" stroke-opacity="1" stroke="#000000" d="m 449.74097,437.81472 18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.251" fill="none" id="path3867" stroke-opacity="1" stroke="#000000" d="m 449.74097,455.81472 18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.252" fill="none" id="path3869" stroke-opacity="1" stroke="#000000" d="m 431.74097,482.81472 -18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.253" fill="none" id="path3871" stroke-opacity="1" stroke="#000000" d="m 449.74097,482.81472 18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.254" fill="none" id="path3873" stroke-opacity="1" stroke="#000000" d="m 449.74097,464.81472 0,36" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.255" fill="none" id="path3875" stroke-opacity="1" stroke="#000000" d="m 431.74097,464.81472 0,36" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.256" fill="none" id="path3877" stroke-opacity="1" stroke="#000000" d="m 431.74097,500.81472 18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.257" fill="none" id="path3879" stroke-opacity="1" stroke="#000000" d="m 431.74097,464.81472 18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.258" fill="none" id="path3881" stroke-opacity="1" stroke="#000000" d="m 435.34097,446.81472 15.3,-8.10001" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.259" fill="none" id="path3883" stroke-opacity="1" stroke="#000000" d="m 435.1927,446.73582 a 1.726587,1.721907 0 1 0 -3.45317,0 1.726587,1.721907 0 1 0 3.45317,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.260" fill="none" id="path3885" stroke-opacity="1" stroke="#000000" d="m 449.5872,437.73685 a 1.7266,1.72192 0 1 0 -3.4532,0 1.7266,1.72192 0 0 0 3.4532,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.261" fill="none" id="path3887" stroke-opacity="1" stroke="#000000" d="m 449.5872,455.73947 a 1.7266,1.7266 0 1 0 -3.4532,0 1.7266,1.7266 0 0 0 3.4532,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.262" fill="none" id="path3889" stroke-opacity="1" stroke="#000000" d="m 440.74097,446.81472 0,3.6" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.263" fill="none" id="path3891" stroke-opacity="1" stroke="#000000" d="m 440.74097,453.11471 0,3.6" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.264" fill="none" id="path3893" stroke-opacity="1" stroke="#000000" d="m 440.74097,459.41472 0,3.59999" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.265" style="font-size:5px;font-family:DroidSans" id="text3895">
+                            <text y="432.29623"  gorn="0.3.0.0.0.1.265.0" id="tspan3897" x="438.92215">K2</text>
+                        </g>
+                        <g  gorn="0.3.0.0.0.1.266" style="font-size:5px;font-family:DroidSans" id="text3899">
+                            <text y="688.00635"  gorn="0.3.0.0.0.1.266.0" id="tspan3901" x="478.88382">1</text>
+                        </g>
+                        <g  gorn="0.3.0.0.0.1.267" style="font-size:5px;font-family:DroidSans" id="text3903">
+                            <text y="688.36346"  gorn="0.3.0.0.0.1.267.0" id="tspan3905" x="497.77667">2</text>
+                        </g>
+                        <g  gorn="0.3.0.0.0.1.268" style="font-size:5px;font-family:DroidSans" id="text3907">
+                            <text y="597.75378"  gorn="0.3.0.0.0.1.268.0" id="tspan3909" x="496.76126">3</text>
+                        </g>
+                        <g  gorn="0.3.0.0.0.1.269" style="font-size:5px;font-family:DroidSans" id="text3911">
+                            <text y="597.24872"  gorn="0.3.0.0.0.1.269.0" id="tspan3913" x="478.50873">4</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.270" fill="none" id="path3915" stroke-opacity="1" stroke="#000000" d="m 512.74097,545.81472 18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.271" fill="none" id="path3917" stroke-opacity="1" stroke="#000000" d="m 515.44097,548.51471 12.6,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.272" fill="none" id="path3919" stroke-opacity="1" stroke="#000000" d="m 518.14097,551.21471 7.2,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.273" fill="none" id="path3921" stroke-opacity="1" stroke="#000000" d="m 520.84097,553.91472 1.8,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.274" fill="none" id="path3923" stroke-opacity="1" stroke="#000000" d="m 521.74097,536.81472 0,9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.275" fill="none" id="path3925" stroke-opacity="1" stroke="#000000" d="m 476.74097,599.81472 -63,0 0,-63" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.276" fill="none" id="path3927" stroke-opacity="1" stroke="#000000" d="m 413.66197,598.01515 a 1.721898,1.721916 0 1 0 0,3.44383 1.721898,1.721916 0 1 0 0,-3.44383 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.277" fill="none" id="path3929" stroke-opacity="1" stroke="#000000" d="m 413.66197,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.278" fill="none" id="path3931" stroke-opacity="1" stroke="#000000" d="m 413.66197,598.01515 a 1.721898,1.721916 0 1 0 0,3.44383 1.721898,1.721916 0 1 0 0,-3.44383 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.279" fill="none" id="path3933" stroke-opacity="1" stroke="#000000" d="m 413.66197,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.280" fill="none" id="path3935" stroke-opacity="1" stroke="#000000" d="m 422.74097,536.81472 -9,0 0,-54" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.281" fill="none" id="path3937" stroke-opacity="1" stroke="#000000" d="m 413.66197,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.282" fill="none" id="path3939" stroke-opacity="1" stroke="#000000" d="m 413.66197,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.283" fill="none" id="path3941" stroke-opacity="1" stroke="#000000" d="m 467.74097,482.81472 0,54" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.284" fill="none" id="path3943" stroke-opacity="1" stroke="#000000" d="m 467.66476,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.285" fill="none" id="path3945" stroke-opacity="1" stroke="#000000" d="m 467.66476,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.286" fill="none" id="path3947" stroke-opacity="1" stroke="#000000" d="m 404.74097,386.51471 -4.5,-4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.287" fill="none" id="path3949" stroke-opacity="1" stroke="#000000" d="m 404.74097,386.51471 4.5,-4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.288" fill="none" id="path3951" stroke-opacity="1" stroke="#000000" d="m 404.74097,391.01471 -4.5,-4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.289" fill="none" id="path3953" stroke-opacity="1" stroke="#000000" d="m 404.74097,391.01471 4.5,-4.5" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.290" style="font-size:5px;font-family:DroidSans" id="text3955">
+                            <text y="394.34851"  gorn="0.3.0.0.0.1.290.0" id="tspan3957" x="385.10605">MAIN2</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.291" fill="none" id="path3959" stroke-opacity="1" stroke="#000000" d="m 404.74097,392.81472 0,-1.80001" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.292" fill="none" id="path3961" stroke-opacity="1" stroke="#000000" d="m 431.74097,386.51471 -4.5,-4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.293" fill="none" id="path3963" stroke-opacity="1" stroke="#000000" d="m 431.74097,386.51471 4.5,-4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.294" fill="none" id="path3965" stroke-opacity="1" stroke="#000000" d="m 431.74097,391.01471 -4.5,-4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.295" fill="none" id="path3967" stroke-opacity="1" stroke="#000000" d="m 431.74097,391.01471 4.5,-4.5" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.296" style="font-size:5px;font-family:DroidSans" id="text3969">
+                            <text y="394.34851"  gorn="0.3.0.0.0.1.296.0" id="tspan3971" x="418.24823">NC2</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.297" fill="none" id="path3973" stroke-opacity="1" stroke="#000000" d="m 431.74097,392.81472 0,-1.80001" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.298" fill="none" id="path3975" stroke-opacity="1" stroke="#000000" d="m 458.74097,386.51471 -4.5,-4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.299" fill="none" id="path3977" stroke-opacity="1" stroke="#000000" d="m 458.74097,386.51471 4.5,-4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.300" fill="none" id="path3979" stroke-opacity="1" stroke="#000000" d="m 458.74097,391.01471 -4.5,-4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.301" fill="none" id="path3981" stroke-opacity="1" stroke="#000000" d="m 458.74097,391.01471 4.5,-4.5" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.302" style="font-size:5px;font-family:DroidSans" id="text3983">
+                            <text y="394.34851"  gorn="0.3.0.0.0.1.302.0" id="tspan3985" x="444.51794">NO2</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.303" fill="none" id="path3987" stroke-opacity="1" stroke="#000000" d="m 458.74097,392.81472 0,-1.80001" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.304" fill="none" id="path3989" stroke-opacity="1" stroke="#000000" d="m 413.74097,446.81472 -9,0 0,-54" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.305" fill="none" id="path3991" stroke-opacity="1" stroke="#000000" d="m 467.74097,437.81472 0,-27 -36,0 0,-18" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.306" fill="none" id="path3993" stroke-opacity="1" stroke="#000000" d="m 467.74097,455.81472 9,0 0,-54 -18,0 0,-9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.307" fill="none" id="path4007" stroke-opacity="1" stroke="#000000" d="m 409.24097,608.81472 9,0" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.308" style="font-size:5px;font-family:DroidSans" id="text4009">
+                            <text y="615.25708"  gorn="0.3.0.0.0.1.308.0" id="tspan4011" x="406.06424">JD-VCC</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.309" fill="none" id="path4013" stroke-opacity="1" stroke="#000000" d="m 413.74097,599.81472 0,9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.310" fill="none" id="path4015" stroke-opacity="1" stroke="#000000" d="m 413.66197,598.01515 a 1.721898,1.721916 0 1 0 0,3.44383 1.721898,1.721916 0 1 0 0,-3.44383 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.311" fill="none" id="path4017" stroke-opacity="1" stroke="#000000" d="m 413.66197,598.01515 a 1.721898,1.721916 0 1 0 0,3.44383 1.721898,1.721916 0 1 0 0,-3.44383 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.312" fill="none" id="path4027" stroke-opacity="1" stroke="#000000" d="m 431.74097,685.31472 0,9" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.313" style="font-size:5px;font-family:DroidSans" id="text4029">
+                            <text y="691.43494"  gorn="0.3.0.0.0.1.313.0" id="tspan4031" x="420.66193">VCC</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.314" fill="none" id="path4033" stroke-opacity="1" stroke="#000000" d="m 440.74097,689.81472 -9,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.315" fill="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;" id="connector9pin" stroke-opacity="1" stroke="#000000" d="m 404.8502,386.79066 0,-2.32142" stroke-width="1"/>
+                        <rect y="383.966"  gorn="0.3.0.0.0.1.316" fill="none" id="connector9terminal" width="0.002" stroke="none" height="0.00664284" stroke-width="0" x="404.849"/>
+                        <path  gorn="0.3.0.0.0.1.317" fill="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;" id="connector7pin" stroke-opacity="1" stroke="#000000" d="m 431.78572,386.82648 0,-2.32142" stroke-width="1"/>
+                        <rect y="384.002"  gorn="0.3.0.0.0.1.318" fill="none" id="connector7terminal" width="0.002" stroke="none" height="0.00664284" stroke-width="0" x="431.785"/>
+                        <path  gorn="0.3.0.0.0.1.319" fill="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;" id="connector8pin" stroke-opacity="1" stroke="#000000" d="m 458.75,386.82648 0,-2.32142" stroke-width="1"/>
+                        <rect y="384.002"  gorn="0.3.0.0.0.1.320" fill="none" id="connector8terminal" width="0.002" stroke="none" height="0.00664284" stroke-width="0" x="458.749"/>
+                        <path  gorn="0.3.0.0.0.1.321" fill="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;" id="connector13pin" stroke-opacity="1" stroke="#000000" d="m 736.95363,770.17512 0,-2.32142" stroke-width="1"/>
+                        <rect y="770.672"  gorn="0.3.0.0.0.1.322" fill="none" id="connector13terminal" width="0.002" stroke="none" height="0.00664284" stroke-width="0" x="736.953"/>
+                        <path  gorn="0.3.0.0.0.1.323" fill="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;" id="connector0pin" stroke-opacity="1" stroke="#000000" d="m 709.93205,770.17513 0,-2.32142" stroke-width="1"/>
+                        <rect y="770.672"  gorn="0.3.0.0.0.1.324" fill="none" id="connector0terminal" width="0.002" stroke="none" height="0.00664284" stroke-width="0" x="709.931"/>
+                        <path  gorn="0.3.0.0.0.1.325" fill="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;" id="connector4pin" stroke-opacity="1" stroke="#000000" d="m 682.94395,770.08935 0,-2.32142" stroke-width="1"/>
+                        <rect y="770.586"  gorn="0.3.0.0.0.1.326" fill="none" id="connector4terminal" width="0.002" stroke="none" height="0.00664284" stroke-width="0" x="682.943"/>
+                        <path  gorn="0.3.0.0.0.1.327" fill="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;" id="connector5pin" stroke-opacity="1" stroke="#000000" d="m 655.88889,770.11199 0,-2.32142" stroke-width="1"/>
+                        <rect y="770.609"  gorn="0.3.0.0.0.1.328" fill="none" id="connector5terminal" width="0.002" stroke="none" height="0.00664284" stroke-width="0" x="655.888"/>
+                        <g  gorn="0.3.0.0.0.1.329" style="font-size:5px;font-family:DroidSans" id="text4115">
+                            <text y="679.90063"  gorn="0.3.0.0.0.1.329.0" id="tspan4117" x="787.42285">VCC</text>
+                        </g>
+                        <g  gorn="0.3.0.0.0.1.330" style="font-size:5px;font-family:DroidSans" id="text4123">
+                            <text y="652.4502"  gorn="0.3.0.0.0.1.330.0" id="tspan4125" x="781.03613">JD-VCC</text>
+                        </g>
+                        <g  transform="matrix(0,-1,1,0,152.68473,1542.1414)">
+                            <g >
+                                <g >
+                                    <g  gorn="0.3.0.0.0.1.331.0.0.0" id="g5064">
+                                        <path  gorn="0.3.0.0.0.1.331.0.0.0.0" fill="none" id="path3587" stroke-opacity="1" stroke="#000000" d="m 864.02668,662.04328 -4.5,4.5" stroke-width="1"/>
+                                        <path  gorn="0.3.0.0.0.1.331.0.0.0.1" fill="none" id="path3589" stroke-opacity="1" stroke="#000000" d="m 864.02668,662.04328 4.5,4.5" stroke-width="1"/>
+                                        <path  gorn="0.3.0.0.0.1.331.0.0.0.2" fill="none" id="path3591" stroke-opacity="1" stroke="#000000" d="m 864.02668,657.54328 -4.5,4.5" stroke-width="1"/>
+                                        <path  gorn="0.3.0.0.0.1.331.0.0.0.3" fill="none" id="path3593" stroke-opacity="1" stroke="#000000" d="m 864.02668,657.54328 4.5,4.5" stroke-width="1"/>
+                                        <path  gorn="0.3.0.0.0.1.331.0.0.0.4" fill="none" id="path3599" stroke-opacity="1" stroke="#000000" d="m 864.02668,655.74329 0,1.79999" stroke-width="1"/>
+                                        <path  gorn="0.3.0.0.0.1.331.0.0.0.5" fill="none" id="path4113" stroke-opacity="1" stroke="#000000" d="m 859.52668,646.74329 9,0" stroke-width="1"/>
+                                        <path  gorn="0.3.0.0.0.1.331.0.0.0.6" fill="none" id="path4119" stroke-opacity="1" stroke="#000000" d="m 864.02668,655.74329 0,-9" stroke-width="1"/>
+                                        <path  gorn="0.3.0.0.0.1.331.0.0.0.7" fill="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;" id="connector12pin" stroke-opacity="1" stroke="#000000" d="m 864.13763,664.04056 0,-2.32142" stroke-width="1"/>
+                                        <rect y="662.877"  gorn="0.3.0.0.0.1.331.0.0.0.8" fill="none" id="connector12terminal" width="0.002" stroke="none" height="0.00664284" stroke-width="0" x="864.637"/>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <rect y="398.17862"  gorn="0.3.0.0.0.1.332" fill-opacity="1" fill="none" style="opacity:1;fill-rule:nonzero;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;" id="rect4619" width="548.35883" stroke-opacity="1" stroke="#000000" height="360.38742" stroke-width="0.70432872" x="259.28018"/>
+                        <path  gorn="0.3.0.0.0.1.333" fill="none" id="path4286" stroke-opacity="1" stroke="#000000" d="m 548.21479,599.81472 a 0.9,0.9 0 0 0 1.8,0 0.9,0.9 0 1 0 -1.8,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.334" fill="none" id="path4288" stroke-opacity="1" stroke="#000000" d="m 548.21479,536.81472 a 0.9,0.9 0 0 0 1.8,0 0.9,0.9 0 1 0 -1.8,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.335" fill="none" id="path4290" stroke-opacity="1" stroke="#000000" d="m 602.21479,536.81472 a 0.9,0.9 0 0 0 1.8,0 0.9,0.9 0 1 0 -1.8,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.336" fill="none" id="path4292" stroke-opacity="1" stroke="#000000" d="m 621.11479,536.81472 -18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.337" fill="none" id="path4294" stroke-opacity="1" stroke="#000000" d="m 603.03858,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.338" fill="none" id="path4296" stroke-opacity="1" stroke="#000000" d="m 630.11479,545.81472 0,18" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.339" fill="none" id="path4298" stroke-opacity="1" stroke="#000000" d="m 639.11479,536.81472 18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.340" fill="none" id="path4300" stroke-opacity="1" stroke="#000000" d="m 621.11479,536.81472 6.3,9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.341" fill="none" id="path4302" stroke-opacity="1" stroke="#000000" d="m 632.81479,545.81472 6.3,-9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.342" fill="none" id="path4304" stroke-opacity="1" stroke="#000000" d="m 622.01479,545.81472 16.2,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.343" fill="none" id="path4306" stroke-opacity="1" stroke="#000000" d="m 638.21479,542.21471 -3.6,-2.7 4.5,-2.69999 -0.9,5.39999 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.344" fill="none" id="path4308" stroke-opacity="1" stroke="#000000" d="m 639.11479,536.81472 -4.5,2.69999 3.6,2.7 0.9,-5.39999 0,0 z" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.345" style="font-size:5px;font-family:DroidSans" id="text4310">
+                            <text y="532.3064"  gorn="0.3.0.0.0.1.345.0" id="tspan4312" x="627.03333">Q3</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.346" fill="none" id="path4314" stroke-opacity="1" stroke="#000000" d="m 603.03858,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.347" fill="none" id="path4316" stroke-opacity="1" stroke="#000000" d="m 603.03858,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.348" fill="none" id="path4318" stroke-opacity="1" stroke="#000000" d="m 585.11479,689.81472 -9,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.349" fill="none" id="path4320" stroke-opacity="1" stroke="#000000" d="m 603.11479,689.81472 9,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.350" fill="none" id="path4322" stroke-opacity="1" stroke="#000000" d="m 585.11115,686.21256 17.84766,0 0,7.04717 -17.84766,0 0,-7.04717" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.351" style="font-size:5px;font-family:DroidSans" id="text4324">
+                            <text y="684.40637"  gorn="0.3.0.0.0.1.351.0" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:OCRA;-inkscape-font-specification:OCRA;" id="tspan4326" stroke="none" x="585.11481">R6</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.352" fill="none" id="path4328" stroke-opacity="1" stroke="#000000" d="m 630.11479,572.81472 0,-9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.353" fill="none" id="path4330" stroke-opacity="1" stroke="#000000" d="m 630.11479,590.81472 0,9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.354" fill="none" id="path4332" stroke-opacity="1" stroke="#000000" d="m 626.51173,572.81054 7.04711,0 0,17.8478 -7.04711,0 0,-17.8478" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.355" style="font-size:5px;font-family:DroidSans" id="text4334">
+                            <text y="579.50128"  gorn="0.3.0.0.0.1.355.0" id="tspan4336" x="635.73505">R5</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.356" fill="none" id="path4338" stroke-opacity="1" stroke="#000000" d="m 585.11479,536.81472 18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.357" fill="none" id="path4340" stroke-opacity="1" stroke="#000000" d="m 603.03858,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.358" fill="none" id="path4342" stroke-opacity="1" stroke="#000000" d="m 576.11479,536.81472 -18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.359" fill="none" id="path4344" stroke-opacity="1" stroke="#000000" d="m 585.11479,545.81472 -9,-9 9,-9 0,18 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.360" fill="none" id="path4346" stroke-opacity="1" stroke="#000000" d="m 585.11479,527.81472 -9,9 9,9 0,-18 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.361" fill="none" id="path4348" stroke-opacity="1" stroke="#000000" d="m 576.11479,545.81472 0,-18" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.362" style="font-size:5px;font-family:DroidSans" id="text4350">
+                            <text y="525.35895"  gorn="0.3.0.0.0.1.362.0" id="tspan4352" x="578.49774">D3</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.363" fill="none" id="path4354" stroke-opacity="1" stroke="#000000" d="m 603.03858,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.364" fill="none" id="path4356" stroke-opacity="1" stroke="#000000" d="m 603.03858,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.365" fill="none" id="path4358" stroke-opacity="1" stroke="#000000" d="m 630.11479,692.96548 0,-3.15076" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.366" fill="none" id="path4360" stroke-opacity="1" stroke="#000000" d="m 630.11479,702.48585 0,13.8125 106.83623,0 0,36.5159" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.367" fill="none" id="path4362" stroke-opacity="1" stroke="#000000" d="m 630.11479,702.48585 -9,-9 18,0 -9,9 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.368" fill="none" id="path4364" stroke-opacity="1" stroke="#000000" d="m 621.11479,693.48585 9,9 9,-9 -18,0 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.369" fill="none" id="path4366" stroke-opacity="1" stroke="#000000" d="m 639.11479,706.08585 6.3,6.29999" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.370" fill="none" id="path4368" stroke-opacity="1" stroke="#000000" d="m 642.71479,702.48585 6.3,6.29999" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.371" fill="none" id="path4370" stroke-opacity="1" stroke="#000000" d="m 645.41479,712.38584 -3.6,-1.79999 1.8,-1.80001 1.8,3.6 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.372" fill="none" id="path4372" stroke-opacity="1" stroke="#000000" d="m 645.41479,712.38584 -1.8,-3.6 -1.8,1.80001 3.6,1.79999 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.373" fill="none" id="path4374" stroke-opacity="1" stroke="#000000" d="m 649.01479,708.78584 -3.6,-1.79999 1.8,-1.80001 1.8,3.6 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.374" fill="none" id="path4376" stroke-opacity="1" stroke="#000000" d="m 649.01479,708.78584 -1.8,-3.6 -1.8,1.80001 3.6,1.79999 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.375" fill="none" id="path4378" stroke-opacity="1" stroke="#000000" d="m 639.11479,702.48585 -18,0" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.376" style="font-size:5px;font-family:DroidSans" id="text4380">
+                            <text y="699.77753"  gorn="0.3.0.0.0.1.376.0" id="tspan4382" x="649.91479">IN3</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.377" fill="none" id="path4384" stroke-opacity="1" stroke="#000000" d="m 612.11479,680.81472 0,9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.378" fill="none" id="path4386" stroke-opacity="1" stroke="#000000" d="m 630.11479,680.81472 0,9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.379" fill="none" id="path4388" stroke-opacity="1" stroke="#000000" d="m 612.11479,608.81472 0,-9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.380" fill="none" id="path4390" stroke-opacity="1" stroke="#000000" d="m 630.11479,608.81472 0,-9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.381" fill="none" id="path4392" stroke-opacity="1" stroke="#000000" d="m 612.11479,624.11471 5.4,5.4" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.382" fill="none" id="path4394" stroke-opacity="1" stroke="#000000" d="m 618.41479,652.91472 5.4,5.4" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.383" fill="none" id="path4396" stroke-opacity="1" stroke="#000000" d="m 613.91479,652.91472 5.4,5.4" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.384" fill="none" id="path4398" stroke-opacity="1" stroke="#000000" d="m 623.81479,629.51471 6.3,-6.3" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.385" fill="none" id="path4400" stroke-opacity="1" stroke="#000000" d="m 606.71479,610.61471 28.8,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.386" fill="none" id="path4402" stroke-opacity="1" stroke="#000000" d="m 612.11479,669.11471 18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.387" fill="none" id="path4404" stroke-opacity="1" stroke="#000000" d="m 606.71479,679.01471 28.8,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.388" fill="none" id="path4406" stroke-opacity="1" stroke="#000000" d="m 635.51479,679.01471 0,-68.4" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.389" fill="none" id="path4408" stroke-opacity="1" stroke="#000000" d="m 630.11479,623.21471 0,-14.39999" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.390" fill="none" id="path4410" stroke-opacity="1" stroke="#000000" d="m 630.11479,680.81472 0,-11.70001" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.391" fill="none" id="path4412" stroke-opacity="1" stroke="#000000" d="m 612.11479,624.11471 0,-15.29999" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.392" fill="none" id="path4414" stroke-opacity="1" stroke="#000000" d="m 612.11479,680.81472 0,-11.70001" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.393" fill="none" id="path4416" stroke-opacity="1" stroke="#000000" d="m 606.71479,679.01471 0,-68.4" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.394" fill="none" id="path4418" stroke-opacity="1" stroke="#000000" d="m 623.81479,669.11471 -7.2,7.20001 0,-14.4 7.2,7.19999 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.395" fill="none" id="path4420" stroke-opacity="1" stroke="#000000" d="m 616.61479,676.31472 0,-14.4 7.2,7.19999 -7.2,7.20001 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.396" fill="none" id="path4422" stroke-opacity="1" stroke="#000000" d="m 625.61479,676.31472 -0.9,0 0,-14.4 0.9,0 0,14.4 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.397" fill="none" id="path4424" stroke-opacity="1" stroke="#000000" d="m 624.71479,661.91472 0.9,0 0,14.4 -0.9,0 0,-14.4 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.398" fill="none" id="path4426" stroke-opacity="1" stroke="#000000" d="m 613.91479,654.71471 0,-1.79999 1.8,0 -1.8,1.79999 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.399" fill="none" id="path4428" stroke-opacity="1" stroke="#000000" d="m 615.71479,652.91472 -1.8,0 0,1.79999 1.8,-1.79999 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.400" fill="none" id="path4430" stroke-opacity="1" stroke="#000000" d="m 618.41479,654.71471 0,-1.79999 1.8,0 -1.8,1.79999 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.401" fill="none" id="path4432" stroke-opacity="1" stroke="#000000" d="m 620.21479,652.91472 -1.8,0 0,1.79999 1.8,-1.79999 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.402" fill="none" id="path4434" stroke-opacity="1" stroke="#000000" d="m 627.41479,630.41472 -12.6,0 0,-0.90001 12.6,0 0,0.90001 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.403" fill="none" id="path4436" stroke-opacity="1" stroke="#000000" d="m 614.81479,629.51471 0,0.90001 12.6,0 0,-0.90001 -12.6,0 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.404" fill="none" id="path4438" stroke-opacity="1" stroke="#000000" d="m 629.21479,626.81472 -2.7,-2.70001 2.7,0 0,2.70001 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.405" fill="none" id="path4440" stroke-opacity="1" stroke="#000000" d="m 626.51479,624.11471 2.7,0 0,2.70001 -2.7,-2.70001 0,0 z" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.406" style="font-size:5px;font-family:DroidSans" id="text4442">
+                            <text y="606.10638"  gorn="0.3.0.0.0.1.406.0" id="tspan4444" x="636.41479">U3</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.407" fill="none" id="path4446" stroke-opacity="1" stroke="#000000" d="m 567.11479,446.81472 -18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.408" fill="none" id="path4448" stroke-opacity="1" stroke="#000000" d="m 585.11479,437.81472 18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.409" fill="none" id="path4450" stroke-opacity="1" stroke="#000000" d="m 585.11479,455.81472 18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.410" fill="none" id="path4452" stroke-opacity="1" stroke="#000000" d="m 567.11479,482.81472 -18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.411" fill="none" id="path4454" stroke-opacity="1" stroke="#000000" d="m 585.11479,482.81472 18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.412" fill="none" id="path4456" stroke-opacity="1" stroke="#000000" d="m 585.11479,464.81472 0,36" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.413" fill="none" id="path4458" stroke-opacity="1" stroke="#000000" d="m 567.11479,464.81472 0,36" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.414" fill="none" id="path4460" stroke-opacity="1" stroke="#000000" d="m 567.11479,500.81472 18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.415" fill="none" id="path4462" stroke-opacity="1" stroke="#000000" d="m 567.11479,464.81472 18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.416" fill="none" id="path4464" stroke-opacity="1" stroke="#000000" d="m 570.71479,446.81472 15.3,-8.10001" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.417" fill="none" id="path4466" stroke-opacity="1" stroke="#000000" d="m 570.56652,446.73582 a 1.726587,1.721907 0 1 0 -3.45317,0 1.726587,1.721907 0 1 0 3.45317,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.418" fill="none" id="path4468" stroke-opacity="1" stroke="#000000" d="m 584.96102,437.73685 a 1.7266,1.72192 0 1 0 -3.4532,0 1.7266,1.72192 0 0 0 3.4532,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.419" fill="none" id="path4470" stroke-opacity="1" stroke="#000000" d="m 584.96102,455.73947 a 1.7266,1.7266 0 1 0 -3.4532,0 1.7266,1.7266 0 0 0 3.4532,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.420" fill="none" id="path4472" stroke-opacity="1" stroke="#000000" d="m 576.11479,446.81472 0,3.6" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.421" fill="none" id="path4474" stroke-opacity="1" stroke="#000000" d="m 576.11479,453.11471 0,3.6" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.422" fill="none" id="path4476" stroke-opacity="1" stroke="#000000" d="m 576.11479,459.41472 0,3.59999" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.423" style="font-size:5px;font-family:DroidSans" id="text4478">
+                            <text y="432.29623"  gorn="0.3.0.0.0.1.423.0" id="tspan4480" x="574.29596">K3</text>
+                        </g>
+                        <g  gorn="0.3.0.0.0.1.424" style="font-size:5px;font-family:DroidSans" id="text4482">
+                            <text y="688.00635"  gorn="0.3.0.0.0.1.424.0" id="tspan4484" x="614.25763">1</text>
+                        </g>
+                        <g  gorn="0.3.0.0.0.1.425" style="font-size:5px;font-family:DroidSans" id="text4486">
+                            <text y="688.36346"  gorn="0.3.0.0.0.1.425.0" id="tspan4488" x="633.15051">2</text>
+                        </g>
+                        <g  gorn="0.3.0.0.0.1.426" style="font-size:5px;font-family:DroidSans" id="text4490">
+                            <text y="597.75378"  gorn="0.3.0.0.0.1.426.0" id="tspan4492" x="632.13507">3</text>
+                        </g>
+                        <g  gorn="0.3.0.0.0.1.427" style="font-size:5px;font-family:DroidSans" id="text4494">
+                            <text y="597.24872"  gorn="0.3.0.0.0.1.427.0" id="tspan4496" x="613.88257">4</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.428" fill="none" id="path4498" stroke-opacity="1" stroke="#000000" d="m 648.11479,545.81472 18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.429" fill="none" id="path4500" stroke-opacity="1" stroke="#000000" d="m 650.81479,548.51471 12.6,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.430" fill="none" id="path4502" stroke-opacity="1" stroke="#000000" d="m 653.51479,551.21471 7.2,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.431" fill="none" id="path4504" stroke-opacity="1" stroke="#000000" d="m 656.21479,553.91472 1.8,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.432" fill="none" id="path4506" stroke-opacity="1" stroke="#000000" d="m 657.11479,536.81472 0,9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.433" fill="none" id="path4508" stroke-opacity="1" stroke="#000000" d="m 612.11479,599.81472 -63,0 0,-63" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.434" fill="none" id="path4510" stroke-opacity="1" stroke="#000000" d="m 549.03579,598.01515 a 1.721898,1.721916 0 1 0 0,3.44383 1.721898,1.721916 0 1 0 0,-3.44383 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.435" fill="none" id="path4512" stroke-opacity="1" stroke="#000000" d="m 549.03579,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.436" fill="none" id="path4514" stroke-opacity="1" stroke="#000000" d="m 549.03579,598.01515 a 1.721898,1.721916 0 1 0 0,3.44383 1.721898,1.721916 0 1 0 0,-3.44383 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.437" fill="none" id="path4516" stroke-opacity="1" stroke="#000000" d="m 549.03579,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.438" fill="none" id="path4518" stroke-opacity="1" stroke="#000000" d="m 558.11479,536.81472 -9,0 0,-54" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.439" fill="none" id="path4520" stroke-opacity="1" stroke="#000000" d="m 549.03579,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.440" fill="none" id="path4522" stroke-opacity="1" stroke="#000000" d="m 549.03579,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.441" fill="none" id="path4524" stroke-opacity="1" stroke="#000000" d="m 603.11479,482.81472 0,54" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.442" fill="none" id="path4526" stroke-opacity="1" stroke="#000000" d="m 603.03858,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.443" fill="none" id="path4528" stroke-opacity="1" stroke="#000000" d="m 603.03858,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.444" fill="none" id="path4530" stroke-opacity="1" stroke="#000000" d="m 540.11479,386.51471 -4.5,-4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.445" fill="none" id="path4532" stroke-opacity="1" stroke="#000000" d="m 540.11479,386.51471 4.5,-4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.446" fill="none" id="path4534" stroke-opacity="1" stroke="#000000" d="m 540.11479,391.01471 -4.5,-4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.447" fill="none" id="path4537" stroke-opacity="1" stroke="#000000" d="m 540.11479,391.01471 4.5,-4.5" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.448" style="font-size:5px;font-family:DroidSans" id="text4539">
+                            <text y="394.34851"  gorn="0.3.0.0.0.1.448.0" id="tspan4541" x="520.47986">MAIN3</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.449" fill="none" id="path4543" stroke-opacity="1" stroke="#000000" d="m 540.11479,392.81472 0,-1.80001" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.450" fill="none" id="path4545" stroke-opacity="1" stroke="#000000" d="m 567.11479,386.51471 -4.5,-4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.451" fill="none" id="path4547" stroke-opacity="1" stroke="#000000" d="m 567.11479,386.51471 4.5,-4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.452" fill="none" id="path4549" stroke-opacity="1" stroke="#000000" d="m 567.11479,391.01471 -4.5,-4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.453" fill="none" id="path4551" stroke-opacity="1" stroke="#000000" d="m 567.11479,391.01471 4.5,-4.5" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.454" style="font-size:5px;font-family:DroidSans" id="text4553">
+                            <text y="394.34851"  gorn="0.3.0.0.0.1.454.0" id="tspan4555" x="553.62207">NC3</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.455" fill="none" id="path4557" stroke-opacity="1" stroke="#000000" d="m 567.11479,392.81472 0,-1.80001" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.456" fill="none" id="path4559" stroke-opacity="1" stroke="#000000" d="m 594.11479,386.51471 -4.5,-4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.457" fill="none" id="path4561" stroke-opacity="1" stroke="#000000" d="m 594.11479,386.51471 4.5,-4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.458" fill="none" id="path4563" stroke-opacity="1" stroke="#000000" d="m 594.11479,391.01471 -4.5,-4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.459" fill="none" id="path4565" stroke-opacity="1" stroke="#000000" d="m 594.11479,391.01471 4.5,-4.5" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.460" style="font-size:5px;font-family:DroidSans" id="text4567">
+                            <text y="394.34851"  gorn="0.3.0.0.0.1.460.0" id="tspan4569" x="579.89178">NO3</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.461" fill="none" id="path4571" stroke-opacity="1" stroke="#000000" d="m 594.11479,392.81472 0,-1.80001" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.462" fill="none" id="path4573" stroke-opacity="1" stroke="#000000" d="m 549.11479,446.81472 -9,0 0,-54" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.463" fill="none" id="path4575" stroke-opacity="1" stroke="#000000" d="m 603.11479,437.81472 0,-27 -36,0 0,-18" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.464" fill="none" id="path4577" stroke-opacity="1" stroke="#000000" d="m 603.11479,455.81472 9,0 0,-54 -18,0 0,-9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.465" fill="none" id="path4579" stroke-opacity="1" stroke="#000000" d="m 544.61479,608.81472 9,0" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.466" style="font-size:5px;font-family:DroidSans" id="text4581">
+                            <text y="615.25708"  gorn="0.3.0.0.0.1.466.0" id="tspan4583" x="541.43805">JD-VCC</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.467" fill="none" id="path4585" stroke-opacity="1" stroke="#000000" d="m 549.11479,599.81472 0,9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.468" fill="none" id="path4587" stroke-opacity="1" stroke="#000000" d="m 549.03579,598.01515 a 1.721898,1.721916 0 1 0 0,3.44383 1.721898,1.721916 0 1 0 0,-3.44383 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.469" fill="none" id="path4589" stroke-opacity="1" stroke="#000000" d="m 549.03579,598.01515 a 1.721898,1.721916 0 1 0 0,3.44383 1.721898,1.721916 0 1 0 0,-3.44383 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.470" fill="none" id="path4591" stroke-opacity="1" stroke="#000000" d="m 567.11479,685.31472 0,9" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.471" style="font-size:5px;font-family:DroidSans" id="text4593">
+                            <text y="691.43494"  gorn="0.3.0.0.0.1.471.0" id="tspan4595" x="556.03577">VCC</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.472" fill="none" id="path4597" stroke-opacity="1" stroke="#000000" d="m 576.11479,689.81472 -9,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.473" fill="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;" id="connector17pin" stroke-opacity="1" stroke="#000000" d="m 540.22402,386.79066 0,-2.32142" stroke-width="1"/>
+                        <rect y="383.966"  gorn="0.3.0.0.0.1.474" fill="none" id="connector17terminal" width="0.002" stroke="none" height="0.00664284" stroke-width="0" x="540.223"/>
+                        <path  gorn="0.3.0.0.0.1.475" fill="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;" id="connector15pin" stroke-opacity="1" stroke="#000000" d="m 567.15954,386.82648 0,-2.32142" stroke-width="1"/>
+                        <rect y="384.002"  gorn="0.3.0.0.0.1.476" fill="none" id="connector15terminal" width="0.002" stroke="none" height="0.00664284" stroke-width="0" x="567.159"/>
+                        <path  gorn="0.3.0.0.0.1.477" fill="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;" id="connector16pin" stroke-opacity="1" stroke="#000000" d="m 594.12382,386.82648 0,-2.32142" stroke-width="1"/>
+                        <rect y="384.002"  gorn="0.3.0.0.0.1.478" fill="none" id="connector16terminal" width="0.002" stroke="none" height="0.00664284" stroke-width="0" x="594.123"/>
+                        <path  gorn="0.3.0.0.0.1.479" fill="none" id="path4607" stroke-opacity="1" stroke="#000000" d="m 682.06,599.81472 a 0.9,0.9 0 0 0 1.8,0 0.9,0.9 0 1 0 -1.8,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.480" fill="none" id="path4609" stroke-opacity="1" stroke="#000000" d="m 682.06,536.81472 a 0.9,0.9 0 0 0 1.8,0 0.9,0.9 0 1 0 -1.8,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.481" fill="none" id="path4611" stroke-opacity="1" stroke="#000000" d="m 736.06,536.81472 a 0.9,0.9 0 0 0 1.8,0 0.9,0.9 0 1 0 -1.8,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.482" fill="none" id="path4613" stroke-opacity="1" stroke="#000000" d="m 754.96,536.81472 -18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.483" fill="none" id="path4615" stroke-opacity="1" stroke="#000000" d="m 736.88379,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.484" fill="none" id="path4617" stroke-opacity="1" stroke="#000000" d="m 763.96,545.81472 0,18" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.485" fill="none" id="path4619" stroke-opacity="1" stroke="#000000" d="m 772.96,536.81472 18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.486" fill="none" id="path4621" stroke-opacity="1" stroke="#000000" d="m 754.96,536.81472 6.3,9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.487" fill="none" id="path4623" stroke-opacity="1" stroke="#000000" d="m 766.66,545.81472 6.3,-9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.488" fill="none" id="path4625" stroke-opacity="1" stroke="#000000" d="m 755.86,545.81472 16.2,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.489" fill="none" id="path4627" stroke-opacity="1" stroke="#000000" d="m 772.06,542.21471 -3.6,-2.7 4.5,-2.69999 -0.9,5.39999 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.490" fill="none" id="path4629" stroke-opacity="1" stroke="#000000" d="m 772.96,536.81472 -4.5,2.69999 3.6,2.7 0.9,-5.39999 0,0 z" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.491" style="font-size:5px;font-family:DroidSans" id="text4631">
+                            <text y="532.3064"  gorn="0.3.0.0.0.1.491.0" id="tspan4633" x="760.87854">Q4</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.492" fill="none" id="path4635" stroke-opacity="1" stroke="#000000" d="m 736.88379,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.493" fill="none" id="path4637" stroke-opacity="1" stroke="#000000" d="m 736.88379,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.494" fill="none" id="path4639" stroke-opacity="1" stroke="#000000" d="m 718.96,689.81472 -9,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.495" fill="none" id="path4641" stroke-opacity="1" stroke="#000000" d="m 736.96,689.81472 9,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.496" fill="none" id="path4643" stroke-opacity="1" stroke="#000000" d="m 718.95636,686.21256 17.84766,0 0,7.04717 -17.84766,0 0,-7.04717" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.497" style="font-size:5px;font-family:DroidSans" id="text4645">
+                            <text y="684.40637"  gorn="0.3.0.0.0.1.497.0" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:OCRA;-inkscape-font-specification:OCRA;" id="tspan4647" stroke="none" x="718.96002">R8</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.498" fill="none" id="path4649" stroke-opacity="1" stroke="#000000" d="m 763.96,572.81472 0,-9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.499" fill="none" id="path4651" stroke-opacity="1" stroke="#000000" d="m 763.96,590.81472 0,9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.500" fill="none" id="path4653" stroke-opacity="1" stroke="#000000" d="m 760.35694,572.81054 7.04711,0 0,17.8478 -7.04711,0 0,-17.8478" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.501" style="font-size:5px;font-family:DroidSans" id="text4655">
+                            <text y="579.50128"  gorn="0.3.0.0.0.1.501.0" id="tspan4657" x="769.58026">R7</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.502" fill="none" id="path4659" stroke-opacity="1" stroke="#000000" d="m 718.96,536.81472 18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.503" fill="none" id="path4661" stroke-opacity="1" stroke="#000000" d="m 736.88379,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.504" fill="none" id="path4663" stroke-opacity="1" stroke="#000000" d="m 709.96,536.81472 -18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.505" fill="none" id="path4665" stroke-opacity="1" stroke="#000000" d="m 718.96,545.81472 -9,-9 9,-9 0,18 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.506" fill="none" id="path4667" stroke-opacity="1" stroke="#000000" d="m 718.96,527.81472 -9,9 9,9 0,-18 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.507" fill="none" id="path4669" stroke-opacity="1" stroke="#000000" d="m 709.96,545.81472 0,-18" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.508" style="font-size:5px;font-family:DroidSans" id="text4671">
+                            <text y="525.35895"  gorn="0.3.0.0.0.1.508.0" id="tspan4673" x="712.34296">D4</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.509" fill="none" id="path4675" stroke-opacity="1" stroke="#000000" d="m 736.88379,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.510" fill="none" id="path4677" stroke-opacity="1" stroke="#000000" d="m 736.88379,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.511" fill="none" id="path4679" stroke-opacity="1" stroke="#000000" d="m 763.96,707.81472 0,-18" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.512" fill="none" id="path4681" stroke-opacity="1" stroke="#000000" d="m 763.96,716.81472 0,18" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.513" fill="none" id="path4683" stroke-opacity="1" stroke="#000000" d="m 763.96,716.81472 -9,-9 18,0 -9,9 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.514" fill="none" id="path4685" stroke-opacity="1" stroke="#000000" d="m 754.96,707.81472 9,9 9,-9 -18,0 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.515" fill="none" id="path4687" stroke-opacity="1" stroke="#000000" d="m 772.96,720.41472 6.3,6.29999" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.516" fill="none" id="path4689" stroke-opacity="1" stroke="#000000" d="m 776.56,716.81472 6.3,6.29999" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.517" fill="none" id="path4691" stroke-opacity="1" stroke="#000000" d="m 779.26,726.71471 -3.6,-1.79999 1.8,-1.80001 1.8,3.6 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.518" fill="none" id="path4693" stroke-opacity="1" stroke="#000000" d="m 779.26,726.71471 -1.8,-3.6 -1.8,1.80001 3.6,1.79999 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.519" fill="none" id="path4695" stroke-opacity="1" stroke="#000000" d="m 782.86,723.11471 -3.6,-1.79999 1.8,-1.80001 1.8,3.6 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.520" fill="none" id="path4697" stroke-opacity="1" stroke="#000000" d="m 782.86,723.11471 -1.8,-3.6 -1.8,1.80001 3.6,1.79999 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.521" fill="none" id="path4699" stroke-opacity="1" stroke="#000000" d="m 772.96,716.81472 -18,0" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.522" style="font-size:5px;font-family:DroidSans" id="text4701">
+                            <text y="714.10638"  gorn="0.3.0.0.0.1.522.0" id="tspan4703" x="783.76001">IN4</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.523" fill="none" id="path4705" stroke-opacity="1" stroke="#000000" d="m 745.96,680.81472 0,9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.524" fill="none" id="path4707" stroke-opacity="1" stroke="#000000" d="m 763.96,680.81472 0,9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.525" fill="none" id="path4709" stroke-opacity="1" stroke="#000000" d="m 745.96,608.81472 0,-9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.526" fill="none" id="path4711" stroke-opacity="1" stroke="#000000" d="m 763.96,608.81472 0,-9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.527" fill="none" id="path4713" stroke-opacity="1" stroke="#000000" d="m 745.96,624.11471 5.4,5.4" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.528" fill="none" id="path4715" stroke-opacity="1" stroke="#000000" d="m 752.26,652.91472 5.4,5.4" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.529" fill="none" id="path4717" stroke-opacity="1" stroke="#000000" d="m 747.76,652.91472 5.4,5.4" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.530" fill="none" id="path4719" stroke-opacity="1" stroke="#000000" d="m 757.66,629.51471 6.3,-6.3" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.531" fill="none" id="path4721" stroke-opacity="1" stroke="#000000" d="m 740.56,610.61471 28.8,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.532" fill="none" id="path4723" stroke-opacity="1" stroke="#000000" d="m 745.96,669.11471 18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.533" fill="none" id="path4725" stroke-opacity="1" stroke="#000000" d="m 740.56,679.01471 28.8,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.534" fill="none" id="path4727" stroke-opacity="1" stroke="#000000" d="m 769.36,679.01471 0,-68.4" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.535" fill="none" id="path4729" stroke-opacity="1" stroke="#000000" d="m 763.96,623.21471 0,-14.39999" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.536" fill="none" id="path4731" stroke-opacity="1" stroke="#000000" d="m 763.96,680.81472 0,-11.70001" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.537" fill="none" id="path4733" stroke-opacity="1" stroke="#000000" d="m 745.96,624.11471 0,-15.29999" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.538" fill="none" id="path4735" stroke-opacity="1" stroke="#000000" d="m 745.96,680.81472 0,-11.70001" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.539" fill="none" id="path4737" stroke-opacity="1" stroke="#000000" d="m 740.56,679.01471 0,-68.4" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.540" fill="none" id="path4739" stroke-opacity="1" stroke="#000000" d="m 757.66,669.11471 -7.2,7.20001 0,-14.4 7.2,7.19999 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.541" fill="none" id="path4741" stroke-opacity="1" stroke="#000000" d="m 750.46,676.31472 0,-14.4 7.2,7.19999 -7.2,7.20001 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.542" fill="none" id="path4743" stroke-opacity="1" stroke="#000000" d="m 759.46,676.31472 -0.9,0 0,-14.4 0.9,0 0,14.4 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.543" fill="none" id="path4745" stroke-opacity="1" stroke="#000000" d="m 758.56,661.91472 0.9,0 0,14.4 -0.9,0 0,-14.4 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.544" fill="none" id="path4747" stroke-opacity="1" stroke="#000000" d="m 747.76,654.71471 0,-1.79999 1.8,0 -1.8,1.79999 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.545" fill="none" id="path4749" stroke-opacity="1" stroke="#000000" d="m 749.56,652.91472 -1.8,0 0,1.79999 1.8,-1.79999 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.546" fill="none" id="path4751" stroke-opacity="1" stroke="#000000" d="m 752.26,654.71471 0,-1.79999 1.8,0 -1.8,1.79999 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.547" fill="none" id="path4753" stroke-opacity="1" stroke="#000000" d="m 754.06,652.91472 -1.8,0 0,1.79999 1.8,-1.79999 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.548" fill="none" id="path4755" stroke-opacity="1" stroke="#000000" d="m 761.26,630.41472 -12.6,0 0,-0.90001 12.6,0 0,0.90001 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.549" fill="none" id="path4757" stroke-opacity="1" stroke="#000000" d="m 748.66,629.51471 0,0.90001 12.6,0 0,-0.90001 -12.6,0 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.550" fill="none" id="path4759" stroke-opacity="1" stroke="#000000" d="m 763.06,626.81472 -2.7,-2.70001 2.7,0 0,2.70001 0,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.551" fill="none" id="path4761" stroke-opacity="1" stroke="#000000" d="m 760.36,624.11471 2.7,0 0,2.70001 -2.7,-2.70001 0,0 z" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.552" style="font-size:5px;font-family:DroidSans" id="text4763">
+                            <text y="606.10638"  gorn="0.3.0.0.0.1.552.0" id="tspan4765" x="770.26001">U4</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.553" fill="none" id="path4767" stroke-opacity="1" stroke="#000000" d="m 700.96,446.81472 -18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.554" fill="none" id="path4769" stroke-opacity="1" stroke="#000000" d="m 718.96,437.81472 18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.555" fill="none" id="path4771" stroke-opacity="1" stroke="#000000" d="m 718.96,455.81472 18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.556" fill="none" id="path4773" stroke-opacity="1" stroke="#000000" d="m 700.96,482.81472 -18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.557" fill="none" id="path4775" stroke-opacity="1" stroke="#000000" d="m 718.96,482.81472 18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.558" fill="none" id="path4777" stroke-opacity="1" stroke="#000000" d="m 718.96,464.81472 0,36" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.559" fill="none" id="path4779" stroke-opacity="1" stroke="#000000" d="m 700.96,464.81472 0,36" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.560" fill="none" id="path4781" stroke-opacity="1" stroke="#000000" d="m 700.96,500.81472 18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.561" fill="none" id="path4783" stroke-opacity="1" stroke="#000000" d="m 700.96,464.81472 18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.562" fill="none" id="path4785" stroke-opacity="1" stroke="#000000" d="m 704.56,446.81472 15.3,-8.10001" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.563" fill="none" id="path4787" stroke-opacity="1" stroke="#000000" d="m 704.41173,446.73582 a 1.726587,1.721907 0 1 0 -3.45317,0 1.726587,1.721907 0 1 0 3.45317,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.564" fill="none" id="path4789" stroke-opacity="1" stroke="#000000" d="m 718.80623,437.73685 a 1.7266,1.72192 0 1 0 -3.4532,0 1.7266,1.72192 0 0 0 3.4532,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.565" fill="none" id="path4791" stroke-opacity="1" stroke="#000000" d="m 718.80623,455.73947 a 1.7266,1.7266 0 1 0 -3.4532,0 1.7266,1.7266 0 0 0 3.4532,0 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.566" fill="none" id="path4793" stroke-opacity="1" stroke="#000000" d="m 709.96,446.81472 0,3.6" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.567" fill="none" id="path4795" stroke-opacity="1" stroke="#000000" d="m 709.96,453.11471 0,3.6" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.568" fill="none" id="path4797" stroke-opacity="1" stroke="#000000" d="m 709.96,459.41472 0,3.59999" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.569" style="font-size:5px;font-family:DroidSans" id="text4799">
+                            <text y="432.29623"  gorn="0.3.0.0.0.1.569.0" id="tspan4801" x="708.14117">K4</text>
+                        </g>
+                        <g  gorn="0.3.0.0.0.1.570" style="font-size:5px;font-family:DroidSans" id="text4803">
+                            <text y="688.00635"  gorn="0.3.0.0.0.1.570.0" id="tspan4805" x="748.10284">1</text>
+                        </g>
+                        <g  gorn="0.3.0.0.0.1.571" style="font-size:5px;font-family:DroidSans" id="text4807">
+                            <text y="688.36346"  gorn="0.3.0.0.0.1.571.0" id="tspan4809" x="766.99573">2</text>
+                        </g>
+                        <g  gorn="0.3.0.0.0.1.572" style="font-size:5px;font-family:DroidSans" id="text4811">
+                            <text y="597.75378"  gorn="0.3.0.0.0.1.572.0" id="tspan4813" x="765.98029">3</text>
+                        </g>
+                        <g  gorn="0.3.0.0.0.1.573" style="font-size:5px;font-family:DroidSans" id="text4815">
+                            <text y="597.24872"  gorn="0.3.0.0.0.1.573.0" id="tspan4817" x="747.72778">4</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.574" fill="none" id="path4819" stroke-opacity="1" stroke="#000000" d="m 781.96,545.81472 18,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.575" fill="none" id="path4821" stroke-opacity="1" stroke="#000000" d="m 784.66,548.51471 12.6,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.576" fill="none" id="path4823" stroke-opacity="1" stroke="#000000" d="m 787.36,551.21471 7.2,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.577" fill="none" id="path4825" stroke-opacity="1" stroke="#000000" d="m 790.06,553.91472 1.8,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.578" fill="none" id="path4827" stroke-opacity="1" stroke="#000000" d="m 790.96,536.81472 0,9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.579" fill="none" id="path4829" stroke-opacity="1" stroke="#000000" d="m 745.96,599.81472 -63,0 0,-63" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.580" fill="none" id="path4831" stroke-opacity="1" stroke="#000000" d="m 682.881,598.01515 a 1.721898,1.721916 0 1 0 0,3.44383 1.721898,1.721916 0 1 0 0,-3.44383 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.581" fill="none" id="path4833" stroke-opacity="1" stroke="#000000" d="m 682.881,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.582" fill="none" id="path4835" stroke-opacity="1" stroke="#000000" d="m 682.881,598.01515 a 1.721898,1.721916 0 1 0 0,3.44383 1.721898,1.721916 0 1 0 0,-3.44383 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.583" fill="none" id="path4837" stroke-opacity="1" stroke="#000000" d="m 682.881,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.584" fill="none" id="path4839" stroke-opacity="1" stroke="#000000" d="m 691.96,536.81472 -9,0 0,-54" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.585" fill="none" id="path4841" stroke-opacity="1" stroke="#000000" d="m 682.881,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.586" fill="none" id="path4843" stroke-opacity="1" stroke="#000000" d="m 682.881,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.587" fill="none" id="path4845" stroke-opacity="1" stroke="#000000" d="m 736.96,482.81472 0,54" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.588" fill="none" id="path4847" stroke-opacity="1" stroke="#000000" d="m 736.88379,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.589" fill="none" id="path4849" stroke-opacity="1" stroke="#000000" d="m 736.88379,535.01299 a 1.721898,1.726596 0 1 0 0,3.45319 1.721898,1.726596 0 1 0 0,-3.45319 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.590" fill="none" id="path4851" stroke-opacity="1" stroke="#000000" d="m 673.96,386.51471 -4.5,-4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.591" fill="none" id="path4853" stroke-opacity="1" stroke="#000000" d="m 673.96,386.51471 4.5,-4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.592" fill="none" id="path4855" stroke-opacity="1" stroke="#000000" d="m 673.96,391.01471 -4.5,-4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.593" fill="none" id="path4857" stroke-opacity="1" stroke="#000000" d="m 673.96,391.01471 4.5,-4.5" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.594" style="font-size:5px;font-family:DroidSans" id="text4859">
+                            <text y="394.34851"  gorn="0.3.0.0.0.1.594.0" id="tspan4861" x="654.32507">MAIN4</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.595" fill="none" id="path4863" stroke-opacity="1" stroke="#000000" d="m 673.96,392.81472 0,-1.80001" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.596" fill="none" id="path4865" stroke-opacity="1" stroke="#000000" d="m 700.96,386.51471 -4.5,-4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.597" fill="none" id="path4867" stroke-opacity="1" stroke="#000000" d="m 700.96,386.51471 4.5,-4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.598" fill="none" id="path4869" stroke-opacity="1" stroke="#000000" d="m 700.96,391.01471 -4.5,-4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.599" fill="none" id="path4871" stroke-opacity="1" stroke="#000000" d="m 700.96,391.01471 4.5,-4.5" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.600" style="font-size:5px;font-family:DroidSans" id="text4873">
+                            <text y="394.34851"  gorn="0.3.0.0.0.1.600.0" id="tspan4875" x="687.46729">NC4</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.601" fill="none" id="path4877" stroke-opacity="1" stroke="#000000" d="m 700.96,392.81472 0,-1.80001" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.602" fill="none" id="path4879" stroke-opacity="1" stroke="#000000" d="m 727.96,386.51471 -4.5,-4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.603" fill="none" id="path4881" stroke-opacity="1" stroke="#000000" d="m 727.96,386.51471 4.5,-4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.604" fill="none" id="path4883" stroke-opacity="1" stroke="#000000" d="m 727.96,391.01471 -4.5,-4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.605" fill="none" id="path4885" stroke-opacity="1" stroke="#000000" d="m 727.96,391.01471 4.5,-4.5" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.606" style="font-size:5px;font-family:DroidSans" id="text4887">
+                            <text y="394.34851"  gorn="0.3.0.0.0.1.606.0" id="tspan4889" x="713.737">NO4</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.607" fill="none" id="path4891" stroke-opacity="1" stroke="#000000" d="m 727.96,392.81472 0,-1.80001" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.608" fill="none" id="path4893" stroke-opacity="1" stroke="#000000" d="m 682.96,446.81472 -9,0 0,-54" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.609" fill="none" id="path4895" stroke-opacity="1" stroke="#000000" d="m 736.96,437.81472 0,-27 -36,0 0,-18" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.610" fill="none" id="path4897" stroke-opacity="1" stroke="#000000" d="m 736.96,455.81472 9,0 0,-54 -18,0 0,-9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.611" fill="none" id="path4899" stroke-opacity="1" stroke="#000000" d="m 678.46,608.81472 9,0" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.612" style="font-size:5px;font-family:DroidSans" id="text4901">
+                            <text y="615.25708"  gorn="0.3.0.0.0.1.612.0" id="tspan4903" x="675.28326">JD-VCC</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.613" fill="none" id="path4905" stroke-opacity="1" stroke="#000000" d="m 682.96,599.81472 0,9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.614" fill="none" id="path4907" stroke-opacity="1" stroke="#000000" d="m 682.881,598.01515 a 1.721898,1.721916 0 1 0 0,3.44383 1.721898,1.721916 0 1 0 0,-3.44383 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.615" fill="none" id="path4909" stroke-opacity="1" stroke="#000000" d="m 682.881,598.01515 a 1.721898,1.721916 0 1 0 0,3.44383 1.721898,1.721916 0 1 0 0,-3.44383 z" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.616" fill="none" id="path4911" stroke-opacity="1" stroke="#000000" d="m 700.96,685.31472 0,9" stroke-width="1"/>
+                        <g  gorn="0.3.0.0.0.1.617" style="font-size:5px;font-family:DroidSans" id="text4913">
+                            <text y="691.43494"  gorn="0.3.0.0.0.1.617.0" id="tspan4915" x="689.88098">VCC</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.618" fill="none" id="path4917" stroke-opacity="1" stroke="#000000" d="m 709.96,689.81472 -9,0" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.619" fill="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;" id="connector20pin" stroke-opacity="1" stroke="#000000" d="m 674.06923,386.79066 0,-2.32142" stroke-width="1"/>
+                        <rect y="383.966"  gorn="0.3.0.0.0.1.620" fill="none" id="connector20terminal" width="0.002" stroke="none" height="0.00664284" stroke-width="0" x="674.068"/>
+                        <path  gorn="0.3.0.0.0.1.621" fill="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;" id="connector18pin" stroke-opacity="1" stroke="#000000" d="m 701.00475,386.82648 0,-2.32142" stroke-width="1"/>
+                        <rect y="384.002"  gorn="0.3.0.0.0.1.622" fill="none" id="connector18terminal" width="0.002" stroke="none" height="0.00664284" stroke-width="0" x="701.004"/>
+                        <path  gorn="0.3.0.0.0.1.623" fill="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;" id="connector19pin" stroke-opacity="1" stroke="#000000" d="m 727.96903,386.82648 0,-2.32142" stroke-width="1"/>
+                        <rect y="384.002"  gorn="0.3.0.0.0.1.624" fill="none" id="connector19terminal" width="0.002" stroke="none" height="0.00664284" stroke-width="0" x="727.968"/>
+                        <path  gorn="0.3.0.0.0.1.625" fill="none" id="path4947" stroke-opacity="1" stroke="#000000" d="m 763.95086,768.11471 -4.5,4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.626" fill="none" id="path4949" stroke-opacity="1" stroke="#000000" d="m 763.95086,768.11471 4.5,4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.627" fill="none" id="path4951" stroke-opacity="1" stroke="#000000" d="m 763.95086,763.61471 -4.5,4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.628" fill="none" id="path4953" stroke-opacity="1" stroke="#000000" d="m 763.95086,763.61471 4.5,4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.629" fill="none" id="path4955" stroke-opacity="1" stroke="#000000" d="m 763.95086,761.81472 0,1.79999" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.630" fill="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;" id="connector14pin" stroke-opacity="1" stroke="#000000" d="m 763.95368,770.17512 0,-2.32142" stroke-width="1"/>
+                        <rect y="770.672"  gorn="0.3.0.0.0.1.631" fill="none" id="connector14terminal" width="0.002" stroke="none" height="0.00664284" stroke-width="0" x="763.953"/>
+                        <g  gorn="0.3.0.0.0.1.632" style="font-size:5px;font-family:DroidSans" id="text4984">
+                            <text y="750.24872"  gorn="0.3.0.0.0.1.632.0" id="tspan4986" x="786.68329">VCC</text>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.633" fill="none" id="path4988" stroke-opacity="1" stroke="#000000" d="m 790.95086,761.81472 0,-9" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.634" fill="none" id="path4992" stroke-opacity="1" stroke="#000000" d="m 790.95086,768.11471 -4.5,4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.635" fill="none" id="path4994" stroke-opacity="1" stroke="#000000" d="m 790.95086,768.11471 4.5,4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.636" fill="none" id="path4996" stroke-opacity="1" stroke="#000000" d="m 790.95086,763.61471 -4.5,4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.637" fill="none" id="path4998" stroke-opacity="1" stroke="#000000" d="m 790.95086,763.61471 4.5,4.5" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.638" fill="none" id="path5000" stroke-opacity="1" stroke="#000000" d="m 790.95086,761.81472 0,1.79999" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.639" fill="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;" id="connector11pin" stroke-opacity="1" stroke="#000000" d="m 790.95368,770.17512 0,-2.32142" stroke-width="1"/>
+                        <rect y="770.672"  gorn="0.3.0.0.0.1.640" fill="none" id="connector11terminal" width="0.002" stroke="none" height="0.00664284" stroke-width="0" x="790.953"/>
+                        <g  gorn="0.3.0.0.0.1.641" style="font-size:5px;font-family:DroidSans" id="text5036">
+                            <text y="764.22046"  gorn="0.3.0.0.0.1.641.0" id="tspan5038" x="740.422">IN3</text>
+                        </g>
+                        <g  gorn="0.3.0.0.0.1.642" style="font-size:5px;font-family:DroidSans" id="text5040">
+                            <text y="764.22046"  gorn="0.3.0.0.0.1.642.0" id="tspan5042" x="767.74341">IN4</text>
+                        </g>
+                        <g  transform="matrix(0,-1,1,0,152.68473,1515.1414)">
+                            <g >
+                                <g >
+                                    <g  gorn="0.3.0.0.0.1.643.0.0.0" id="g5074">
+                                        <path  gorn="0.3.0.0.0.1.643.0.0.0.0" fill="none" id="path5076" stroke-opacity="1" stroke="#000000" d="m 864.02668,662.04328 -4.5,4.5" stroke-width="1"/>
+                                        <path  gorn="0.3.0.0.0.1.643.0.0.0.1" fill="none" id="path5078" stroke-opacity="1" stroke="#000000" d="m 864.02668,662.04328 4.5,4.5" stroke-width="1"/>
+                                        <path  gorn="0.3.0.0.0.1.643.0.0.0.2" fill="none" id="path5080" stroke-opacity="1" stroke="#000000" d="m 864.02668,657.54328 -4.5,4.5" stroke-width="1"/>
+                                        <path  gorn="0.3.0.0.0.1.643.0.0.0.3" fill="none" id="path5082" stroke-opacity="1" stroke="#000000" d="m 864.02668,657.54328 4.5,4.5" stroke-width="1"/>
+                                        <path  gorn="0.3.0.0.0.1.643.0.0.0.4" fill="none" id="path5084" stroke-opacity="1" stroke="#000000" d="m 864.02668,655.74329 0,1.79999" stroke-width="1"/>
+                                        <path  gorn="0.3.0.0.0.1.643.0.0.0.5" fill="none" id="path5086" stroke-opacity="1" stroke="#000000" d="m 859.52668,646.74329 9,0" stroke-width="1"/>
+                                        <path  gorn="0.3.0.0.0.1.643.0.0.0.6" fill="none" id="path5088" stroke-opacity="1" stroke="#000000" d="m 864.02668,655.74329 0,-9" stroke-width="1"/>
+                                        <path  gorn="0.3.0.0.0.1.643.0.0.0.7" fill="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;" id="connector10pin" stroke-opacity="1" stroke="#000000" d="m 864.13763,664.04056 0,-2.32142" stroke-width="1"/>
+                                        <rect y="662.877"  gorn="0.3.0.0.0.1.643.0.0.0.8" fill="none" id="connector10terminal" width="0.002" stroke="none" height="0.00664284" stroke-width="0" x="864.637"/>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <path  gorn="0.3.0.0.0.1.644" fill="none" id="path5251" stroke-opacity="1" stroke="#000000" d="m 763.96,734.6818 0,18" stroke-width="0.99999994"/>
+                        <path  gorn="0.3.0.0.0.1.645" fill="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;" id="path5253" stroke-opacity="1" stroke="#000000" d="m 763.95694,752.66104 -0.0111,9.18134" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.646" fill="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;" id="path5414" stroke-opacity="1" stroke="#000000" d="m 359.33718,734.78449 323.61884,0 0,27.03533" stroke-width="1"/>
+                        <path  gorn="0.3.0.0.0.1.647" fill="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;" id="path5575" stroke-opacity="1" stroke="#000000" d="m 709.95166,761.80923 0,-36.84098 -215.23229,0" stroke-width="1"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

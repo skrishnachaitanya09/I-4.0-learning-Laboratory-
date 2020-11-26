@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module fritzingVersion="0.6.2b.07.11.5217" moduleId="964b967b8fb7c166ad3a20fc9c8cfb4c">
+    <author>Michael Buffington</author>
+    <title>D2F-FL Omron Snap Action Limit Switch with Level</title>
+    <label>D2F</label>
+    <date>2011-07-25</date>
+    <tags>
+        <tag>switch</tag>
+        <tag>omron</tag>
+        <tag>snap</tag>
+        <tag>lever</tag>
+    </tags>
+    <properties>
+        <property name="termination style">solder pin</property>
+        <property name="actuator">lever</property>
+        <property name="mounting">PCB</property>
+        <property name="family">switch</property>
+        <property name="operating force">25 g</property>
+        <property name="contact rating">1 Amp at 125 Volts, 0.5 Amp at 30 Volts</property>
+        <property name="series">D2F</property>
+        <property name="part number"></property>
+    </properties>
+    <description>Snap action switch with stainless steel lever.</description>
+    <views>
+        <iconView>
+            <layers image="icon/D2F_FL_Omron_Snap_Action_Limit_Switch_wi__icon__e10e64cd0f7fe2606725a59d7a799331.svg">
+                <layer layerId="icon"/>
+            </layers>
+        </iconView>
+        <breadboardView>
+            <layers image="breadboard/D2F_FL_Omron_Snap_Action_Limit_Switch_wi__breadboard__2d3bce00c10c0befd7b753f0f9a85f94.svg">
+                <layer layerId="breadboard"/>
+            </layers>
+        </breadboardView>
+        <schematicView>
+            <layers image="schematic/D2F_FL_Omron_Snap_Action_Limit_Switch_wi__schematic__6582ae28d1972371e6c2470e7e8ecc5c.svg">
+                <layer layerId="schematic"/>
+            </layers>
+        </schematicView>
+        <pcbView>
+            <layers image="pcb/D2F_FL_Omron_Snap_Action_Limit_Switch_wi__pcb__6ecf50a80d7949830579ca671a065736.svg">
+                <layer layerId="copper0"/>
+            </layers>
+        </pcbView>
+    </views>
+    <connectors>
+        <connector id="connector1pad_1" type="male" name="NO">
+            <description></description>
+            <views>
+                <breadboardView>
+                    <p layer="breadboard" svgId="connector1pad_1"/>
+                </breadboardView>
+                <schematicView>
+                    <p layer="schematic" svgId="connector1pad_1"/>
+                </schematicView>
+                <pcbView>
+                    <p layer="copper0" svgId="connector1pad_1_"/>
+                </pcbView>
+            </views>
+        </connector>
+        <connector id="connector1pad_2" type="male" name="NC">
+            <description></description>
+            <views>
+                <breadboardView>
+                    <p layer="breadboard" svgId="connector1pad_2"/>
+                </breadboardView>
+                <schematicView>
+                    <p layer="schematic" svgId="connector1pad_2"/>
+                </schematicView>
+                <pcbView>
+                    <p layer="copper0" svgId="connector1pad_2_"/>
+                </pcbView>
+            </views>
+        </connector>
+        <connector id="connector1" type="male" name="COM">
+            <description></description>
+            <views>
+                <breadboardView>
+                    <p layer="breadboard" svgId="connector1"/>
+                </breadboardView>
+                <schematicView>
+                    <p layer="schematic" svgId="connector1"/>
+                </schematicView>
+                <pcbView>
+                    <p layer="copper0" svgId="connector1pad"/>
+                </pcbView>
+            </views>
+        </connector>
+    </connectors>
+</module>

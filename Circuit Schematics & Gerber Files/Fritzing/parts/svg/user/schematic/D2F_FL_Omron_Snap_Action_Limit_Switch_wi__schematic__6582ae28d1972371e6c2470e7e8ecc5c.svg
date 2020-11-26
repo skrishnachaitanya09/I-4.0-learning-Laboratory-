@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg width="1.77363in" x="0px" version="1.1" y="0px" xmlns="http://www.w3.org/2000/svg" height="1.59897in" viewBox="0 0 127.701 115.126" xmlns:xml="http://www.w3.org/XML/1998/namespace" id="Layer_1" enable-background="new 0 0 127.701 115.126" xml:space="preserve">
+ <g id="schematic">
+  <path fill="#FFFFFF" stroke="#000000" stroke-width="2.4" d="M126.5,13.2c0-6.627-5.373-12-12-12H13.2c-6.627,0-12,5.373-12,12v69.869c0,6.627,5.373,12,12,12h101.3c6.627,0,12-5.373,12-12V13.2z" stroke-miterlimit="10"/>
+  <circle fill="#FFFFFF" cx="63.85" cy="77.096" stroke="#000000" r="4.79" stroke-width="2.4" stroke-miterlimit="10"/>
+  <circle cx="63.85" cy="50.299" stroke="#000000" r="4.791" stroke-miterlimit="10"/>
+  <line fill="none" stroke="#000000" y1="63.697" stroke-width="4" x1="42.59" y2="53.408" x2="75.532" stroke-miterlimit="10"/>
+  <circle fill="#FFFFFF" cx="42.59" cy="63.697" stroke="#000000" r="4.79" stroke-width="2.4" stroke-miterlimit="10"/>
+  <line fill="none" stroke="#000000" y1="68.487" stroke-width="2.4" x1="42.59" y2="115.126" x2="42.59" stroke-miterlimit="10"/>
+  <line fill="none" stroke="#000000" y1="81.886" stroke-width="2.4" x1="63.85" y2="115.126" x2="63.85" stroke-miterlimit="10"/>
+  <line fill="none" stroke="#000000" y1="45.509" stroke-width="2.4" x1="63.85" y2="39.533" x2="63.85" stroke-miterlimit="10"/>
+  <line fill="none" stroke="#000000" stroke-linecap="square" y1="39.533" stroke-width="2.4" x1="63.85" y2="39.533" x2="85.11" stroke-miterlimit="10"/>
+  <line fill="none" stroke="#000000" y1="39.533" stroke-width="2.4" x1="85.11" y2="115.126" x2="85.11" stroke-miterlimit="10"/>
+  <text font-family="DroidSans" transform="matrix(1 0 0 1 44.9487 22.5332)" font-size="12">D2F-FL</text>
+  <text font-family="DroidSans" transform="matrix(-4.371139e-08 1 -1 -4.371139e-08 34.7471 98.5063)" font-size="7">COM</text>
+  <text font-family="DroidSans" transform="matrix(-4.371139e-08 1 -1 -4.371139e-08 56.2139 98.5063)" font-size="7">NO</text>
+  <text font-family="DroidSans" transform="matrix(-4.371139e-08 1 -1 -4.371139e-08 77.7256 98.5063)" font-size="7">NC</text>
+  <rect width="3.999988723690961" x="62.12558602843797" y="112.3292491002945" fill="none" height="4.000005559134249" id="connector1pad_1"/>
+  <rect width="4.74351342179557" x="82.91513820383045" y="111.4667884845418" fill="none" height="4.834118284546372" id="connector1pad_2"/>
+  <rect width="3.999988723690961" x="40.99538987680303" y="111.8980187924181" fill="none" height="4.000005559134249" id="connector1"/>
+ </g>
+</svg>

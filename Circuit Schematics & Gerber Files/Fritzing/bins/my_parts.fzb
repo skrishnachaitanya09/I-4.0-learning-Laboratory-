@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module fritzingVersion="0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806" icon="Mine.png">
+    <title>My Parts</title>
+    <instances>
+        <instance moduleIdRef="1000FADF10011leg" modelIndex="85410754" path="D:/Softwares/tech/fritzing.0.9.3b.64.pc/fritzing.0.9.3b.64.pc/fritzing-parts/core/dc_motor.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="MFRC RFID522_d5542a2cc23721db3fcbe4ea437685a4_3" modelIndex="85410755" path="C:/Users/Krishna Chaitanya/Documents/Fritzing/parts/user/MFRC RFID522_d5542a2cc23721db3fcbe4ea437685a4_3.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="prefix0000_d191545346fb3574335c8d0ff71072e5_1" modelIndex="85410852" path="C:/Users/Krishna Chaitanya/Documents/Fritzing/parts/user/prefix0000_d191545346fb3574335c8d0ff71072e5_1.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="964b967b8fb7c166ad3a20fc9c8cfb4c" modelIndex="85410854" path="C:/Users/Krishna Chaitanya/Documents/Fritzing/parts/user/D2F_FL_Omron_Snap_Action_Limit_Switch_with_Level__83c59c313e2b62eaee4880a0febd4176.fzp">
+            <views/>
+        </instance>
+    </instances>
+</module>

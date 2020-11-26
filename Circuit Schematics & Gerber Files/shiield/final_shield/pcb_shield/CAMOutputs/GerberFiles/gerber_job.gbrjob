@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2020-09-07T15:11:22Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.3.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "1"
+        },
+        "Owner": "Chaitanya Sankaramanchi <skrishnachaitanya09@gmail.com>",
+        "Size": {
+            "X": 53.34,
+            "Y": 101.6
+        }
+    }
+}

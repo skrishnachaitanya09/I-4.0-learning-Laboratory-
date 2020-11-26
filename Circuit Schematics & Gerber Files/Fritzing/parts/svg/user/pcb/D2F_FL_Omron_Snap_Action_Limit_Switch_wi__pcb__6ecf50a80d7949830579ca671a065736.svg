@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg width="0.503944in" x="0px" version="1.1" y="0px" xmlns="http://www.w3.org/2000/svg" height="0.228347in" viewBox="0 0 36.284 16.441" xmlns:xml="http://www.w3.org/XML/1998/namespace" id="Layer_1" enable-background="new 0 0 36.284 16.441" xml:space="preserve">
+ <g id="copper0">
+  <g>
+   <path fill="#FFFFFF" d="M35.534,0.75v14.941H0.75V0.75H35.534 M36.284,0H0v16.441h36.284V0L36.284,0z"/>
+  </g>
+  <circle fill="none" cx="18.142" cy="8.221" stroke="#FEBF10" id="connector1pad" r="1.584" stroke-width="1.152"/>
+  <circle fill="none" cx="3.742" cy="8.221" stroke="#FEBF10" id="connector1pad_1_" r="1.584" stroke-width="1.152"/>
+  <circle fill="none" cx="32.477" cy="8.221" stroke="#FEBF10" id="connector1pad_2_" r="1.584" stroke-width="1.152"/>
+ </g>
+</svg>
