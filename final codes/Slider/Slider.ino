@@ -152,6 +152,7 @@ void loop() {
     while (!radio.available(&address));
     radio.read(&rxMessage, sizeof(rxMessage));
     radio.stopListening();
+    Serial.println(rxMessage, HEX);
     if (rxMessage == ACK) {
       stopConveyor();
       state = 6;

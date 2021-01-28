@@ -13,7 +13,7 @@ void setup() {
 
   digitalWrite(4, HIGH);
   digitalWrite(5, HIGH);
-  state = -1;
+//  state = -1;
 
 }
 

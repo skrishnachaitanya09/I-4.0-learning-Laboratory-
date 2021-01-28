@@ -137,7 +137,7 @@ void store13()
     digitalWrite(34, HIGH);
     digitalWrite(32, LOW);
     digitalWrite(30, HIGH);
-    Serial.println("MOVE BACK  S & R BELT AFTER STORING MATERIAL ");
+    Serial.println("MOVE BACK  S & R BELT AFTER STORING MATERIAL "); //Recent changes here
   }
   if ((hbslt_sw1 == 0) && (rlsrlt_sw2 == 0) && (udsrllt_sw3 == 0) && (srbsens == 1))
   {

@@ -34,6 +34,7 @@ void setup() {
   radio.setRetries(15, 15);
   radio.setPALevel(RF24_PA_MIN);
   radio.openReadingPipe(1, dispatchModule[3]);
+  radio.openWritingPipe(slider[1]);
   pinMode(4, OUTPUT);
   pinMode(5, OUTPUT);
   pinMode(6, OUTPUT); //high towards slider and towards conveyor
@@ -79,7 +80,7 @@ void loop() {
 
   else if (state == 2 && sensor) {
     stopConveyor();
-    radio.openWritingPipe(slider[1]);
+    
     txMessage = 0xff;
     sent = radio.write(&txMessage, sizeof(txMessage));
     if (sent) {

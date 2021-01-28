@@ -13,14 +13,17 @@ byte countA;
 byte countB;
 
 void setup() {
-
-
+  Serial.begin(9600);
+  Serial.println("HiBay started");
+  
   pinMode(3, INPUT);
   pinMode(4, INPUT);
   pinMode(10, INPUT);
-  pinMode(46, INPUT);
+//  pinMode(46, INPUT);
   pinMode(28, INPUT);
-  pinMode(5, INPUT);
+
+  //Modified because bluetooth module is not working
+  pinMode(5, INPUT_PULLUP);
 
 
   pinMode(6, OUTPUT);
@@ -38,7 +41,7 @@ void setup() {
   pinMode(32, OUTPUT);
 
   pinMode(42, OUTPUT); // HIGH turntable towards Dispatch
-  pinMode(25, OUTPUT);
+  pinMode(46, OUTPUT);  //46  25
 
   pinMode(34, OUTPUT);
   pinMode(36, OUTPUT); // High towards storage columns
@@ -56,7 +59,7 @@ void setup() {
   digitalWrite(16, LOW);
   digitalWrite(17, LOW);
 
-  Serial.begin(9600);
+//  Serial.begin(9600);
   Serial1.begin(9600);
   Serial2.begin(9600);
   Serial3.begin(9600);
@@ -93,6 +96,7 @@ void setup() {
 
 
   while (digitalRead(35)) {
+    Serial.println("in while loop of 35");
     digitalWrite(32, LOW);
     digitalWrite(30, HIGH);
   }
@@ -100,6 +104,7 @@ void setup() {
   digitalWrite(30, HIGH);
 
   while (digitalRead(38)) {
+    Serial.println("in while loop of 38");
     digitalWrite(26, LOW);
     digitalWrite(24, HIGH);
   }
@@ -107,6 +112,7 @@ void setup() {
   digitalWrite(26, HIGH);
 
   while (digitalRead(27)) {
+    Serial.println("in while loop of 27");
     digitalWrite(36, LOW);
     digitalWrite(34, HIGH);
   }
@@ -114,15 +120,17 @@ void setup() {
   digitalWrite(34, HIGH);
 
   while (digitalRead(21)) {
-    digitalWrite(42, HIGH);
-    digitalWrite(25, LOW);
+    Serial.println("in while loop of 21");
+    digitalWrite(3, HIGH);
+    digitalWrite(13, LOW);
   }
-  digitalWrite(42, HIGH);
-  digitalWrite(25, HIGH);
+  digitalWrite(3, HIGH);
+  digitalWrite(13, HIGH);
   Serial.print("Number of A type in storage: ");
   Serial.println(countA);
   Serial.print("Number of B type in storage: ");
   Serial.println(countB);
+  Serial.println("HiBay setup done");
 }
 
 void loop() {
@@ -139,7 +147,7 @@ void loop() {
   //  }
   //  digitalWrite(32, HIGH);
   //  digitalWrite(30, HIGH);
-
+  
   bluetoothRequest = false;
   //  Serial.println(digitalRead(40));
   Serial.println(state);
@@ -153,9 +161,9 @@ void loop() {
       }
     }
     source = Serial1.read();
-
     if (bluetoothRequest == true) {
       incomingBluetoothMessage = Serial2.read();
+      Serial.println(incomingBluetoothMessage);
       if (incomingBluetoothMessage == 'a') {
         source = 0xa1;
         if (countA == 0) {
@@ -377,7 +385,7 @@ void loop() {
 
   else if (state == 3) {
 
-    digitalWrite(23, HIGH);
+    digitalWrite(42, HIGH);
     digitalWrite(22, LOW);
     while (digitalRead(37)) {
       digitalWrite(30, HIGH);
@@ -398,10 +406,10 @@ void loop() {
     digitalWrite(13, LOW);
     while (digitalRead(21)) {
       digitalWrite(42, HIGH);
-      digitalWrite(25, LOW);
+      digitalWrite(46, LOW);
     }
     digitalWrite(42, HIGH);
-    digitalWrite(25, HIGH);
+    digitalWrite(46, HIGH);
     state = 4;
 
   }
@@ -423,9 +431,9 @@ void loop() {
   else if (state == 5) {
     while (digitalRead(20)) {
       digitalWrite(42, LOW);
-      digitalWrite(25, HIGH);
+      digitalWrite(46, HIGH);
     }
-    digitalWrite(25, HIGH);
+    digitalWrite(46, HIGH);
     digitalWrite(42, HIGH);
 
     digitalWrite(3, LOW);
@@ -438,10 +446,10 @@ void loop() {
       digitalWrite(13, LOW);
       while (digitalRead(21)) {
         digitalWrite(42, HIGH);
-        digitalWrite(25, LOW);
+        digitalWrite(46, LOW);
       }
       digitalWrite(42, HIGH);
-      digitalWrite(25, HIGH);
+      digitalWrite(46, HIGH);
       state = 0;
     }
   }

@@ -34,9 +34,10 @@ void setup() {
 
   radio.begin();
   Serial.begin(9600);
-  radio.setRetries(15, 15);
-  radio.setPALevel(RF24_PA_MIN);
-  radio.openReadingPipe(1, slider[4]);
+  Serial1.begin(9600);
+//  radio.setRetries(15, 15);
+//  radio.setPALevel(RF24_PA_MIN);
+//  radio.openReadingPipe(1, slider[4]);
 
   Braccio.ServoMovement (20, 90, 90, 60, 0, 90, 10); //AGV up + gripper open
   delay(500);
@@ -46,22 +47,25 @@ void loop() {
   /* Sink A to AGV start*/
   Braccio.ServoMovement (20, 90, 90, 60, 0, 90, 10); //AGV up + gripper open
   delay(100);
-  radio.startListening();
+//  radio.startListening();
   Serial.println("Waiting for message");
-  while (!radio.available());
-  radio.read(&rxMessage, sizeof(rxMessage));
-  Serial.print("Received ");
-  Serial.println(rxMessage, HEX);
-  radio.stopListening();
-  if (rxMessage == 0xef) {
-    incomingSink = 'a';
+//  while (!radio.available());
+  while(!Serial.available()){
   }
-  else if (rxMessage == 0xdf) {
-    incomingSink = 'b';
-  }
-  else {
-    incomingSink = '0';
-  }
+  incomingSink = Serial.read();
+//  radio.read(&rxMessage, sizeof(rxMessage));
+//  Serial.print("Received ");
+//  Serial.println(rxMessage, HEX);
+//  radio.stopListening();
+//  if (rxMessage == 0xef) {
+//    incomingSink = 'a';
+//  }
+//  else if (rxMessage == 0xdf) {
+//    incomingSink = 'b';
+//  }
+//  else {
+//    incomingSink = '0';
+//  }
 
   if (incomingSink == 'a') {
   Braccio.ServoMovement (20, 90, 90, 60, 0, 90, 10); //AGV up + gripper open
@@ -75,19 +79,23 @@ void loop() {
   Braccio.ServoMovement (20, 12, 120, 30, 25, 90, 70);   //Sink A up + gripper close
   delay(100);
 
-    txMessage = 0xff;
-    radio.openWritingPipe(dispatchModule[2]);
-    sent = radio.write(&txMessage, sizeof(txMessage));
-    if(sent) {
-      Serial.println("Sent message to sink");
-      incomingSink == '0';
-    }
+//    txMessage = 0xff;
+//    radio.openWritingPipe(dispatchModule[2]);
+//    sent = radio.write(&txMessage, sizeof(txMessage));
+//    if(sent) {
+//      Serial.println("Sent message to sink");
+//      incomingSink == '0';
+//    }
   Braccio.ServoMovement (20, 95, 120, 30, 25, 90, 70); //AGV up + gripper close
   delay(100);
   Braccio.ServoMovement (20, 95, 70, 30, 25, 90, 70); //AGV down + gripper close
   delay(100);
   Braccio.ServoMovement (20, 95, 70, 30, 25, 90, 10); //AGV down + gripper open
   delay(100);
+  Braccio.ServoMovement (20, 90, 90, 60, 0, 90, 10); //AGV up + gripper open
+  delay(100);
+//  delay(1000);
+  Serial1.write('a');
     /* Sink A to AGV end*/
   }
   else if (incomingSink == 'b') {
@@ -103,18 +111,21 @@ void loop() {
   Braccio.ServoMovement (20, 180, 100, 60, 0, 90, 60);   //Sink B up + gripper close
   delay(100);
     txMessage = 0xff;
-    radio.openWritingPipe(dispatchModule[1]);
-    sent = radio.write(&txMessage, sizeof(txMessage));
-    if(sent) {
-      Serial.println("Sent message to sink");
-      incomingSink == '0';
-    }
+//    radio.openWritingPipe(dispatchModule[1]);
+//    sent = radio.write(&txMessage, sizeof(txMessage));
+//    if(sent) {
+//      Serial.println("Sent message to sink");
+//      incomingSink == '0';
+//    }
   Braccio.ServoMovement (20, 85, 100, 60, 0, 90, 60); //AGV up + gripper close
   delay(100);
   Braccio.ServoMovement (20, 95, 65, 40, 15, 90, 60); //AGV down + gripper close
   delay(100);
   Braccio.ServoMovement (20, 95, 65, 40, 15, 90, 10); //AGV down + gripper open
   delay(100);
+  Braccio.ServoMovement (20, 90, 90, 60, 0, 90, 10); //AGV up + gripper open
+  delay(100);
+  Serial1.write('b');
     /* Sink B to AGV end*/
   }
 }

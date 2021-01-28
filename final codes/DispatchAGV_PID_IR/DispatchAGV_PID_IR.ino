@@ -77,16 +77,16 @@ void loop() {
       //Serial.println("PID Left");
       error = -2; //Left
     }
-    //    else if (sensors[0] < sensorLimits[0]  && sensors[1] < sensorLimits[1]
-    //             && sensors[2] < sensorLimits[2] && sensors[3] > sensorLimits[3]
-    //             && sensors[4] > sensorLimits[4]) {
-    //      enablePID = false;
-    //      //Serial.println("PID centre Left Leftmost");
-    //      if (Tjunction == 2) {
-    //        Tjunction = 3;
-    //
-    //      }
-    //    }
+        else if (sensors[0] < sensorLimits[0]  && sensors[1] < sensorLimits[1]
+                 && sensors[2] < sensorLimits[2] && sensors[3] > sensorLimits[3]
+                 && sensors[4] > sensorLimits[4]) {
+          enablePID = false;
+          //Serial.println("PID centre Left Leftmost");
+          if (Tjunction == 2) {
+            Tjunction = 3;
+    
+          }
+        }
     else if (sensors[0] > sensorLimits[0]  && sensors[1] < sensorLimits[1]
              && sensors[2] < sensorLimits[2] && sensors[3] > sensorLimits[3]
              && sensors[4] > sensorLimits[4]) {
@@ -115,14 +115,14 @@ void loop() {
       //Serial.println("PID Right");
       error = 2;  //Right
     }
-    //    else if (sensors[0] > sensorLimits[0]  && sensors[1] > sensorLimits[1]
-    //             && sensors[2] < sensorLimits[2] && sensors[3] < sensorLimits[3]
-    //             && sensors[4] < sensorLimits[4]) {
-    //      enablePID = false;
-    //      if (Tjunction == 2) {
-    //        Tjunction = 3;
-    //      }
-    //    }
+        else if (sensors[0] > sensorLimits[0]  && sensors[1] > sensorLimits[1]
+                 && sensors[2] < sensorLimits[2] && sensors[3] < sensorLimits[3]
+                 && sensors[4] < sensorLimits[4]) {
+          enablePID = false;
+          if (Tjunction == 2) {
+            Tjunction = 3;
+          }
+        }
     else if (sensors[0] > sensorLimits[0]  && sensors[1] > sensorLimits[1]
              && sensors[2] > sensorLimits[2] && sensors[3] < sensorLimits[3]
              && sensors[4] < sensorLimits[4]) {
@@ -314,24 +314,24 @@ void loop() {
             analogWrite(6, 60);
             delay(200);
 
-            //          while (!((sensors[0] > sensorLimits[0]  && sensors[1] > sensorLimits[1]
-            //                    && sensors[2] < sensorLimits[2] && sensors[3] > sensorLimits[3]
-            //                    && sensors[4] > sensorLimits[4])
-            //                   || (sensors[0] > sensorLimits[0]  && sensors[1] < sensorLimits[1]
-            //                       && sensors[2] > sensorLimits[2] && sensors[3] > sensorLimits[3]
-            //                       && sensors[4] > sensorLimits[4])
-            //                   || (sensors[0] > sensorLimits[0]  && sensors[1] > sensorLimits[1]
-            //                       && sensors[2] > sensorLimits[2] && sensors[3] < sensorLimits[3]
-            //                       && sensors[4] > sensorLimits[4]))) {
-            //            for (int i = 0; i < 5; i++) {
-            //              sensors[i] = analogRead(i);
-            //            }
-            //
-            //            digitalWrite(12, LOW);  //Left motor
-            //            analogWrite(5, 100);
-            //            digitalWrite(7, HIGH);   //Right motor
-            //            analogWrite(6, 100);
-            //          }
+                      while (!((sensors[0] > sensorLimits[0]  && sensors[1] > sensorLimits[1]
+                                && sensors[2] < sensorLimits[2] && sensors[3] > sensorLimits[3]
+                                && sensors[4] > sensorLimits[4])
+                               || (sensors[0] > sensorLimits[0]  && sensors[1] < sensorLimits[1]
+                                   && sensors[2] > sensorLimits[2] && sensors[3] > sensorLimits[3]
+                                   && sensors[4] > sensorLimits[4])
+                               || (sensors[0] > sensorLimits[0]  && sensors[1] > sensorLimits[1]
+                                   && sensors[2] > sensorLimits[2] && sensors[3] < sensorLimits[3]
+                                   && sensors[4] > sensorLimits[4]))) {
+                        for (int i = 0; i < 5; i++) {
+                          sensors[i] = analogRead(i);
+                        }
+            
+                        digitalWrite(12, LOW);  //Left motor
+                        analogWrite(5, 100);
+                        digitalWrite(7, HIGH);   //Right motor
+                        analogWrite(6, 100);
+                      }
             error = 0;
             accError = 0;
             prevError = 0;
@@ -346,24 +346,24 @@ void loop() {
             digitalWrite(7, LOW);   //Right motor
             analogWrite(6, 60);
             delay(200);
-            //          while (!((sensors[0] > sensorLimits[0]  && sensors[1] > sensorLimits[1]
-            //                    && sensors[2] < sensorLimits[2] && sensors[3] > sensorLimits[3]
-            //                    && sensors[4] > sensorLimits[4])
-            //                   || (sensors[0] > sensorLimits[0]  && sensors[1] < sensorLimits[1]
-            //                       && sensors[2] > sensorLimits[2] && sensors[3] > sensorLimits[3]
-            //                       && sensors[4] > sensorLimits[4])
-            //                   || (sensors[0] > sensorLimits[0]  && sensors[1] > sensorLimits[1]
-            //                       && sensors[2] > sensorLimits[2] && sensors[3] < sensorLimits[3]
-            //                       && sensors[4] > sensorLimits[4]))) {
-            //            for (int i = 0; i < 5; i++) {
-            //              sensors[i] = analogRead(i);
-            //            }
-            //
-            //            digitalWrite(12, HIGH);  //Left motor
-            //            analogWrite(5, 100);
-            //            digitalWrite(7, LOW);   //Right motor
-            //            analogWrite(6, 100);
-            //          }
+                      while (!((sensors[0] > sensorLimits[0]  && sensors[1] > sensorLimits[1]
+                                && sensors[2] < sensorLimits[2] && sensors[3] > sensorLimits[3]
+                                && sensors[4] > sensorLimits[4])
+                               || (sensors[0] > sensorLimits[0]  && sensors[1] < sensorLimits[1]
+                                   && sensors[2] > sensorLimits[2] && sensors[3] > sensorLimits[3]
+                                   && sensors[4] > sensorLimits[4])
+                               || (sensors[0] > sensorLimits[0]  && sensors[1] > sensorLimits[1]
+                                   && sensors[2] > sensorLimits[2] && sensors[3] < sensorLimits[3]
+                                   && sensors[4] > sensorLimits[4]))) {
+                        for (int i = 0; i < 5; i++) {
+                          sensors[i] = analogRead(i);
+                        }
+            
+                        digitalWrite(12, HIGH);  //Left motor
+                        analogWrite(5, 100);
+                        digitalWrite(7, LOW);   //Right motor
+                        analogWrite(6, 100);
+                      }
 
             error = 0;
             accError = 0;
