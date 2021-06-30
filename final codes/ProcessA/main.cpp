@@ -14,19 +14,24 @@ static int state = 0;
 int state2 = 0;
 uint8_t device_id;
 uint8_t control_info[] = {0x7e};
+uint8_t request_data[] = {0x7d};
+uint8_t pallet_types[] = {0xaa, 0xbb, 0xcc, 0xaf, 0xbf, 0xa0, 0xb0};
 uint8_t sink1[] = {0xd6, 0xd7, 0xd8};
 uint8_t sink2[] = {0xd0, 0xd1, 0xd2};
 uint8_t sink3[] = {0xd3, 0xd4, 0xd5};
+uint8_t hiBay_data[] = {0xa1, 0xa2, 0xa3};
 uint8_t control_data[255];
+char userRequest = '0';
 
 static char tx_stack1[THREAD_STACKSIZE_MAIN];
 static char rx_stack1[THREAD_STACKSIZE_MAIN];
 
 static void on_rx(PLiFi *lifi, const uint8_t *msg, uint8_t len);
 static void control_message(const uint8_t *msg, uint8_t len);
+static void request_message(const uint8_t *msg, uint8_t len);
 static void on_message_for_me(const uint8_t *msg, uint8_t len);
 
-PLiFi lifi1(2, 0, on_rx, NULL);
+PLiFi lifi1(22, 0, on_rx, NULL);
 
 void *tx_loop(void *arg)
 {
@@ -54,6 +59,10 @@ static void on_rx(PLiFi *lifi, const uint8_t *msg, uint8_t len)
         else if (msg[0] == control_info[0])
         {
             control_message(msg + 1, len - 1);
+        }
+        else if (msg[0] == request_data[0])
+        {
+            request_message(msg + 1, len - 1);
         }
         else
         {
@@ -84,12 +93,77 @@ static void control_message(const uint8_t *msg, uint8_t len)
         if (control_data[0] == sink1[1])
         {
             state = 2;
-            state2 = 3;
+            state2 = 4;
         }
         if (control_data[0] == sink1[2])
         {
             state = 3;
             state2 = 0;
+        }
+    }
+    else
+    {
+        Serial.println("Got: Empty message");
+    }
+}
+
+static void request_message(const uint8_t *msg, uint8_t len)
+{
+    if (len > 0)
+    {
+        Serial.print("Got: 0x");
+        for (uint8_t i = 0; i < len - 1; i++)
+        {
+            Serial.print(msg[i], HEX);
+            Serial.print(", 0x");
+        }
+        Serial.println(msg[len - 1], HEX);
+        control_data[0] = msg[len - 1];
+        
+        if (control_data[0] == pallet_types[0])
+        {
+            userRequest = 'a';
+            digitalWrite(23, LOW);  //Red
+            digitalWrite(25, LOW); //Orange
+            digitalWrite(27, HIGH);  //Green
+
+        }
+        else if (control_data[0] == pallet_types[1])
+        {
+            userRequest = 'b';
+            digitalWrite(23, HIGH);  //Red
+            digitalWrite(25, LOW); //Orange
+            digitalWrite(27, LOW);  //Green
+        }
+        else if (control_data[0] == pallet_types[2])
+        {
+            userRequest = 'c';
+            digitalWrite(23, HIGH);  //Red
+            digitalWrite(25, LOW); //Orange
+            digitalWrite(27, LOW);  //Green
+        }
+        else if (control_data[0] == pallet_types[3])
+        {
+            userRequest = '1';
+            digitalWrite(23, HIGH);  //Red
+            digitalWrite(25, LOW); //Orange
+            digitalWrite(27, LOW);  //Green
+        }
+        if (control_data[0] == pallet_types[5])
+        {
+            userRequest = '0';
+            digitalWrite(23, LOW);  //Red
+            digitalWrite(25, HIGH); //Orange
+            digitalWrite(27, LOW);  //Green
+        }
+        if (control_data[0] == hiBay_data[2])
+        {
+            if(userRequest != '1') {
+                userRequest = '0';
+                digitalWrite(23, LOW);  //Red
+                digitalWrite(25, HIGH); //Orange
+                digitalWrite(27, LOW);  //Green
+            }
         }
     }
     else
@@ -145,13 +219,25 @@ void setup()
                   THREAD_CREATE_STACKTEST, rx_loop, &lifi1, "rx1");
     delay(1);
 
-    pinMode(4, INPUT);
-    pinMode(5, INPUT);
-    pinMode(8, OUTPUT);
+    pinMode(2, INPUT);
+    pinMode(3, INPUT);
+    pinMode(6, OUTPUT);
     pinMode(9, OUTPUT);
+    pinMode(4, OUTPUT);
 
-    digitalWrite(8, LOW);
-    digitalWrite(9, LOW); //HIGH for forward
+    digitalWrite(4, HIGH);
+
+    digitalWrite(6, LOW); //HIGH for forward
+    digitalWrite(9, LOW);
+
+    pinMode(23, OUTPUT);
+    pinMode(25, OUTPUT);
+    pinMode(27, OUTPUT);
+
+    digitalWrite(23, LOW);  //Red
+    digitalWrite(25, HIGH);  //Orange
+    digitalWrite(27, LOW);  //Green
+
     Serial.println("setup() done");
 }
 
@@ -163,14 +249,14 @@ void loop()
 {
     uint8_t msg[2];
 
-    startSensor = digitalRead(4);
-    endSensor = digitalRead(5);
+    startSensor = digitalRead(2);
+    endSensor = digitalRead(3);
 
     // if(endSensor!=digitalRead(5)) {
     //     messageSent = false;
     // }
 
-    if (startSensor)
+    if (startSensor && (userRequest == '0' || userRequest == 'a'))
     {
         state2 = 1;
     }
@@ -182,15 +268,19 @@ void loop()
     switch (state2)
     {
     case 0:
-        digitalWrite(8, LOW);
+        digitalWrite(6, LOW);
         digitalWrite(9, LOW); //HIGH for forward
         break;
     case 1:
-        digitalWrite(8, LOW);
+        digitalWrite(23, LOW);  //Red
+        digitalWrite(25, LOW); //Orange
+        digitalWrite(27, HIGH);  //Green
+
+        digitalWrite(6, LOW);
         digitalWrite(9, HIGH); //HIGH for forward
         break;
     case 2:
-        digitalWrite(8, LOW);
+        digitalWrite(6, LOW);
         digitalWrite(9, LOW); //HIGH for forward
 
         msg[0] = control_info[0];
@@ -201,10 +291,14 @@ void loop()
         }
         messageSent = true;
         Serial.println("Message 0x7e sent");
-        state2 = 0;
+        state2 = 3;
         break;
     case 3:
-        digitalWrite(8, LOW);
+        digitalWrite(6, LOW);
+        digitalWrite(9, LOW); //HIGH for forward
+        break;
+    case 4:
+        digitalWrite(6, LOW);
         digitalWrite(9, HIGH); //HIGH for forward
         break;
     }

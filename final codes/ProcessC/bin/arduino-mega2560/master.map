@@ -962,10 +962,6 @@ Discarded input sections
                 0x0000000000000000       0x28 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
  .text._ZN10SerialPort7printlnEl12SerialFormat
                 0x0000000000000000       0x28 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
- .text._ZN10SerialPort5printEi
-                0x0000000000000000        0xc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
- .text._ZN10SerialPort7printlnEi
-                0x0000000000000000       0x28 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
  .text._ZN10SerialPort5printEl
                 0x0000000000000000        0x4 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
  .text._ZN10SerialPort7printlnEl
@@ -4443,7 +4439,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x0000000000000000     0x4656
+.text           0x0000000000000000     0x483a
  *(.vectors)
  .vectors       0x0000000000000000       0xe4 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr6/crtatmega2560.o
                 0x0000000000000000                __vectors
@@ -4583,534 +4579,540 @@ END GROUP
                 0x0000000000000246        0xa /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
                 0x0000000000000246                _Z7rx_loopPv
  .text._ZL5on_rxP5PLiFiPKhh
-                0x0000000000000250      0x14c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
+                0x0000000000000250      0x23c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
  .text._Z5setupv
-                0x000000000000039c       0xfa /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
-                0x000000000000039c                _Z5setupv
+                0x000000000000048c      0x15a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
+                0x000000000000048c                _Z5setupv
  .text._Z4loopv
-                0x0000000000000496      0x108 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
-                0x0000000000000496                _Z4loopv
+                0x00000000000005e6      0x168 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
+                0x00000000000005e6                _Z4loopv
  .text.startup._GLOBAL__sub_I_mfrc522
-                0x000000000000059e       0x3a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
+                0x000000000000074e       0x3a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
  .text._ZN7MFRC52219PICC_ReadCardSerialEv
-                0x00000000000005d8       0x20 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
-                0x00000000000005d8                _ZN7MFRC52219PICC_ReadCardSerialEv
+                0x0000000000000788       0x20 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
+                0x0000000000000788                _ZN7MFRC52219PICC_ReadCardSerialEv
  .text._ZN8SPIClass8transferEh
-                0x00000000000005f8       0x24 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
-                0x00000000000005f8                _ZN8SPIClass8transferEh
+                0x00000000000007a8       0x24 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
+                0x00000000000007a8                _ZN8SPIClass8transferEh
  .text._ZN7MFRC52216PCD_ReadRegisterENS_12PCD_RegisterEhPhh.part.0.constprop.7
-                0x000000000000061c       0xfa /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
+                0x00000000000007cc       0xfa /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
  .text._ZN7MFRC522C2Ehh
-                0x0000000000000716       0x10 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
-                0x0000000000000716                _ZN7MFRC522C1Ehh
-                0x0000000000000716                _ZN7MFRC522C2Ehh
+                0x00000000000008c6       0x10 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
+                0x00000000000008c6                _ZN7MFRC522C1Ehh
+                0x00000000000008c6                _ZN7MFRC522C2Ehh
  .text._ZN7MFRC52217PCD_WriteRegisterENS_12PCD_RegisterEh
-                0x0000000000000726       0x88 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
-                0x0000000000000726                _ZN7MFRC52217PCD_WriteRegisterENS_12PCD_RegisterEh
+                0x00000000000008d6       0x88 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
+                0x00000000000008d6                _ZN7MFRC52217PCD_WriteRegisterENS_12PCD_RegisterEh
  .text._ZN7MFRC52217PCD_WriteRegisterENS_12PCD_RegisterEhPh
-                0x00000000000007ae       0xac /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
-                0x00000000000007ae                _ZN7MFRC52217PCD_WriteRegisterENS_12PCD_RegisterEhPh
+                0x000000000000095e       0xac /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
+                0x000000000000095e                _ZN7MFRC52217PCD_WriteRegisterENS_12PCD_RegisterEhPh
  .text._ZN7MFRC52216PCD_ReadRegisterENS_12PCD_RegisterE
-                0x000000000000085a       0x88 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
-                0x000000000000085a                _ZN7MFRC52216PCD_ReadRegisterENS_12PCD_RegisterE
+                0x0000000000000a0a       0x88 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
+                0x0000000000000a0a                _ZN7MFRC52216PCD_ReadRegisterENS_12PCD_RegisterE
  .text._ZN7MFRC52216PCD_ReadRegisterENS_12PCD_RegisterEhPhh
-                0x00000000000008e2        0xc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
-                0x00000000000008e2                _ZN7MFRC52216PCD_ReadRegisterENS_12PCD_RegisterEhPhh
+                0x0000000000000a92        0xc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
+                0x0000000000000a92                _ZN7MFRC52216PCD_ReadRegisterENS_12PCD_RegisterEhPhh
  .text._ZN7MFRC52222PCD_SetRegisterBitMaskENS_12PCD_RegisterEh
-                0x00000000000008ee       0x26 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
-                0x00000000000008ee                _ZN7MFRC52222PCD_SetRegisterBitMaskENS_12PCD_RegisterEh
+                0x0000000000000a9e       0x26 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
+                0x0000000000000a9e                _ZN7MFRC52222PCD_SetRegisterBitMaskENS_12PCD_RegisterEh
  .text._ZN7MFRC52224PCD_ClearRegisterBitMaskENS_12PCD_RegisterEh
-                0x0000000000000914       0x28 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
-                0x0000000000000914                _ZN7MFRC52224PCD_ClearRegisterBitMaskENS_12PCD_RegisterEh
+                0x0000000000000ac4       0x28 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
+                0x0000000000000ac4                _ZN7MFRC52224PCD_ClearRegisterBitMaskENS_12PCD_RegisterEh
  .text._ZN7MFRC52216PCD_CalculateCRCEPhhS0_
-                0x000000000000093c       0x9a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
-                0x000000000000093c                _ZN7MFRC52216PCD_CalculateCRCEPhhS0_
+                0x0000000000000aec       0x9a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
+                0x0000000000000aec                _ZN7MFRC52216PCD_CalculateCRCEPhhS0_
  .text._ZN7MFRC5229PCD_ResetEv
-                0x00000000000009d6       0x36 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
-                0x00000000000009d6                _ZN7MFRC5229PCD_ResetEv
+                0x0000000000000b86       0x36 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
+                0x0000000000000b86                _ZN7MFRC5229PCD_ResetEv
  .text._ZN7MFRC52213PCD_AntennaOnEv
-                0x0000000000000a0c       0x2a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
-                0x0000000000000a0c                _ZN7MFRC52213PCD_AntennaOnEv
+                0x0000000000000bbc       0x2a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
+                0x0000000000000bbc                _ZN7MFRC52213PCD_AntennaOnEv
  .text._ZN7MFRC5228PCD_InitEv
-                0x0000000000000a36       0xe6 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
-                0x0000000000000a36                _ZN7MFRC5228PCD_InitEv
+                0x0000000000000be6       0xe6 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
+                0x0000000000000be6                _ZN7MFRC5228PCD_InitEv
  .text._ZN7MFRC52223PCD_CommunicateWithPICCEhhPhhS0_S0_S0_hb
-                0x0000000000000b1c      0x1a8 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
-                0x0000000000000b1c                _ZN7MFRC52223PCD_CommunicateWithPICCEhhPhhS0_S0_S0_hb
+                0x0000000000000ccc      0x1a8 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
+                0x0000000000000ccc                _ZN7MFRC52223PCD_CommunicateWithPICCEhhPhhS0_S0_S0_hb
  .text._ZN7MFRC52218PCD_TransceiveDataEPhhS0_S0_S0_hb
-                0x0000000000000cc4       0x3e /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
-                0x0000000000000cc4                _ZN7MFRC52218PCD_TransceiveDataEPhhS0_S0_S0_hb
+                0x0000000000000e74       0x3e /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
+                0x0000000000000e74                _ZN7MFRC52218PCD_TransceiveDataEPhhS0_S0_S0_hb
  .text._ZN7MFRC52211PICC_SelectEPNS_3UidEh
-                0x0000000000000d02      0x30a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
-                0x0000000000000d02                _ZN7MFRC52211PICC_SelectEPNS_3UidEh
+                0x0000000000000eb2      0x30a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
+                0x0000000000000eb2                _ZN7MFRC52211PICC_SelectEPNS_3UidEh
  .text._ZN7MFRC52217PICC_REQA_or_WUPAEhPhS0_
-                0x000000000000100c       0xa2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
-                0x000000000000100c                _ZN7MFRC52217PICC_REQA_or_WUPAEhPhS0_
+                0x00000000000011bc       0xa2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
+                0x00000000000011bc                _ZN7MFRC52217PICC_REQA_or_WUPAEhPhS0_
  .text._ZN7MFRC52213PICC_RequestAEPhS0_
-                0x00000000000010ae        0xa /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
-                0x00000000000010ae                _ZN7MFRC52213PICC_RequestAEPhS0_
+                0x000000000000125e        0xa /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
+                0x000000000000125e                _ZN7MFRC52213PICC_RequestAEPhS0_
  .text._ZN7MFRC52221PICC_IsNewCardPresentEv
-                0x00000000000010b8       0x62 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
-                0x00000000000010b8                _ZN7MFRC52221PICC_IsNewCardPresentEv
+                0x0000000000001268       0x62 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
+                0x0000000000001268                _ZN7MFRC52221PICC_IsNewCardPresentEv
  .text.startup._GLOBAL__sub_I__ZN7MFRC522C2Ev
-                0x000000000000111a        0xc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
+                0x00000000000012ca        0xc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
  .text._ZN5PLiFiC2EijPFvPS_PKhhEPFvS0_E
-                0x0000000000001126       0x36 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/PLiFi.o
-                0x0000000000001126                _ZN5PLiFiC1EijPFvPS_PKhhEPFvS0_E
-                0x0000000000001126                _ZN5PLiFiC2EijPFvPS_PKhhEPFvS0_E
+                0x00000000000012d6       0x36 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/PLiFi.o
+                0x00000000000012d6                _ZN5PLiFiC1EijPFvPS_PKhhEPFvS0_E
+                0x00000000000012d6                _ZN5PLiFiC2EijPFvPS_PKhhEPFvS0_E
  .text._ZN5PLiFi9send_dataEPKhh
-                0x000000000000115c       0x7c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/PLiFi.o
-                0x000000000000115c                _ZN5PLiFi9send_dataEPKhh
+                0x000000000000130c       0x7c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/PLiFi.o
+                0x000000000000130c                _ZN5PLiFi9send_dataEPKhh
  .text._ZN5PLiFi7tx_loopEv
-                0x00000000000011d8       0x6a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/PLiFi.o
-                0x00000000000011d8                _ZN5PLiFi7tx_loopEv
+                0x0000000000001388       0x6a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/PLiFi.o
+                0x0000000000001388                _ZN5PLiFi7tx_loopEv
  .text._ZN5PLiFi7rx_loopEv
-                0x0000000000001242       0x46 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/PLiFi.o
-                0x0000000000001242                _ZN5PLiFi7rx_loopEv
+                0x00000000000013f2       0x46 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/PLiFi.o
+                0x00000000000013f2                _ZN5PLiFi7rx_loopEv
  .text.startup._GLOBAL__sub_I__ZN5PLiFiC2EijPFvPS_PKhhEPFvS0_E
-                0x0000000000001288        0xc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/PLiFi.o
+                0x0000000000001438        0xc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/PLiFi.o
  .text._ZN4LiFiC2Eij
-                0x0000000000001294       0x36 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
-                0x0000000000001294                _ZN4LiFiC1Eij
-                0x0000000000001294                _ZN4LiFiC2Eij
+                0x0000000000001444       0x36 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
+                0x0000000000001444                _ZN4LiFiC1Eij
+                0x0000000000001444                _ZN4LiFiC2Eij
  .text._ZN4LiFi10tick_startEv
-                0x00000000000012ca       0x18 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
-                0x00000000000012ca                _ZN4LiFi10tick_startEv
+                0x000000000000147a       0x18 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
+                0x000000000000147a                _ZN4LiFi10tick_startEv
  .text._ZN4LiFi4tickEh
-                0x00000000000012e2       0x76 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
-                0x00000000000012e2                _ZN4LiFi4tickEh
+                0x0000000000001492       0x76 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
+                0x0000000000001492                _ZN4LiFi4tickEh
  .text._ZN4LiFi7man_oneEv
-                0x0000000000001358       0x32 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
-                0x0000000000001358                _ZN4LiFi7man_oneEv
+                0x0000000000001508       0x32 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
+                0x0000000000001508                _ZN4LiFi7man_oneEv
  .text._ZN4LiFi8man_zeroEv
-                0x000000000000138a       0x32 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
-                0x000000000000138a                _ZN4LiFi8man_zeroEv
+                0x000000000000153a       0x32 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
+                0x000000000000153a                _ZN4LiFi8man_zeroEv
  .text._ZN4LiFi9send_byteEhh
-                0x00000000000013bc       0x5a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
-                0x00000000000013bc                _ZN4LiFi9send_byteEhh
+                0x000000000000156c       0x5a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
+                0x000000000000156c                _ZN4LiFi9send_byteEhh
  .text._ZN4LiFi9send_syncEv
-                0x0000000000001416       0x2c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
-                0x0000000000001416                _ZN4LiFi9send_syncEv
+                0x00000000000015c6       0x2c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
+                0x00000000000015c6                _ZN4LiFi9send_syncEv
  .text._ZN4LiFi14send_delimiterEv
-                0x0000000000001442       0x4c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
-                0x0000000000001442                _ZN4LiFi14send_delimiterEv
+                0x00000000000015f2       0x4c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
+                0x00000000000015f2                _ZN4LiFi14send_delimiterEv
  .text._ZN4LiFi9send_dataEPKhh
-                0x000000000000148e       0x7e /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
-                0x000000000000148e                _ZN4LiFi9send_dataEPKhh
+                0x000000000000163e       0x7e /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
+                0x000000000000163e                _ZN4LiFi9send_dataEPKhh
  .text._ZN4LiFi14get_classifierEv
-                0x000000000000150c       0x8a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
-                0x000000000000150c                _ZN4LiFi14get_classifierEv
+                0x00000000000016bc       0x8a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
+                0x00000000000016bc                _ZN4LiFi14get_classifierEv
  .text._ZN4LiFi9get_levelEv
-                0x0000000000001596       0x66 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
-                0x0000000000001596                _ZN4LiFi9get_levelEv
+                0x0000000000001746       0x66 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
+                0x0000000000001746                _ZN4LiFi9get_levelEv
  .text._ZN4LiFi10sync_clockEv
-                0x00000000000015fc       0x7e /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
-                0x00000000000015fc                _ZN4LiFi10sync_clockEv
+                0x00000000000017ac       0x7e /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
+                0x00000000000017ac                _ZN4LiFi10sync_clockEv
  .text._ZN4LiFi7get_bitEv
-                0x000000000000167a       0x90 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
-                0x000000000000167a                _ZN4LiFi7get_bitEv
+                0x000000000000182a       0x90 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
+                0x000000000000182a                _ZN4LiFi7get_bitEv
  .text._ZN4LiFi14skip_till_zeroEv
-                0x000000000000170a       0x1e /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
-                0x000000000000170a                _ZN4LiFi14skip_till_zeroEv
+                0x00000000000018ba       0x1e /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
+                0x00000000000018ba                _ZN4LiFi14skip_till_zeroEv
  .text._ZN4LiFi13get_delimeterEv
-                0x0000000000001728       0x56 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
-                0x0000000000001728                _ZN4LiFi13get_delimeterEv
+                0x00000000000018d8       0x56 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
+                0x00000000000018d8                _ZN4LiFi13get_delimeterEv
  .text._ZN4LiFi8get_byteEPh
-                0x000000000000177e       0xac /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
-                0x000000000000177e                _ZN4LiFi8get_byteEPh
+                0x000000000000192e       0xac /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
+                0x000000000000192e                _ZN4LiFi8get_byteEPh
  .text._ZN4LiFi13receive_frameEPhh
-                0x000000000000182a       0x50 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
-                0x000000000000182a                _ZN4LiFi13receive_frameEPhh
+                0x00000000000019da       0x50 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
+                0x00000000000019da                _ZN4LiFi13receive_frameEPhh
  .text._ZN4LiFi7receiveEPhh
-                0x000000000000187a       0xc6 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
-                0x000000000000187a                _ZN4LiFi7receiveEPhh
+                0x0000000000001a2a       0xc6 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
+                0x0000000000001a2a                _ZN4LiFi7receiveEPhh
  .text.startup._GLOBAL__sub_I_debug_str_buf
-                0x0000000000001940        0xc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
+                0x0000000000001af0        0xc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
  .text._Z11crc16_ccittPKhh
-                0x000000000000194c       0x30 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/crc16_ccitt.o
-                0x000000000000194c                _Z11crc16_ccittPKhh
+                0x0000000000001afc       0x30 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/crc16_ccitt.o
+                0x0000000000001afc                _Z11crc16_ccittPKhh
  .text._Z7pinModeii
-                0x000000000000197c       0x22 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/base.o
-                0x000000000000197c                _Z7pinModeii
+                0x0000000000001b2c       0x22 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/base.o
+                0x0000000000001b2c                _Z7pinModeii
  .text._Z12digitalWriteii
-                0x000000000000199e        0xc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/base.o
-                0x000000000000199e                _Z12digitalWriteii
+                0x0000000000001b4e        0xc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/base.o
+                0x0000000000001b4e                _Z12digitalWriteii
  .text._Z11digitalReadi
-                0x00000000000019aa       0x1c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/base.o
-                0x00000000000019aa                _Z11digitalReadi
+                0x0000000000001b5a       0x1c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/base.o
+                0x0000000000001b5a                _Z11digitalReadi
  .text._Z5delaym
-                0x00000000000019c6       0x24 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/base.o
-                0x00000000000019c6                _Z5delaym
+                0x0000000000001b76       0x24 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/base.o
+                0x0000000000001b76                _Z5delaym
  .text._Z17delayMicrosecondsm
-                0x00000000000019ea       0x18 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/base.o
-                0x00000000000019ea                _Z17delayMicrosecondsm
+                0x0000000000001b9a       0x18 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/base.o
+                0x0000000000001b9a                _Z17delayMicrosecondsm
  .text._Z6microsv
-                0x0000000000001a02       0x14 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/base.o
-                0x0000000000001a02                _Z6microsv
+                0x0000000000001bb2       0x14 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/base.o
+                0x0000000000001bb2                _Z6microsv
  .text.startup._GLOBAL__sub_I__Z7pinModeii
-                0x0000000000001a16        0xc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/base.o
+                0x0000000000001bc6        0xc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/base.o
  .text._ZN10SerialPortC2Ej
-                0x0000000000001a22        0x8 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
-                0x0000000000001a22                _ZN10SerialPortC2Ej
-                0x0000000000001a22                _ZN10SerialPortC1Ej
+                0x0000000000001bd2        0x8 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
+                0x0000000000001bd2                _ZN10SerialPortC2Ej
+                0x0000000000001bd2                _ZN10SerialPortC1Ej
  .text._ZN10SerialPort5writeEPKc
-                0x0000000000001a2a       0x2e /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
-                0x0000000000001a2a                _ZN10SerialPort5writeEPKc
+                0x0000000000001bda       0x2e /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
+                0x0000000000001bda                _ZN10SerialPort5writeEPKc
  .text._ZN10SerialPort5printEPKc
-                0x0000000000001a58        0x4 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
-                0x0000000000001a58                _ZN10SerialPort5printEPKc
+                0x0000000000001c08        0x4 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
+                0x0000000000001c08                _ZN10SerialPort5printEPKc
  .text._ZN10SerialPort7printlnEPKc
-                0x0000000000001a5c       0x28 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
-                0x0000000000001a5c                _ZN10SerialPort7printlnEPKc
+                0x0000000000001c0c       0x28 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
+                0x0000000000001c0c                _ZN10SerialPort7printlnEPKc
  .text._ZN10SerialPort5writeEPci
-                0x0000000000001a84       0x18 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
-                0x0000000000001a84                _ZN10SerialPort5writeEPci
+                0x0000000000001c34       0x18 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
+                0x0000000000001c34                _ZN10SerialPort5writeEPci
  .text._ZN10SerialPort5printEm12SerialFormat
-                0x0000000000001a9c      0x14e /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
-                0x0000000000001a9c                _ZN10SerialPort5printEm12SerialFormat
+                0x0000000000001c4c      0x14e /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
+                0x0000000000001c4c                _ZN10SerialPort5printEm12SerialFormat
  .text._ZN10SerialPort5printEl12SerialFormat.part.0
-                0x0000000000001bea       0x7a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
+                0x0000000000001d9a       0x7a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
  .text._ZN10SerialPort5printEl12SerialFormat
-                0x0000000000001c64        0xc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
-                0x0000000000001c64                _ZN10SerialPort5printEl12SerialFormat
+                0x0000000000001e14        0xc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
+                0x0000000000001e14                _ZN10SerialPort5printEl12SerialFormat
  .text._ZN10SerialPort5printEi12SerialFormat
-                0x0000000000001c70       0x1c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
-                0x0000000000001c70                _ZN10SerialPort5printEi12SerialFormat
+                0x0000000000001e20       0x1c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
+                0x0000000000001e20                _ZN10SerialPort5printEi12SerialFormat
  .text._ZN10SerialPort7printlnEi12SerialFormat
-                0x0000000000001c8c       0x28 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
-                0x0000000000001c8c                _ZN10SerialPort7printlnEi12SerialFormat
+                0x0000000000001e3c       0x28 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
+                0x0000000000001e3c                _ZN10SerialPort7printlnEi12SerialFormat
+ .text._ZN10SerialPort5printEi
+                0x0000000000001e64        0xc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
+                0x0000000000001e64                _ZN10SerialPort5printEi
+ .text._ZN10SerialPort7printlnEi
+                0x0000000000001e70       0x28 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
+                0x0000000000001e70                _ZN10SerialPort7printlnEi
  .text._ZN11SPISettingsC2Emhh
-                0x0000000000001cb4       0x8a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/SPI.o
-                0x0000000000001cb4                _ZN11SPISettingsC2Emhh
-                0x0000000000001cb4                _ZN11SPISettingsC1Emhh
+                0x0000000000001e98       0x8a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/SPI.o
+                0x0000000000001e98                _ZN11SPISettingsC2Emhh
+                0x0000000000001e98                _ZN11SPISettingsC1Emhh
  .text._ZN11SPISettingsC2Ev
-                0x0000000000001d3e       0x16 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/SPI.o
-                0x0000000000001d3e                _ZN11SPISettingsC1Ev
-                0x0000000000001d3e                _ZN11SPISettingsC2Ev
+                0x0000000000001f22       0x16 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/SPI.o
+                0x0000000000001f22                _ZN11SPISettingsC1Ev
+                0x0000000000001f22                _ZN11SPISettingsC2Ev
  .text._ZN8SPIClassC2Ej
-                0x0000000000001d54       0x56 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/SPI.o
-                0x0000000000001d54                _ZN8SPIClassC1Ej
-                0x0000000000001d54                _ZN8SPIClassC2Ej
+                0x0000000000001f38       0x56 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/SPI.o
+                0x0000000000001f38                _ZN8SPIClassC1Ej
+                0x0000000000001f38                _ZN8SPIClassC2Ej
  .text._ZN8SPIClass16beginTransactionE11SPISettings
-                0x0000000000001daa       0x3e /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/SPI.o
-                0x0000000000001daa                _ZN8SPIClass16beginTransactionE11SPISettings
+                0x0000000000001f8e       0x3e /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/SPI.o
+                0x0000000000001f8e                _ZN8SPIClass16beginTransactionE11SPISettings
  .text._ZN8SPIClass14endTransactionEv
-                0x0000000000001de8       0x1c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/SPI.o
-                0x0000000000001de8                _ZN8SPIClass14endTransactionEv
+                0x0000000000001fcc       0x1c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/SPI.o
+                0x0000000000001fcc                _ZN8SPIClass14endTransactionEv
  .text._ZN8SPIClass8transferEPvj
-                0x0000000000001e04       0x82 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/SPI.o
-                0x0000000000001e04                _ZN8SPIClass8transferEPvj
+                0x0000000000001fe8       0x82 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/SPI.o
+                0x0000000000001fe8                _ZN8SPIClass8transferEPvj
  .text.startup._GLOBAL__sub_I__ZN11SPISettingsC2Emhh
-                0x0000000000001e86        0xc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/SPI.o
+                0x000000000000206a        0xc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/SPI.o
  .text.irq_disable
-                0x0000000000001e92        0xc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/irq_arch.o
-                0x0000000000001e92                irq_disable
+                0x0000000000002076        0xc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/irq_arch.o
+                0x0000000000002076                irq_disable
  .text.irq_enable
-                0x0000000000001e9e        0xc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/irq_arch.o
-                0x0000000000001e9e                irq_enable
+                0x0000000000002082        0xc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/irq_arch.o
+                0x0000000000002082                irq_enable
  .text.irq_restore
-                0x0000000000001eaa       0x14 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/irq_arch.o
-                0x0000000000001eaa                irq_restore
+                0x000000000000208e       0x14 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/irq_arch.o
+                0x000000000000208e                irq_restore
  .text.irq_is_in
-                0x0000000000001ebe        0x8 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/irq_arch.o
-                0x0000000000001ebe                irq_is_in
+                0x00000000000020a2        0x8 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/irq_arch.o
+                0x00000000000020a2                irq_is_in
  .text._rx_isr_handler
-                0x0000000000001ec6       0x3a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/uart.o
+                0x00000000000020aa       0x3a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/uart.o
  .text.uart_init
-                0x0000000000001f00       0xb4 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/uart.o
-                0x0000000000001f00                uart_init
+                0x00000000000020e4       0xb4 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/uart.o
+                0x00000000000020e4                uart_init
  .text.uart_write
-                0x0000000000001fb4       0x46 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/uart.o
-                0x0000000000001fb4                uart_write
+                0x0000000000002198       0x46 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/uart.o
+                0x0000000000002198                uart_write
  .text.__vector_25
-                0x0000000000001ffa       0x54 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/uart.o
-                0x0000000000001ffa                __vector_25
+                0x00000000000021de       0x54 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/uart.o
+                0x00000000000021de                __vector_25
  .text.__vector_36
-                0x000000000000204e       0x54 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/uart.o
-                0x000000000000204e                __vector_36
+                0x0000000000002232       0x54 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/uart.o
+                0x0000000000002232                __vector_36
  .text.__vector_27
-                0x00000000000020a2       0x60 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/uart.o
-                0x00000000000020a2                __vector_27
+                0x0000000000002286       0x60 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/uart.o
+                0x0000000000002286                __vector_27
  .text.__vector_38
-                0x0000000000002102       0x60 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/uart.o
-                0x0000000000002102                __vector_38
+                0x00000000000022e6       0x60 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/uart.o
+                0x00000000000022e6                __vector_38
  .text.atmega_port_addr
-                0x0000000000002162       0x1c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/gpio.o
+                0x0000000000002346       0x1c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/gpio.o
  .text.gpio_init
-                0x000000000000217e       0x6a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/gpio.o
-                0x000000000000217e                gpio_init
+                0x0000000000002362       0x6a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/gpio.o
+                0x0000000000002362                gpio_init
  .text.gpio_read
-                0x00000000000021e8       0x28 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/gpio.o
-                0x00000000000021e8                gpio_read
+                0x00000000000023cc       0x28 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/gpio.o
+                0x00000000000023cc                gpio_read
  .text.gpio_set
-                0x0000000000002210       0x22 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/gpio.o
-                0x0000000000002210                gpio_set
+                0x00000000000023f4       0x22 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/gpio.o
+                0x00000000000023f4                gpio_set
  .text.gpio_clear
-                0x0000000000002232       0x28 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/gpio.o
-                0x0000000000002232                gpio_clear
+                0x0000000000002416       0x28 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/gpio.o
+                0x0000000000002416                gpio_clear
  .text.gpio_write
-                0x000000000000225a        0xc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/gpio.o
-                0x000000000000225a                gpio_write
+                0x000000000000243e        0xc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/gpio.o
+                0x000000000000243e                gpio_write
  .text.spi_init_pins
-                0x0000000000002266        0x8 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/spi.o
-                0x0000000000002266                spi_init_pins
+                0x000000000000244a        0x8 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/spi.o
+                0x000000000000244a                spi_init_pins
  .text.spi_init
-                0x000000000000226e       0x20 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/spi.o
-                0x000000000000226e                spi_init
+                0x0000000000002452       0x20 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/spi.o
+                0x0000000000002452                spi_init
  .text.spi_acquire
-                0x000000000000228e       0x3c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/spi.o
-                0x000000000000228e                spi_acquire
+                0x0000000000002472       0x3c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/spi.o
+                0x0000000000002472                spi_acquire
  .text.spi_release
-                0x00000000000022ca       0x18 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/spi.o
-                0x00000000000022ca                spi_release
+                0x00000000000024ae       0x18 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/spi.o
+                0x00000000000024ae                spi_release
  .text.spi_transfer_bytes
-                0x00000000000022e2       0x96 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/spi.o
-                0x00000000000022e2                spi_transfer_bytes
- .text._isr     0x0000000000002378       0x52 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/timer.o
+                0x00000000000024c6       0x96 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/spi.o
+                0x00000000000024c6                spi_transfer_bytes
+ .text._isr     0x000000000000255c       0x52 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/timer.o
  .text.timer_init
-                0x00000000000023ca       0xa8 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/timer.o
-                0x00000000000023ca                timer_init
+                0x00000000000025ae       0xa8 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/timer.o
+                0x00000000000025ae                timer_init
  .text.timer_set_absolute
-                0x0000000000002472       0x62 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/timer.o
-                0x0000000000002472                timer_set_absolute
+                0x0000000000002656       0x62 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/timer.o
+                0x0000000000002656                timer_set_absolute
  .text.timer_read
-                0x00000000000024d4       0x20 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/timer.o
-                0x00000000000024d4                timer_read
+                0x00000000000026b8       0x20 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/timer.o
+                0x00000000000026b8                timer_read
  .text.__vector_17
-                0x00000000000024f4       0x58 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/timer.o
-                0x00000000000024f4                __vector_17
+                0x00000000000026d8       0x58 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/timer.o
+                0x00000000000026d8                __vector_17
  .text.__vector_18
-                0x000000000000254c       0x58 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/timer.o
-                0x000000000000254c                __vector_18
+                0x0000000000002730       0x58 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/timer.o
+                0x0000000000002730                __vector_18
  .text.__vector_19
-                0x00000000000025a4       0x58 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/timer.o
-                0x00000000000025a4                __vector_19
+                0x0000000000002788       0x58 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/timer.o
+                0x0000000000002788                __vector_19
  .text.__vector_42
-                0x00000000000025fc       0x58 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/timer.o
-                0x00000000000025fc                __vector_42
+                0x00000000000027e0       0x58 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/timer.o
+                0x00000000000027e0                __vector_42
  .text.__vector_43
-                0x0000000000002654       0x58 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/timer.o
-                0x0000000000002654                __vector_43
+                0x0000000000002838       0x58 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/timer.o
+                0x0000000000002838                __vector_43
  .text.__vector_44
-                0x00000000000026ac       0x58 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/timer.o
-                0x00000000000026ac                __vector_44
- .text._prep    0x0000000000002704       0x18 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/adc.o
+                0x0000000000002890       0x58 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/timer.o
+                0x0000000000002890                __vector_44
+ .text._prep    0x00000000000028e8       0x18 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/adc.o
  .text.adc_init
-                0x000000000000271c      0x11e /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/adc.o
-                0x000000000000271c                adc_init
+                0x0000000000002900      0x11e /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/adc.o
+                0x0000000000002900                adc_init
  .text.adc_sample
-                0x000000000000283a       0x98 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/adc.o
-                0x000000000000283a                adc_sample
+                0x0000000000002a1e       0x98 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/adc.o
+                0x0000000000002a1e                adc_sample
  .text.board_init
-                0x00000000000028d2       0x16 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/boards_common_atmega/board.o
-                0x00000000000028d2                board_init
+                0x0000000000002ab6       0x16 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/boards_common_atmega/board.o
+                0x0000000000002ab6                board_init
  .text._mutex_lock
-                0x00000000000028e8       0x8a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/mutex.o
-                0x00000000000028e8                _mutex_lock
+                0x0000000000002acc       0x8a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/mutex.o
+                0x0000000000002acc                _mutex_lock
  .text.mutex_unlock
-                0x0000000000002972       0x82 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/mutex.o
-                0x0000000000002972                mutex_unlock
+                0x0000000000002b56       0x82 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/mutex.o
+                0x0000000000002b56                mutex_unlock
  .text.sched_run
-                0x00000000000029f4       0x7e /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/sched.o
-                0x00000000000029f4                sched_run
+                0x0000000000002bd8       0x7e /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/sched.o
+                0x0000000000002bd8                sched_run
  .text.sched_set_status
-                0x0000000000002a72      0x122 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/sched.o
-                0x0000000000002a72                sched_set_status
+                0x0000000000002c56      0x122 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/sched.o
+                0x0000000000002c56                sched_set_status
  .text.sched_switch
-                0x0000000000002b94       0x34 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/sched.o
-                0x0000000000002b94                sched_switch
+                0x0000000000002d78       0x34 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/sched.o
+                0x0000000000002d78                sched_switch
  .text.sched_task_exit
-                0x0000000000002bc8       0x44 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/sched.o
-                0x0000000000002bc8                sched_task_exit
- .text._lock    0x0000000000002c0c       0x82 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/rmutex.o
+                0x0000000000002dac       0x44 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/sched.o
+                0x0000000000002dac                sched_task_exit
+ .text._lock    0x0000000000002df0       0x82 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/rmutex.o
  .text.rmutex_lock
-                0x0000000000002c8e        0x8 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/rmutex.o
-                0x0000000000002c8e                rmutex_lock
+                0x0000000000002e72        0x8 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/rmutex.o
+                0x0000000000002e72                rmutex_lock
  .text.rmutex_unlock
-                0x0000000000002c96       0x6a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/rmutex.o
-                0x0000000000002c96                rmutex_unlock
+                0x0000000000002e7a       0x6a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/rmutex.o
+                0x0000000000002e7a                rmutex_unlock
  .text.__atomic_load_2
-                0x0000000000002d00       0x1c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/atomic_c11.o
-                0x0000000000002d00                __atomic_load_2
+                0x0000000000002ee4       0x1c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/atomic_c11.o
+                0x0000000000002ee4                __atomic_load_2
  .text.__atomic_store_2
-                0x0000000000002d1c       0x20 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/atomic_c11.o
-                0x0000000000002d1c                __atomic_store_2
+                0x0000000000002f00       0x20 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/atomic_c11.o
+                0x0000000000002f00                __atomic_store_2
  .text.thread_add_to_list
-                0x0000000000002d3c       0x42 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/thread.o
-                0x0000000000002d3c                thread_add_to_list
+                0x0000000000002f20       0x42 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/thread.o
+                0x0000000000002f20                thread_add_to_list
  .text.thread_create
-                0x0000000000002d7e      0x17c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/thread.o
-                0x0000000000002d7e                thread_create
+                0x0000000000002f62      0x17c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/thread.o
+                0x0000000000002f62                thread_create
  .text.main_trampoline
-                0x0000000000002efa       0x1e /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/init.o
+                0x00000000000030de       0x1e /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/init.o
  .text.idle_thread
-                0x0000000000002f18        0x6 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/init.o
+                0x00000000000030fc        0x6 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/init.o
  .text.kernel_init
-                0x0000000000002f1e       0x48 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/init.o
-                0x0000000000002f1e                kernel_init
+                0x0000000000003102       0x48 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/init.o
+                0x0000000000003102                kernel_init
  .text.panic_arch
-                0x0000000000002f66        0x2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/panic.o
-                0x0000000000002f66                panic_arch
+                0x000000000000314a        0x2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/panic.o
+                0x000000000000314a                panic_arch
  .text.core_panic
-                0x0000000000002f68       0x76 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/panic.o
-                0x0000000000002f68                core_panic
+                0x000000000000314c       0x76 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/panic.o
+                0x000000000000314c                core_panic
  .text._add_timer_to_list
-                0x0000000000002fde       0xe6 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
+                0x00000000000031c2       0xe6 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
  .text._remove_timer_from_list
-                0x00000000000030c4       0x2c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
+                0x00000000000032a8       0x2c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
  .text._xtimer_now64
-                0x00000000000030f0      0x102 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
+                0x00000000000032d4      0x102 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
  .text._schedule_earliest_lltimer.part.0
-                0x00000000000031f2       0x66 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
+                0x00000000000033d6       0x66 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
  .text._xtimer_now
-                0x0000000000003258        0xa /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
-                0x0000000000003258                _xtimer_now
+                0x000000000000343c        0xa /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
+                0x000000000000343c                _xtimer_now
  .text.xtimer_init
-                0x0000000000003262       0x3a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
-                0x0000000000003262                xtimer_init
+                0x0000000000003446       0x3a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
+                0x0000000000003446                xtimer_init
  .text._periph_timer_callback
-                0x000000000000329c      0x39e /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
+                0x0000000000003480      0x39e /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
  .text.xtimer_remove
-                0x000000000000363a       0x52 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
-                0x000000000000363a                xtimer_remove
+                0x000000000000381e       0x52 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
+                0x000000000000381e                xtimer_remove
  .text._xtimer_set64
-                0x000000000000368c      0x16c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
-                0x000000000000368c                _xtimer_set64
+                0x0000000000003870      0x16c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
+                0x0000000000003870                _xtimer_set64
  .text._callback_unlock_mutex
-                0x00000000000037f8        0x4 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer.o
+                0x00000000000039dc        0x4 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer.o
  .text._xtimer_tsleep
-                0x00000000000037fc       0xf6 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer.o
-                0x00000000000037fc                _xtimer_tsleep
- .text.pm_off   0x00000000000038f2        0x6 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/pm.o
-                0x00000000000038f2                pm_off
+                0x00000000000039e0       0xf6 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer.o
+                0x00000000000039e0                _xtimer_tsleep
+ .text.pm_off   0x0000000000003ad6        0x6 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/pm.o
+                0x0000000000003ad6                pm_off
  .text.pm_set_lowest
-                0x00000000000038f8        0x2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/pm.o
-                0x00000000000038f8                pm_set_lowest
+                0x0000000000003adc        0x2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/pm.o
+                0x0000000000003adc                pm_set_lowest
  .text.eeprom_read_byte
-                0x00000000000038fa       0x22 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/eeprom.o
-                0x00000000000038fa                eeprom_read_byte
+                0x0000000000003ade       0x22 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/eeprom.o
+                0x0000000000003ade                eeprom_read_byte
  .text.cpu_init
-                0x000000000000391c       0x20 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/cpu.o
-                0x000000000000391c                cpu_init
+                0x0000000000003b00       0x20 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/cpu.o
+                0x0000000000003b00                cpu_init
  .text.__vector_default
-                0x000000000000393c       0x16 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/cpu.o
-                0x000000000000393c                __vector_default
+                0x0000000000003b20       0x16 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/cpu.o
+                0x0000000000003b20                __vector_default
  .text.thread_stack_init
-                0x0000000000003952       0x6a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/thread_arch.o
-                0x0000000000003952                thread_stack_init
+                0x0000000000003b36       0x6a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/thread_arch.o
+                0x0000000000003b36                thread_stack_init
  .text.cpu_switch_context_exit
-                0x00000000000039bc       0x9a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/thread_arch.o
-                0x00000000000039bc                cpu_switch_context_exit
+                0x0000000000003ba0       0x9a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/thread_arch.o
+                0x0000000000003ba0                cpu_switch_context_exit
  .text.thread_yield_higher
-                0x0000000000003a56       0xdc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/thread_arch.o
-                0x0000000000003a56                thread_yield_higher
+                0x0000000000003c3a       0xdc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/thread_arch.o
+                0x0000000000003c3a                thread_yield_higher
  .text.atmega_exit_isr
-                0x0000000000003b32       0xd6 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/thread_arch.o
-                0x0000000000003b32                atmega_exit_isr
+                0x0000000000003d16       0xd6 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/thread_arch.o
+                0x0000000000003d16                atmega_exit_isr
  .text.eeprom_read
-                0x0000000000003c08       0x60 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/eeprom.o
-                0x0000000000003c08                eeprom_read
+                0x0000000000003dec       0x60 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/eeprom.o
+                0x0000000000003dec                eeprom_read
  .text.auto_init
-                0x0000000000003c68        0x8 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/auto_init/auto_init.o
-                0x0000000000003c68                auto_init
+                0x0000000000003e4c        0x8 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/auto_init/auto_init.o
+                0x0000000000003e4c                auto_init
  .text._uart_getchar
-                0x0000000000003c70       0x26 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/avr_libc_extra/atmega_stdio.o
+                0x0000000000003e54       0x26 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/avr_libc_extra/atmega_stdio.o
  .text._uart_putchar
-                0x0000000000003c96       0x24 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/avr_libc_extra/atmega_stdio.o
+                0x0000000000003e7a       0x24 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/avr_libc_extra/atmega_stdio.o
  .text.atmega_stdio_init
-                0x0000000000003cba       0x20 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/avr_libc_extra/atmega_stdio.o
-                0x0000000000003cba                atmega_stdio_init
+                0x0000000000003e9e       0x20 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/avr_libc_extra/atmega_stdio.o
+                0x0000000000003e9e                atmega_stdio_init
  .text.led_init
-                0x0000000000003cda        0xc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/boards_common_arduino-atmega/led_init.o
-                0x0000000000003cda                led_init
+                0x0000000000003ebe        0xc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/boards_common_arduino-atmega/led_init.o
+                0x0000000000003ebe                led_init
  .text.auto_init_random
-                0x0000000000003ce6       0x32 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/random/random.o
-                0x0000000000003ce6                auto_init_random
+                0x0000000000003eca       0x32 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/random/random.o
+                0x0000000000003eca                auto_init_random
  .text.random_init
-                0x0000000000003d18       0x24 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/random/xorshift.o
-                0x0000000000003d18                random_init
+                0x0000000000003efc       0x24 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/random/xorshift.o
+                0x0000000000003efc                random_init
  .text.stdio_init
-                0x0000000000003d3c       0x22 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/stdio_uart/stdio_uart.o
-                0x0000000000003d3c                stdio_init
+                0x0000000000003f20       0x22 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/stdio_uart/stdio_uart.o
+                0x0000000000003f20                stdio_init
  .text.stdio_read
-                0x0000000000003d5e        0x6 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/stdio_uart/stdio_uart.o
-                0x0000000000003d5e                stdio_read
+                0x0000000000003f42        0x6 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/stdio_uart/stdio_uart.o
+                0x0000000000003f42                stdio_read
  .text.stdio_write
-                0x0000000000003d64       0x1a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/stdio_uart/stdio_uart.o
-                0x0000000000003d64                stdio_write
+                0x0000000000003f48       0x1a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/stdio_uart/stdio_uart.o
+                0x0000000000003f48                stdio_write
  .text.periph_init
-                0x0000000000003d7e       0x10 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/init.o
-                0x0000000000003d7e                periph_init
+                0x0000000000003f62       0x10 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/init.o
+                0x0000000000003f62                periph_init
  .text.i2c_init
-                0x0000000000003d8e       0x54 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/i2c.o
-                0x0000000000003d8e                i2c_init
+                0x0000000000003f72       0x54 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/i2c.o
+                0x0000000000003f72                i2c_init
  .text.luid_base
-                0x0000000000003de2       0x84 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/luid/luid.o
-                0x0000000000003de2                luid_base
+                0x0000000000003fc6       0x84 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/luid/luid.o
+                0x0000000000003fc6                luid_base
  .text.luid_get
-                0x0000000000003e66       0x22 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/luid/luid.o
-                0x0000000000003e66                luid_get
+                0x000000000000404a       0x22 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/luid/luid.o
+                0x000000000000404a                luid_get
  .text.cpuid_get
-                0x0000000000003e88       0x40 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/cpuid.o
-                0x0000000000003e88                cpuid_get
+                0x000000000000406c       0x40 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/cpuid.o
+                0x000000000000406c                cpuid_get
  .text.libgcc.div
-                0x0000000000003ec8       0x28 /usr/lib/gcc/avr/5.4.0/avr6/libgcc.a(_udivmodhi4.o)
-                0x0000000000003ec8                __udivmodhi4
+                0x00000000000040ac       0x28 /usr/lib/gcc/avr/5.4.0/avr6/libgcc.a(_udivmodhi4.o)
+                0x00000000000040ac                __udivmodhi4
  .text.libgcc.div
-                0x0000000000003ef0       0x44 /usr/lib/gcc/avr/5.4.0/avr6/libgcc.a(_udivmodsi4.o)
-                0x0000000000003ef0                __udivmodsi4
- .text.libgcc   0x0000000000003f34       0x10 /usr/lib/gcc/avr/5.4.0/avr6/libgcc.a(_tablejump2.o)
-                0x0000000000003f34                __tablejump2__
+                0x00000000000040d4       0x44 /usr/lib/gcc/avr/5.4.0/avr6/libgcc.a(_udivmodsi4.o)
+                0x00000000000040d4                __udivmodsi4
+ .text.libgcc   0x0000000000004118       0x10 /usr/lib/gcc/avr/5.4.0/avr6/libgcc.a(_tablejump2.o)
+                0x0000000000004118                __tablejump2__
  .text.libgcc.mul
-                0x0000000000003f44       0x16 /usr/lib/gcc/avr/5.4.0/avr6/libgcc.a(_muluhisi3.o)
-                0x0000000000003f44                __muluhisi3
+                0x0000000000004128       0x16 /usr/lib/gcc/avr/5.4.0/avr6/libgcc.a(_muluhisi3.o)
+                0x0000000000004128                __muluhisi3
  .text.libgcc.builtins
-                0x0000000000003f5a       0x3c /usr/lib/gcc/avr/5.4.0/avr6/libgcc.a(_ashrdi3.o)
-                0x0000000000003f5a                __ashrdi3
-                0x0000000000003f5e                __lshrdi3
- .text.libgcc   0x0000000000003f96       0x12 /usr/lib/gcc/avr/5.4.0/avr6/libgcc.a(_adddi3.o)
-                0x0000000000003f96                __adddi3
+                0x000000000000413e       0x3c /usr/lib/gcc/avr/5.4.0/avr6/libgcc.a(_ashrdi3.o)
+                0x000000000000413e                __ashrdi3
+                0x0000000000004142                __lshrdi3
+ .text.libgcc   0x000000000000417a       0x12 /usr/lib/gcc/avr/5.4.0/avr6/libgcc.a(_adddi3.o)
+                0x000000000000417a                __adddi3
  .text.libgcc.mul
-                0x0000000000003fa8       0x1e /usr/lib/gcc/avr/5.4.0/avr6/libgcc.a(_umulhisi3.o)
-                0x0000000000003fa8                __umulhisi3
+                0x000000000000418c       0x1e /usr/lib/gcc/avr/5.4.0/avr6/libgcc.a(_umulhisi3.o)
+                0x000000000000418c                __umulhisi3
  .text.avr-libc
-                0x0000000000003fc6       0x12 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr6/libc.a(memcpy.o)
-                0x0000000000003fc6                memcpy
+                0x00000000000041aa       0x12 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr6/libc.a(memcpy.o)
+                0x00000000000041aa                memcpy
  .text.avr-libc
-                0x0000000000003fd8        0xe /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr6/libc.a(memset.o)
-                0x0000000000003fd8                memset
+                0x00000000000041bc        0xe /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr6/libc.a(memset.o)
+                0x00000000000041bc                memset
  .text.avr-libc
-                0x0000000000003fe6       0x12 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr6/libc.a(strlen.o)
-                0x0000000000003fe6                strlen
+                0x00000000000041ca       0x12 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr6/libc.a(strlen.o)
+                0x00000000000041ca                strlen
  .text.avr-libc
-                0x0000000000003ff8       0x28 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr6/libc.a(printf.o)
-                0x0000000000003ff8                printf
+                0x00000000000041dc       0x28 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr6/libc.a(printf.o)
+                0x00000000000041dc                printf
  .text.avr-libc
-                0x0000000000004020       0x60 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr6/libc.a(puts.o)
-                0x0000000000004020                puts
+                0x0000000000004204       0x60 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr6/libc.a(puts.o)
+                0x0000000000004204                puts
  .text.avr-libc
-                0x0000000000004080       0x5e /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr6/libc.a(sprintf.o)
-                0x0000000000004080                sprintf
+                0x0000000000004264       0x5e /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr6/libc.a(sprintf.o)
+                0x0000000000004264                sprintf
  .text.avr-libc
-                0x00000000000040de      0x414 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr6/libc.a(vfprintf_std.o)
-                0x00000000000040de                vfprintf
+                0x00000000000042c2      0x414 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr6/libc.a(vfprintf_std.o)
+                0x00000000000042c2                vfprintf
  .text.avr-libc
-                0x00000000000044f2       0x16 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr6/libc.a(strnlen_P.o)
-                0x00000000000044f2                strnlen_P
+                0x00000000000046d6       0x16 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr6/libc.a(strnlen_P.o)
+                0x00000000000046d6                strnlen_P
  .text.avr-libc
-                0x0000000000004508       0x16 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr6/libc.a(strnlen.o)
-                0x0000000000004508                strnlen
+                0x00000000000046ec       0x16 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr6/libc.a(strnlen.o)
+                0x00000000000046ec                strnlen
  .text.avr-libc
-                0x000000000000451e       0x78 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr6/libc.a(fputc.o)
-                0x000000000000451e                fputc
+                0x0000000000004702       0x78 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr6/libc.a(fputc.o)
+                0x0000000000004702                fputc
  .text.avr-libc
-                0x0000000000004596       0xbc /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr6/libc.a(ultoa_invert.o)
-                0x0000000000004596                __ultoa_invert
-                0x0000000000004652                . = ALIGN (0x2)
+                0x000000000000477a       0xbc /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr6/libc.a(ultoa_invert.o)
+                0x000000000000477a                __ultoa_invert
+                0x0000000000004836                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x0000000000004652        0x0 /usr/lib/gcc/avr/5.4.0/avr6/libgcc.a(_exit.o)
-                0x0000000000004652                exit
-                0x0000000000004652                _exit
+ .fini9         0x0000000000004836        0x0 /usr/lib/gcc/avr/5.4.0/avr6/libgcc.a(_exit.o)
+                0x0000000000004836                exit
+                0x0000000000004836                _exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -5129,11 +5131,11 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x0000000000004652        0x4 /usr/lib/gcc/avr/5.4.0/avr6/libgcc.a(_exit.o)
+ .fini0         0x0000000000004836        0x4 /usr/lib/gcc/avr/5.4.0/avr6/libgcc.a(_exit.o)
  *(.fini0)
-                0x0000000000004656                _etext = .
+                0x000000000000483a                _etext = .
 
-.data           0x0000000000800200      0x3ee load address 0x0000000000004656
+.data           0x0000000000800200      0x40a load address 0x000000000000483a
                 0x0000000000800200                PROVIDE (__data_start, .)
  *(.data)
  .data          0x0000000000800200        0x6 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr6/libc.a(malloc.o)
@@ -5141,166 +5143,178 @@ END GROUP
                 0x0000000000800202                __malloc_heap_start
                 0x0000000000800204                __malloc_margin
  *(.data*)
- .data.sink3    0x0000000000800206        0x3 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
-                0x0000000000800206                sink3
+ .data.userRequest
+                0x0000000000800206        0x1 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
+                0x0000000000800206                userRequest
+ .data.hiBay_data
+                0x0000000000800207        0x3 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
+                0x0000000000800207                hiBay_data
+ .data.sink3    0x000000000080020a        0x3 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
+                0x000000000080020a                sink3
+ .data.pallet_types
+                0x000000000080020d        0x7 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
+                0x000000000080020d                pallet_types
+ .data.request_data
+                0x0000000000800214        0x1 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
+                0x0000000000800214                request_data
  .data.control_info
-                0x0000000000800209        0x1 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
-                0x0000000000800209                control_info
- .data.ctx      0x000000000080020a       0x18 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/timer.o
+                0x0000000000800215        0x1 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
+                0x0000000000800215                control_info
+ .data.ctx      0x0000000000800216       0x18 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/timer.o
  .data._uart_stdin
-                0x0000000000800222        0xe /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/avr_libc_extra/atmega_stdio.o
+                0x000000000080022e        0xe /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/avr_libc_extra/atmega_stdio.o
  .data._uart_stdout
-                0x0000000000800230        0xe /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/avr_libc_extra/atmega_stdio.o
+                0x000000000080023c        0xe /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/avr_libc_extra/atmega_stdio.o
  *(.rodata)
  *(.rodata*)
  .rodata.str1.1
-                0x000000000080023e       0x66 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
+                0x000000000080024a       0x76 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
  .rodata._ZTV7MFRC522
-                0x00000000008002a4        0xa /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
-                0x00000000008002a4                _ZTV7MFRC522
+                0x00000000008002c0        0xa /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
+                0x00000000008002c0                _ZTV7MFRC522
  .rodata._ZL9crc_table
-                0x00000000008002ae      0x200 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/crc16_ccitt.o
+                0x00000000008002ca      0x200 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/crc16_ccitt.o
  .rodata._ZL14arduino_pinmap
-                0x00000000008004ae       0x46 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/base.o
+                0x00000000008004ca       0x46 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/base.o
  .rodata.str1.1
-                0x00000000008004f4       0x18 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
+                0x0000000000800510       0x18 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
  .rodata._ZZN11SPISettingsC4EmhhE6clocks
-                0x000000000080050c        0x4 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/SPI.o
- .rodata.dev    0x0000000000800510        0x4 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/uart.o
+                0x0000000000800528        0x4 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/SPI.o
+ .rodata.dev    0x000000000080052c        0x4 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/uart.o
  .rodata.prescalers
-                0x0000000000800514        0x5 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/timer.o
+                0x0000000000800530        0x5 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/timer.o
  .rodata.str1.1
-                0x0000000000800519       0x7f /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/init.o
+                0x0000000000800535       0x7f /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/init.o
  .rodata.str1.1
-                0x0000000000800598       0x41 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/panic.o
+                0x00000000008005b4       0x41 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/panic.o
  .rodata.assert_crash_message
-                0x00000000008005d9       0x12 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/panic.o
-                0x00000000008005d9                assert_crash_message
+                0x00000000008005f5       0x12 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/panic.o
+                0x00000000008005f5                assert_crash_message
  .rodata.str1.1
-                0x00000000008005eb        0x2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/avr_libc_extra/atmega_stdio.o
+                0x0000000000800607        0x2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/avr_libc_extra/atmega_stdio.o
  *(.gnu.linkonce.d*)
-                0x00000000008005ee                . = ALIGN (0x2)
- *fill*         0x00000000008005ed        0x1 
-                0x00000000008005ee                _edata = .
-                0x00000000008005ee                PROVIDE (__data_end, .)
+                0x000000000080060a                . = ALIGN (0x2)
+ *fill*         0x0000000000800609        0x1 
+                0x000000000080060a                _edata = .
+                0x000000000080060a                PROVIDE (__data_end, .)
 
-.bss            0x00000000008005ee      0xcda
-                0x00000000008005ee                PROVIDE (__bss_start, .)
+.bss            0x000000000080060a      0xcda
+                0x000000000080060a                PROVIDE (__bss_start, .)
  *(.bss)
  *(.bss*)
  .bss._ZL6Serial
-                0x00000000008005ee       0x4a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/_sketches.o
+                0x000000000080060a       0x4a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/_sketches.o
  .bss.messageSent
-                0x0000000000800638        0x1 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
-                0x0000000000800638                messageSent
+                0x0000000000800654        0x1 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
+                0x0000000000800654                messageSent
  .bss.endSensor
-                0x0000000000800639        0x1 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
-                0x0000000000800639                endSensor
+                0x0000000000800655        0x1 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
+                0x0000000000800655                endSensor
  .bss.startSensor
-                0x000000000080063a        0x1 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
-                0x000000000080063a                startSensor
- .bss.lifi1     0x000000000080063b       0x55 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
-                0x000000000080063b                lifi1
+                0x0000000000800656        0x1 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
+                0x0000000000800656                startSensor
+ .bss.lifi1     0x0000000000800657       0x55 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
+                0x0000000000800657                lifi1
  .bss._ZL9rx_stack1
-                0x0000000000800690      0x280 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
+                0x00000000008006ac      0x280 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
  .bss._ZL9tx_stack1
-                0x0000000000800910      0x280 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
+                0x000000000080092c      0x280 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
  .bss.control_data
-                0x0000000000800b90       0xff /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
-                0x0000000000800b90                control_data
+                0x0000000000800bac       0xff /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
+                0x0000000000800bac                control_data
  .bss.device_id
-                0x0000000000800c8f        0x1 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
-                0x0000000000800c8f                device_id
- .bss.state2    0x0000000000800c90        0x2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
-                0x0000000000800c90                state2
- .bss.acc       0x0000000000800c92        0xa /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
-                0x0000000000800c92                acc
- .bss.mfrc522   0x0000000000800c9c       0x10 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
-                0x0000000000800c9c                mfrc522
+                0x0000000000800cab        0x1 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
+                0x0000000000800cab                device_id
+ .bss.state2    0x0000000000800cac        0x2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
+                0x0000000000800cac                state2
+ .bss.acc       0x0000000000800cae        0xa /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
+                0x0000000000800cae                acc
+ .bss.mfrc522   0x0000000000800cb8       0x10 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
+                0x0000000000800cb8                mfrc522
  .bss._ZL6Serial
-                0x0000000000800cac       0x4a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
+                0x0000000000800cc8       0x4a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
  .bss._ZL6Serial
-                0x0000000000800cf6       0x4a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
+                0x0000000000800d12       0x4a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
  .bss._ZL6Serial
-                0x0000000000800d40       0x4a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/PLiFi.o
+                0x0000000000800d5c       0x4a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/PLiFi.o
  .bss.debug_str_pos
-                0x0000000000800d8a        0x1 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
-                0x0000000000800d8a                debug_str_pos
+                0x0000000000800da6        0x1 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
+                0x0000000000800da6                debug_str_pos
  .bss.debug_str_buf
-                0x0000000000800d8b      0x100 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
-                0x0000000000800d8b                debug_str_buf
+                0x0000000000800da7      0x100 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
+                0x0000000000800da7                debug_str_buf
  .bss._ZL6Serial
-                0x0000000000800e8b       0x4a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
+                0x0000000000800ea7       0x4a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
  .bss._ZL6Serial
-                0x0000000000800ed5       0x4a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/base.o
- .bss.SPI       0x0000000000800f1f        0xb /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/SPI.o
-                0x0000000000800f1f                SPI
+                0x0000000000800ef1       0x4a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/base.o
+ .bss.SPI       0x0000000000800f3b        0xb /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/SPI.o
+                0x0000000000800f3b                SPI
  .bss.atmega_in_isr
-                0x0000000000800f2a        0x1 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/irq_arch.o
-                0x0000000000800f2a                atmega_in_isr
+                0x0000000000800f46        0x1 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/irq_arch.o
+                0x0000000000800f46                atmega_in_isr
  .bss._tx_pending
-                0x0000000000800f2b        0x1 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/uart.o
- .bss.isr_ctx   0x0000000000800f2c        0x8 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/uart.o
- .bss.lock      0x0000000000800f34        0x2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/spi.o
- .bss.lock      0x0000000000800f36        0x2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/adc.o
+                0x0000000000800f47        0x1 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/uart.o
+ .bss.isr_ctx   0x0000000000800f48        0x8 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/uart.o
+ .bss.lock      0x0000000000800f50        0x2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/spi.o
+ .bss.lock      0x0000000000800f52        0x2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/adc.o
  .bss.runqueue_bitcache
-                0x0000000000800f38        0x4 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/sched.o
+                0x0000000000800f54        0x4 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/sched.o
  .bss.sched_runqueues
-                0x0000000000800f3c       0x20 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/sched.o
-                0x0000000000800f3c                sched_runqueues
+                0x0000000000800f58       0x20 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/sched.o
+                0x0000000000800f58                sched_runqueues
  .bss.sched_active_pid
-                0x0000000000800f5c        0x2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/sched.o
-                0x0000000000800f5c                sched_active_pid
+                0x0000000000800f78        0x2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/sched.o
+                0x0000000000800f78                sched_active_pid
  .bss.sched_active_thread
-                0x0000000000800f5e        0x2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/sched.o
-                0x0000000000800f5e                sched_active_thread
+                0x0000000000800f7a        0x2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/sched.o
+                0x0000000000800f7a                sched_active_thread
  .bss.sched_threads
-                0x0000000000800f60       0x42 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/sched.o
-                0x0000000000800f60                sched_threads
+                0x0000000000800f7c       0x42 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/sched.o
+                0x0000000000800f7c                sched_threads
  .bss.sched_context_switch_request
-                0x0000000000800fa2        0x2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/sched.o
-                0x0000000000800fa2                sched_context_switch_request
+                0x0000000000800fbe        0x2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/sched.o
+                0x0000000000800fbe                sched_context_switch_request
  .bss.sched_num_threads
-                0x0000000000800fa4        0x2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/sched.o
-                0x0000000000800fa4                sched_num_threads
+                0x0000000000800fc0        0x2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/sched.o
+                0x0000000000800fc0                sched_num_threads
  .bss.idle_stack
-                0x0000000000800fa6       0x80 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/init.o
+                0x0000000000800fc2       0x80 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/init.o
  .bss.main_stack
-                0x0000000000801026      0x280 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/init.o
- .bss.crashed   0x00000000008012a6        0x2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/panic.o
+                0x0000000000801042      0x280 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/init.o
+ .bss.crashed   0x00000000008012c2        0x2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/panic.o
  .bss._lltimer_ongoing
-                0x00000000008012a8        0x1 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
+                0x00000000008012c4        0x1 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
  .bss.long_list_head
-                0x00000000008012a9        0x2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
+                0x00000000008012c5        0x2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
  .bss.timer_list_head
-                0x00000000008012ab        0x2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
+                0x00000000008012c7        0x2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
  .bss._xtimer_current_time
-                0x00000000008012ad        0x8 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
-                0x00000000008012ad                _xtimer_current_time
+                0x00000000008012c9        0x8 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
+                0x00000000008012c9                _xtimer_current_time
  .bss._in_handler
-                0x00000000008012b5        0x2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
- .bss._state32  0x00000000008012b7        0x4 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/random/xorshift.o
- .bss.locks     0x00000000008012bb        0x2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/i2c.o
- .bss.lastused  0x00000000008012bd        0x1 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/luid/luid.o
+                0x00000000008012d1        0x2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
+ .bss._state32  0x00000000008012d3        0x4 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/random/xorshift.o
+ .bss.locks     0x00000000008012d7        0x2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/i2c.o
+ .bss.lastused  0x00000000008012d9        0x1 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/luid/luid.o
  *(COMMON)
- COMMON         0x00000000008012be        0x4 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr6/libc.a(malloc.o)
-                0x00000000008012be                __brkval
-                0x00000000008012c0                __flp
- COMMON         0x00000000008012c2        0x6 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr6/libc.a(iob.o)
-                0x00000000008012c2                __iob
-                0x00000000008012c8                PROVIDE (__bss_end, .)
-                0x0000000000004656                __data_load_start = LOADADDR (.data)
-                0x0000000000004a44                __data_load_end = (__data_load_start + SIZEOF (.data))
+ COMMON         0x00000000008012da        0x4 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr6/libc.a(malloc.o)
+                0x00000000008012da                __brkval
+                0x00000000008012dc                __flp
+ COMMON         0x00000000008012de        0x6 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr6/libc.a(iob.o)
+                0x00000000008012de                __iob
+                0x00000000008012e4                PROVIDE (__bss_end, .)
+                0x000000000000483a                __data_load_start = LOADADDR (.data)
+                0x0000000000004c44                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x00000000008012c8        0x2
+.noinit         0x00000000008012e4        0x2
                 [!provide]                        PROVIDE (__noinit_start, .)
  *(.noinit*)
- .noinit        0x00000000008012c8        0x2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/cpu.o
-                0x00000000008012c8                soft_rst
-                0x00000000008012c9                mcusr_mirror
+ .noinit        0x00000000008012e4        0x2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/cpu.o
+                0x00000000008012e4                soft_rst
+                0x00000000008012e5                mcusr_mirror
                 [!provide]                        PROVIDE (__noinit_end, .)
-                0x00000000008012ca                _end = .
-                0x00000000008012ca                PROVIDE (__heap_start, .)
+                0x00000000008012e6                _end = .
+                0x00000000008012e6                PROVIDE (__heap_start, .)
 
 .eeprom         0x0000000000810000        0x0
  *(.eeprom*)
@@ -5499,140 +5513,140 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x0000000000000000    0x1d088
+.debug_info     0x0000000000000000    0x1d435
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x0000000000000000      0xbbc /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr6/crtatmega2560.o
  .debug_info    0x0000000000000bbc      0x265 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/startup.o
  .debug_info    0x0000000000000e21      0x9d5 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/_sketches.o
- .debug_info    0x00000000000017f6     0x1d94 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
- .debug_info    0x000000000000358a     0x5de3 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
- .debug_info    0x000000000000936d     0x11f3 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/PLiFi.o
- .debug_info    0x000000000000a560     0x1984 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
- .debug_info    0x000000000000bee4      0x134 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/crc16_ccitt.o
- .debug_info    0x000000000000c018     0x1212 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/base.o
- .debug_info    0x000000000000d22a     0x21c9 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
- .debug_info    0x000000000000f3f3      0xd7d /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/SPI.o
- .debug_info    0x0000000000010170      0x21c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/irq_arch.o
- .debug_info    0x000000000001038c      0x6b1 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/uart.o
- .debug_info    0x0000000000010a3d      0x5b7 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/gpio.o
- .debug_info    0x0000000000010ff4      0x602 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/spi.o
- .debug_info    0x00000000000115f6      0x910 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/timer.o
- .debug_info    0x0000000000011f06      0x44c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/adc.o
- .debug_info    0x0000000000012352      0x2ce /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/boards_common_atmega/board.o
- .debug_info    0x0000000000012620      0x679 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/mutex.o
- .debug_info    0x0000000000012c99      0x647 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/sched.o
- .debug_info    0x00000000000132e0      0x7d8 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/rmutex.o
- .debug_info    0x0000000000013ab8     0x2453 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/atomic_c11.o
- .debug_info    0x0000000000015f0b      0xb1d /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/thread.o
- .debug_info    0x0000000000016a28      0x308 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/init.o
- .debug_info    0x0000000000016d30      0x27d /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/panic.o
- .debug_info    0x0000000000016fad      0xdbe /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
- .debug_info    0x0000000000017d6b     0x144a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer.o
- .debug_info    0x00000000000191b5      0x120 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/pm.o
- .debug_info    0x00000000000192d5      0x3ac /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/eeprom.o
- .debug_info    0x0000000000019681      0x675 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/cpu.o
- .debug_info    0x0000000000019cf6      0x71d /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/thread_arch.o
- .debug_info    0x000000000001a413      0x476 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/eeprom.o
- .debug_info    0x000000000001a889      0x49f /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/auto_init/auto_init.o
- .debug_info    0x000000000001ad28      0x422 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/avr_libc_extra/atmega_stdio.o
- .debug_info    0x000000000001b14a      0x25e /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/boards_common_arduino-atmega/led_init.o
- .debug_info    0x000000000001b3a8      0x4fb /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/random/random.o
- .debug_info    0x000000000001b8a3      0x15c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/random/xorshift.o
- .debug_info    0x000000000001b9ff      0x363 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/stdio_uart/stdio_uart.o
- .debug_info    0x000000000001bd62      0x27e /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/init.o
- .debug_info    0x000000000001bfe0      0x94e /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/i2c.o
- .debug_info    0x000000000001c92e      0x62e /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/luid/luid.o
- .debug_info    0x000000000001cf5c      0x12c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/cpuid.o
+ .debug_info    0x00000000000017f6     0x2141 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
+ .debug_info    0x0000000000003937     0x5de3 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
+ .debug_info    0x000000000000971a     0x11f3 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/PLiFi.o
+ .debug_info    0x000000000000a90d     0x1984 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
+ .debug_info    0x000000000000c291      0x134 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/crc16_ccitt.o
+ .debug_info    0x000000000000c3c5     0x1212 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/base.o
+ .debug_info    0x000000000000d5d7     0x21c9 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
+ .debug_info    0x000000000000f7a0      0xd7d /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/SPI.o
+ .debug_info    0x000000000001051d      0x21c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/irq_arch.o
+ .debug_info    0x0000000000010739      0x6b1 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/uart.o
+ .debug_info    0x0000000000010dea      0x5b7 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/gpio.o
+ .debug_info    0x00000000000113a1      0x602 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/spi.o
+ .debug_info    0x00000000000119a3      0x910 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/timer.o
+ .debug_info    0x00000000000122b3      0x44c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/adc.o
+ .debug_info    0x00000000000126ff      0x2ce /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/boards_common_atmega/board.o
+ .debug_info    0x00000000000129cd      0x679 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/mutex.o
+ .debug_info    0x0000000000013046      0x647 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/sched.o
+ .debug_info    0x000000000001368d      0x7d8 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/rmutex.o
+ .debug_info    0x0000000000013e65     0x2453 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/atomic_c11.o
+ .debug_info    0x00000000000162b8      0xb1d /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/thread.o
+ .debug_info    0x0000000000016dd5      0x308 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/init.o
+ .debug_info    0x00000000000170dd      0x27d /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/panic.o
+ .debug_info    0x000000000001735a      0xdbe /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
+ .debug_info    0x0000000000018118     0x144a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer.o
+ .debug_info    0x0000000000019562      0x120 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/pm.o
+ .debug_info    0x0000000000019682      0x3ac /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/eeprom.o
+ .debug_info    0x0000000000019a2e      0x675 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/cpu.o
+ .debug_info    0x000000000001a0a3      0x71d /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/thread_arch.o
+ .debug_info    0x000000000001a7c0      0x476 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/eeprom.o
+ .debug_info    0x000000000001ac36      0x49f /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/auto_init/auto_init.o
+ .debug_info    0x000000000001b0d5      0x422 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/avr_libc_extra/atmega_stdio.o
+ .debug_info    0x000000000001b4f7      0x25e /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/boards_common_arduino-atmega/led_init.o
+ .debug_info    0x000000000001b755      0x4fb /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/random/random.o
+ .debug_info    0x000000000001bc50      0x15c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/random/xorshift.o
+ .debug_info    0x000000000001bdac      0x363 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/stdio_uart/stdio_uart.o
+ .debug_info    0x000000000001c10f      0x27e /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/init.o
+ .debug_info    0x000000000001c38d      0x94e /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/i2c.o
+ .debug_info    0x000000000001ccdb      0x62e /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/luid/luid.o
+ .debug_info    0x000000000001d309      0x12c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/cpuid.o
 
-.debug_abbrev   0x0000000000000000     0x6c95
+.debug_abbrev   0x0000000000000000     0x6cdb
  *(.debug_abbrev)
  .debug_abbrev  0x0000000000000000      0xb1a /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr6/crtatmega2560.o
  .debug_abbrev  0x0000000000000b1a      0x139 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/startup.o
  .debug_abbrev  0x0000000000000c53      0x27f /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/_sketches.o
- .debug_abbrev  0x0000000000000ed2      0x4c2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
- .debug_abbrev  0x0000000000001394      0x654 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
- .debug_abbrev  0x00000000000019e8      0x3d6 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/PLiFi.o
- .debug_abbrev  0x0000000000001dbe      0x487 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
- .debug_abbrev  0x0000000000002245       0xd4 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/crc16_ccitt.o
- .debug_abbrev  0x0000000000002319      0x439 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/base.o
- .debug_abbrev  0x0000000000002752      0x446 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
- .debug_abbrev  0x0000000000002b98      0x404 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/SPI.o
- .debug_abbrev  0x0000000000002f9c      0x143 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/irq_arch.o
- .debug_abbrev  0x00000000000030df      0x2d5 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/uart.o
- .debug_abbrev  0x00000000000033b4      0x222 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/gpio.o
- .debug_abbrev  0x00000000000035d6      0x230 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/spi.o
- .debug_abbrev  0x0000000000003806      0x27f /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/timer.o
- .debug_abbrev  0x0000000000003a85      0x1f7 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/adc.o
- .debug_abbrev  0x0000000000003c7c      0x162 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/boards_common_atmega/board.o
- .debug_abbrev  0x0000000000003dde      0x229 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/mutex.o
- .debug_abbrev  0x0000000000004007      0x2a1 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/sched.o
- .debug_abbrev  0x00000000000042a8      0x255 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/rmutex.o
- .debug_abbrev  0x00000000000044fd      0x1c2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/atomic_c11.o
- .debug_abbrev  0x00000000000046bf      0x2d2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/thread.o
- .debug_abbrev  0x0000000000004991      0x172 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/init.o
- .debug_abbrev  0x0000000000004b03      0x178 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/panic.o
- .debug_abbrev  0x0000000000004c7b      0x3f7 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
- .debug_abbrev  0x0000000000005072      0x376 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer.o
- .debug_abbrev  0x00000000000053e8       0xca /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/pm.o
- .debug_abbrev  0x00000000000054b2      0x1b2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/eeprom.o
- .debug_abbrev  0x0000000000005664      0x26a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/cpu.o
- .debug_abbrev  0x00000000000058ce      0x272 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/thread_arch.o
- .debug_abbrev  0x0000000000005b40      0x192 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/eeprom.o
- .debug_abbrev  0x0000000000005cd2      0x178 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/auto_init/auto_init.o
- .debug_abbrev  0x0000000000005e4a      0x1f3 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/avr_libc_extra/atmega_stdio.o
- .debug_abbrev  0x000000000000603d      0x128 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/boards_common_arduino-atmega/led_init.o
- .debug_abbrev  0x0000000000006165      0x1b8 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/random/random.o
- .debug_abbrev  0x000000000000631d       0xeb /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/random/xorshift.o
- .debug_abbrev  0x0000000000006408      0x1af /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/stdio_uart/stdio_uart.o
- .debug_abbrev  0x00000000000065b7      0x15f /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/init.o
- .debug_abbrev  0x0000000000006716      0x319 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/i2c.o
- .debug_abbrev  0x0000000000006a2f      0x1b2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/luid/luid.o
- .debug_abbrev  0x0000000000006be1       0xb4 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/cpuid.o
+ .debug_abbrev  0x0000000000000ed2      0x508 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
+ .debug_abbrev  0x00000000000013da      0x654 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
+ .debug_abbrev  0x0000000000001a2e      0x3d6 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/PLiFi.o
+ .debug_abbrev  0x0000000000001e04      0x487 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
+ .debug_abbrev  0x000000000000228b       0xd4 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/crc16_ccitt.o
+ .debug_abbrev  0x000000000000235f      0x439 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/base.o
+ .debug_abbrev  0x0000000000002798      0x446 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
+ .debug_abbrev  0x0000000000002bde      0x404 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/SPI.o
+ .debug_abbrev  0x0000000000002fe2      0x143 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/irq_arch.o
+ .debug_abbrev  0x0000000000003125      0x2d5 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/uart.o
+ .debug_abbrev  0x00000000000033fa      0x222 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/gpio.o
+ .debug_abbrev  0x000000000000361c      0x230 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/spi.o
+ .debug_abbrev  0x000000000000384c      0x27f /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/timer.o
+ .debug_abbrev  0x0000000000003acb      0x1f7 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/adc.o
+ .debug_abbrev  0x0000000000003cc2      0x162 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/boards_common_atmega/board.o
+ .debug_abbrev  0x0000000000003e24      0x229 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/mutex.o
+ .debug_abbrev  0x000000000000404d      0x2a1 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/sched.o
+ .debug_abbrev  0x00000000000042ee      0x255 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/rmutex.o
+ .debug_abbrev  0x0000000000004543      0x1c2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/atomic_c11.o
+ .debug_abbrev  0x0000000000004705      0x2d2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/thread.o
+ .debug_abbrev  0x00000000000049d7      0x172 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/init.o
+ .debug_abbrev  0x0000000000004b49      0x178 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/panic.o
+ .debug_abbrev  0x0000000000004cc1      0x3f7 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
+ .debug_abbrev  0x00000000000050b8      0x376 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer.o
+ .debug_abbrev  0x000000000000542e       0xca /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/pm.o
+ .debug_abbrev  0x00000000000054f8      0x1b2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/eeprom.o
+ .debug_abbrev  0x00000000000056aa      0x26a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/cpu.o
+ .debug_abbrev  0x0000000000005914      0x272 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/thread_arch.o
+ .debug_abbrev  0x0000000000005b86      0x192 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/eeprom.o
+ .debug_abbrev  0x0000000000005d18      0x178 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/auto_init/auto_init.o
+ .debug_abbrev  0x0000000000005e90      0x1f3 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/avr_libc_extra/atmega_stdio.o
+ .debug_abbrev  0x0000000000006083      0x128 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/boards_common_arduino-atmega/led_init.o
+ .debug_abbrev  0x00000000000061ab      0x1b8 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/random/random.o
+ .debug_abbrev  0x0000000000006363       0xeb /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/random/xorshift.o
+ .debug_abbrev  0x000000000000644e      0x1af /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/stdio_uart/stdio_uart.o
+ .debug_abbrev  0x00000000000065fd      0x15f /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/init.o
+ .debug_abbrev  0x000000000000675c      0x319 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/i2c.o
+ .debug_abbrev  0x0000000000006a75      0x1b2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/luid/luid.o
+ .debug_abbrev  0x0000000000006c27       0xb4 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/cpuid.o
 
-.debug_line     0x0000000000000000    0x15286
+.debug_line     0x0000000000000000    0x15382
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x0000000000000000       0x1a /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr6/crtatmega2560.o
  .debug_line    0x000000000000001a      0x75f /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/startup.o
  .debug_line    0x0000000000000779      0x7ec /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/_sketches.o
- .debug_line    0x0000000000000f65      0xafc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
- .debug_line    0x0000000000001a61     0x1e03 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
- .debug_line    0x0000000000003864      0x90c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/PLiFi.o
- .debug_line    0x0000000000004170      0xcf3 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
- .debug_line    0x0000000000004e63      0x1db /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/crc16_ccitt.o
- .debug_line    0x000000000000503e      0xa80 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/base.o
- .debug_line    0x0000000000005abe      0xbd1 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
- .debug_line    0x000000000000668f      0x9c4 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/SPI.o
- .debug_line    0x0000000000007053      0x537 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/irq_arch.o
- .debug_line    0x000000000000758a      0x82b /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/uart.o
- .debug_line    0x0000000000007db5      0x8aa /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/gpio.o
- .debug_line    0x000000000000865f      0x7da /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/spi.o
- .debug_line    0x0000000000008e39      0x92c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/timer.o
- .debug_line    0x0000000000009765      0x7b6 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/adc.o
- .debug_line    0x0000000000009f1b      0x740 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/boards_common_atmega/board.o
- .debug_line    0x000000000000a65b      0x5dc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/mutex.o
- .debug_line    0x000000000000ac37      0x616 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/sched.o
- .debug_line    0x000000000000b24d      0x5b3 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/rmutex.o
- .debug_line    0x000000000000b800      0x8df /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/atomic_c11.o
- .debug_line    0x000000000000c0df      0x7f4 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/thread.o
- .debug_line    0x000000000000c8d3      0x66b /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/init.o
- .debug_line    0x000000000000cf3e      0x5fa /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/panic.o
- .debug_line    0x000000000000d538      0xbb2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
- .debug_line    0x000000000000e0ea      0xbf1 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer.o
- .debug_line    0x000000000000ecdb      0x5b0 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/pm.o
- .debug_line    0x000000000000f28b      0x63b /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/eeprom.o
- .debug_line    0x000000000000f8c6      0x810 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/cpu.o
- .debug_line    0x00000000000100d6      0x8c2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/thread_arch.o
- .debug_line    0x0000000000010998      0x647 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/eeprom.o
- .debug_line    0x0000000000010fdf      0x84b /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/auto_init/auto_init.o
- .debug_line    0x000000000001182a      0x7fc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/avr_libc_extra/atmega_stdio.o
- .debug_line    0x0000000000012026      0x733 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/boards_common_arduino-atmega/led_init.o
- .debug_line    0x0000000000012759      0x640 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/random/random.o
- .debug_line    0x0000000000012d99      0x2c5 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/random/xorshift.o
- .debug_line    0x000000000001305e      0x823 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/stdio_uart/stdio_uart.o
- .debug_line    0x0000000000013881      0x6b0 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/init.o
- .debug_line    0x0000000000013f31      0x940 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/i2c.o
- .debug_line    0x0000000000014871      0x75b /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/luid/luid.o
- .debug_line    0x0000000000014fcc      0x2ba /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/cpuid.o
+ .debug_line    0x0000000000000f65      0xbf8 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
+ .debug_line    0x0000000000001b5d     0x1e03 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
+ .debug_line    0x0000000000003960      0x90c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/PLiFi.o
+ .debug_line    0x000000000000426c      0xcf3 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
+ .debug_line    0x0000000000004f5f      0x1db /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/crc16_ccitt.o
+ .debug_line    0x000000000000513a      0xa80 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/base.o
+ .debug_line    0x0000000000005bba      0xbd1 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
+ .debug_line    0x000000000000678b      0x9c4 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/SPI.o
+ .debug_line    0x000000000000714f      0x537 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/irq_arch.o
+ .debug_line    0x0000000000007686      0x82b /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/uart.o
+ .debug_line    0x0000000000007eb1      0x8aa /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/gpio.o
+ .debug_line    0x000000000000875b      0x7da /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/spi.o
+ .debug_line    0x0000000000008f35      0x92c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/timer.o
+ .debug_line    0x0000000000009861      0x7b6 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/adc.o
+ .debug_line    0x000000000000a017      0x740 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/boards_common_atmega/board.o
+ .debug_line    0x000000000000a757      0x5dc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/mutex.o
+ .debug_line    0x000000000000ad33      0x616 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/sched.o
+ .debug_line    0x000000000000b349      0x5b3 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/rmutex.o
+ .debug_line    0x000000000000b8fc      0x8df /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/atomic_c11.o
+ .debug_line    0x000000000000c1db      0x7f4 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/thread.o
+ .debug_line    0x000000000000c9cf      0x66b /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/init.o
+ .debug_line    0x000000000000d03a      0x5fa /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/panic.o
+ .debug_line    0x000000000000d634      0xbb2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
+ .debug_line    0x000000000000e1e6      0xbf1 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer.o
+ .debug_line    0x000000000000edd7      0x5b0 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/pm.o
+ .debug_line    0x000000000000f387      0x63b /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/eeprom.o
+ .debug_line    0x000000000000f9c2      0x810 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/cpu.o
+ .debug_line    0x00000000000101d2      0x8c2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/thread_arch.o
+ .debug_line    0x0000000000010a94      0x647 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/eeprom.o
+ .debug_line    0x00000000000110db      0x84b /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/auto_init/auto_init.o
+ .debug_line    0x0000000000011926      0x7fc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/avr_libc_extra/atmega_stdio.o
+ .debug_line    0x0000000000012122      0x733 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/boards_common_arduino-atmega/led_init.o
+ .debug_line    0x0000000000012855      0x640 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/random/random.o
+ .debug_line    0x0000000000012e95      0x2c5 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/random/xorshift.o
+ .debug_line    0x000000000001315a      0x823 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/stdio_uart/stdio_uart.o
+ .debug_line    0x000000000001397d      0x6b0 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/init.o
+ .debug_line    0x000000000001402d      0x940 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/i2c.o
+ .debug_line    0x000000000001496d      0x75b /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/luid/luid.o
+ .debug_line    0x00000000000150c8      0x2ba /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/cpuid.o
 
 .debug_frame    0x0000000000000000     0x3d04
  *(.debug_frame)
@@ -5678,130 +5692,130 @@ END GROUP
  .debug_frame   0x0000000000003bf8       0xe8 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/luid/luid.o
  .debug_frame   0x0000000000003ce0       0x24 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/cpuid.o
 
-.debug_str      0x0000000000000000    0x1a2ab
+.debug_str      0x0000000000000000    0x1a2ec
  *(.debug_str)
  .debug_str     0x0000000000000000      0x3e6 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr6/crtatmega2560.o
  .debug_str     0x00000000000003e6     0xc32d /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/startup.o
                                        0xc585 (size before relaxing)
  .debug_str     0x000000000000c713      0xe44 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/_sketches.o
                                        0xce95 (size before relaxing)
- .debug_str     0x000000000000d557     0x1885 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
-                                       0xe58b (size before relaxing)
- .debug_str     0x000000000000eddc     0x1694 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
+ .debug_str     0x000000000000d557     0x18c6 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
+                                       0xe5cc (size before relaxing)
+ .debug_str     0x000000000000ee1d     0x1694 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
                                        0xf5d9 (size before relaxing)
- .debug_str     0x0000000000010470      0x15b /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/PLiFi.o
+ .debug_str     0x00000000000104b1      0x15b /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/PLiFi.o
                                        0xd376 (size before relaxing)
- .debug_str     0x00000000000105cb      0x2aa /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
+ .debug_str     0x000000000001060c      0x2aa /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
                                        0xd228 (size before relaxing)
- .debug_str     0x0000000000010875       0xeb /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/crc16_ccitt.o
+ .debug_str     0x00000000000108b6       0xeb /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/crc16_ccitt.o
                                        0x3d9e (size before relaxing)
- .debug_str     0x0000000000010960      0x63d /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/base.o
+ .debug_str     0x00000000000109a1      0x63d /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/base.o
                                        0xd6a8 (size before relaxing)
- .debug_str     0x0000000000010f9d      0x37a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
+ .debug_str     0x0000000000010fde      0x37a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
                                        0xc2cf (size before relaxing)
- .debug_str     0x0000000000011317      0x1a7 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/SPI.o
+ .debug_str     0x0000000000011358      0x1a7 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/SPI.o
                                        0xd80d (size before relaxing)
- .debug_str     0x00000000000114be       0xf1 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/irq_arch.o
+ .debug_str     0x00000000000114ff       0xf1 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/irq_arch.o
                                        0xb04d (size before relaxing)
- .debug_str     0x00000000000115af      0x1dc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/uart.o
+ .debug_str     0x00000000000115f0      0x1dc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/uart.o
                                        0xb86c (size before relaxing)
- .debug_str     0x000000000001178b      0x357 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/gpio.o
+ .debug_str     0x00000000000117cc      0x357 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/gpio.o
                                        0xc8d3 (size before relaxing)
- .debug_str     0x0000000000011ae2       0xfc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/spi.o
+ .debug_str     0x0000000000011b23       0xfc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/spi.o
                                        0xb993 (size before relaxing)
- .debug_str     0x0000000000011bde      0x325 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/timer.o
+ .debug_str     0x0000000000011c1f      0x325 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/timer.o
                                        0xca7c (size before relaxing)
- .debug_str     0x0000000000011f03       0xd5 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/adc.o
+ .debug_str     0x0000000000011f44       0xd5 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/adc.o
                                        0xb849 (size before relaxing)
- .debug_str     0x0000000000011fd8      0x1cd /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/boards_common_atmega/board.o
+ .debug_str     0x0000000000012019      0x1cd /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/boards_common_atmega/board.o
                                        0xc6a0 (size before relaxing)
- .debug_str     0x00000000000121a5      0x121 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/mutex.o
+ .debug_str     0x00000000000121e6      0x121 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/mutex.o
                                        0xb0cb (size before relaxing)
- .debug_str     0x00000000000122c6      0x346 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/sched.o
+ .debug_str     0x0000000000012307      0x346 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/sched.o
                                        0xb29b (size before relaxing)
- .debug_str     0x000000000001260c     0x10fc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/rmutex.o
+ .debug_str     0x000000000001264d     0x10fc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/rmutex.o
                                        0xc1b2 (size before relaxing)
- .debug_str     0x0000000000013708      0xd46 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/atomic_c11.o
+ .debug_str     0x0000000000013749      0xd46 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/atomic_c11.o
                                        0x5a20 (size before relaxing)
- .debug_str     0x000000000001444e      0x617 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/thread.o
+ .debug_str     0x000000000001448f      0x617 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/thread.o
                                        0xb654 (size before relaxing)
- .debug_str     0x0000000000014a65      0x12a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/init.o
+ .debug_str     0x0000000000014aa6      0x12a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/init.o
                                        0xbaf8 (size before relaxing)
- .debug_str     0x0000000000014b8f       0xc9 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/panic.o
+ .debug_str     0x0000000000014bd0       0xc9 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/panic.o
                                        0xb71c (size before relaxing)
- .debug_str     0x0000000000014c58      0x232 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
+ .debug_str     0x0000000000014c99      0x232 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
                                        0xd094 (size before relaxing)
- .debug_str     0x0000000000014e8a      0x28c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer.o
+ .debug_str     0x0000000000014ecb      0x28c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer.o
                                        0xd24f (size before relaxing)
- .debug_str     0x0000000000015116       0xa2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/pm.o
+ .debug_str     0x0000000000015157       0xa2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/pm.o
                                        0xb4bb (size before relaxing)
- .debug_str     0x00000000000151b8       0xfe /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/eeprom.o
+ .debug_str     0x00000000000151f9       0xfe /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/eeprom.o
                                        0xb5c3 (size before relaxing)
- .debug_str     0x00000000000152b6     0x296f /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/cpu.o
+ .debug_str     0x00000000000152f7     0x296f /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/cpu.o
                                        0xf2ba (size before relaxing)
- .debug_str     0x0000000000017c25      0x16c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/thread_arch.o
+ .debug_str     0x0000000000017c66      0x16c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/thread_arch.o
                                        0xc91f (size before relaxing)
- .debug_str     0x0000000000017d91       0x98 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/eeprom.o
+ .debug_str     0x0000000000017dd2       0x98 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/eeprom.o
                                        0xb75d (size before relaxing)
- .debug_str     0x0000000000017e29       0xb8 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/auto_init/auto_init.o
+ .debug_str     0x0000000000017e6a       0xb8 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/auto_init/auto_init.o
                                        0xcc31 (size before relaxing)
- .debug_str     0x0000000000017ee1      0x1f3 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/avr_libc_extra/atmega_stdio.o
+ .debug_str     0x0000000000017f22      0x1f3 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/avr_libc_extra/atmega_stdio.o
                                        0xc6be (size before relaxing)
- .debug_str     0x00000000000180d4       0xc2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/boards_common_arduino-atmega/led_init.o
+ .debug_str     0x0000000000018115       0xc2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/boards_common_arduino-atmega/led_init.o
                                        0xc5b2 (size before relaxing)
- .debug_str     0x0000000000018196      0x1d6 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/random/random.o
+ .debug_str     0x00000000000181d7      0x1d6 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/random/random.o
                                        0xb2e5 (size before relaxing)
- .debug_str     0x000000000001836c       0xbe /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/random/xorshift.o
+ .debug_str     0x00000000000183ad       0xbe /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/random/xorshift.o
                                        0x40c0 (size before relaxing)
- .debug_str     0x000000000001842a      0x140 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/stdio_uart/stdio_uart.o
+ .debug_str     0x000000000001846b      0x140 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/stdio_uart/stdio_uart.o
                                        0xcd71 (size before relaxing)
- .debug_str     0x000000000001856a      0x110 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/init.o
+ .debug_str     0x00000000000185ab      0x110 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/init.o
                                        0xb7ad (size before relaxing)
- .debug_str     0x000000000001867a      0x20c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/i2c.o
+ .debug_str     0x00000000000186bb      0x20c /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/i2c.o
                                        0xc1cb (size before relaxing)
- .debug_str     0x0000000000018886      0x1cc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/luid/luid.o
+ .debug_str     0x00000000000188c7      0x1cc /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/luid/luid.o
                                        0xb6e7 (size before relaxing)
- .debug_str     0x0000000000018a52     0x1859 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/cpuid.o
+ .debug_str     0x0000000000018a93     0x1859 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/cpuid.o
                                        0xa9cf (size before relaxing)
 
-.debug_loc      0x0000000000000000    0x15de1
+.debug_loc      0x0000000000000000    0x15ed5
  *(.debug_loc)
- .debug_loc     0x0000000000000000      0x557 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
- .debug_loc     0x0000000000000557     0x4e70 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
- .debug_loc     0x00000000000053c7      0x36e /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/PLiFi.o
- .debug_loc     0x0000000000005735     0x12ad /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
- .debug_loc     0x00000000000069e2       0xd6 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/crc16_ccitt.o
- .debug_loc     0x0000000000006ab8      0x5ce /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/base.o
- .debug_loc     0x0000000000007086     0x1d8a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
- .debug_loc     0x0000000000008e10      0x759 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/SPI.o
- .debug_loc     0x0000000000009569       0x42 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/irq_arch.o
- .debug_loc     0x00000000000095ab      0x5e2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/uart.o
- .debug_loc     0x0000000000009b8d      0x417 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/gpio.o
- .debug_loc     0x0000000000009fa4      0x4b5 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/spi.o
- .debug_loc     0x000000000000a459      0x7bf /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/timer.o
- .debug_loc     0x000000000000ac18      0x225 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/adc.o
- .debug_loc     0x000000000000ae3d       0x14 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/boards_common_atmega/board.o
- .debug_loc     0x000000000000ae51      0x385 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/mutex.o
- .debug_loc     0x000000000000b1d6      0x27d /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/sched.o
- .debug_loc     0x000000000000b453      0x337 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/rmutex.o
- .debug_loc     0x000000000000b78a     0x5fc2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/atomic_c11.o
- .debug_loc     0x000000000001174c      0x9d6 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/thread.o
- .debug_loc     0x0000000000012122       0x62 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/init.o
- .debug_loc     0x0000000000012184      0x126 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/panic.o
- .debug_loc     0x00000000000122aa      0xbb7 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
- .debug_loc     0x0000000000012e61     0x1105 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer.o
- .debug_loc     0x0000000000013f66      0x35a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/eeprom.o
- .debug_loc     0x00000000000142c0      0x101 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/cpu.o
- .debug_loc     0x00000000000143c1      0x3c9 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/thread_arch.o
- .debug_loc     0x000000000001478a      0x2ad /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/eeprom.o
- .debug_loc     0x0000000000014a37      0x108 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/avr_libc_extra/atmega_stdio.o
- .debug_loc     0x0000000000014b3f      0x41e /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/random/random.o
- .debug_loc     0x0000000000014f5d      0x1b5 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/random/xorshift.o
- .debug_loc     0x0000000000015112      0x102 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/stdio_uart/stdio_uart.o
- .debug_loc     0x0000000000015214       0x20 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/init.o
- .debug_loc     0x0000000000015234      0x6e7 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/i2c.o
- .debug_loc     0x000000000001591b      0x469 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/luid/luid.o
- .debug_loc     0x0000000000015d84       0x5d /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/cpuid.o
+ .debug_loc     0x0000000000000000      0x64b /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
+ .debug_loc     0x000000000000064b     0x4e70 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
+ .debug_loc     0x00000000000054bb      0x36e /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/PLiFi.o
+ .debug_loc     0x0000000000005829     0x12ad /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
+ .debug_loc     0x0000000000006ad6       0xd6 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/crc16_ccitt.o
+ .debug_loc     0x0000000000006bac      0x5ce /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/base.o
+ .debug_loc     0x000000000000717a     0x1d8a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
+ .debug_loc     0x0000000000008f04      0x759 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/SPI.o
+ .debug_loc     0x000000000000965d       0x42 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/irq_arch.o
+ .debug_loc     0x000000000000969f      0x5e2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/uart.o
+ .debug_loc     0x0000000000009c81      0x417 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/gpio.o
+ .debug_loc     0x000000000000a098      0x4b5 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/spi.o
+ .debug_loc     0x000000000000a54d      0x7bf /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/timer.o
+ .debug_loc     0x000000000000ad0c      0x225 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/adc.o
+ .debug_loc     0x000000000000af31       0x14 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/boards_common_atmega/board.o
+ .debug_loc     0x000000000000af45      0x385 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/mutex.o
+ .debug_loc     0x000000000000b2ca      0x27d /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/sched.o
+ .debug_loc     0x000000000000b547      0x337 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/rmutex.o
+ .debug_loc     0x000000000000b87e     0x5fc2 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/atomic_c11.o
+ .debug_loc     0x0000000000011840      0x9d6 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/thread.o
+ .debug_loc     0x0000000000012216       0x62 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/init.o
+ .debug_loc     0x0000000000012278      0x126 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/panic.o
+ .debug_loc     0x000000000001239e      0xbb7 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
+ .debug_loc     0x0000000000012f55     0x1105 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer.o
+ .debug_loc     0x000000000001405a      0x35a /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/eeprom.o
+ .debug_loc     0x00000000000143b4      0x101 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/cpu.o
+ .debug_loc     0x00000000000144b5      0x3c9 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/thread_arch.o
+ .debug_loc     0x000000000001487e      0x2ad /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/eeprom.o
+ .debug_loc     0x0000000000014b2b      0x108 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/avr_libc_extra/atmega_stdio.o
+ .debug_loc     0x0000000000014c33      0x41e /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/random/random.o
+ .debug_loc     0x0000000000015051      0x1b5 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/random/xorshift.o
+ .debug_loc     0x0000000000015206      0x102 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/stdio_uart/stdio_uart.o
+ .debug_loc     0x0000000000015308       0x20 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/init.o
+ .debug_loc     0x0000000000015328      0x6e7 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/i2c.o
+ .debug_loc     0x0000000000015a0f      0x469 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/luid/luid.o
+ .debug_loc     0x0000000000015e78       0x5d /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/cpuid.o
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -5821,49 +5835,49 @@ END GROUP
 .debug_pubtypes
  *(.debug_pubtypes)
 
-.debug_ranges   0x0000000000000000      0xed0
+.debug_ranges   0x0000000000000000      0xf00
  *(.debug_ranges)
  .debug_ranges  0x0000000000000000       0x20 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/startup.o
  .debug_ranges  0x0000000000000020       0x18 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/_sketches.o
- .debug_ranges  0x0000000000000038       0x58 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
- .debug_ranges  0x0000000000000090      0x2a0 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
- .debug_ranges  0x0000000000000330       0x30 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/PLiFi.o
- .debug_ranges  0x0000000000000360       0xc0 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
- .debug_ranges  0x0000000000000420       0x10 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/crc16_ccitt.o
- .debug_ranges  0x0000000000000430       0x70 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/base.o
- .debug_ranges  0x00000000000004a0      0x138 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
- .debug_ranges  0x00000000000005d8       0x88 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/SPI.o
- .debug_ranges  0x0000000000000660       0x28 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/irq_arch.o
- .debug_ranges  0x0000000000000688       0x48 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/uart.o
- .debug_ranges  0x00000000000006d0       0x40 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/gpio.o
- .debug_ranges  0x0000000000000710       0x30 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/spi.o
- .debug_ranges  0x0000000000000740       0x70 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/timer.o
- .debug_ranges  0x00000000000007b0       0x20 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/adc.o
- .debug_ranges  0x00000000000007d0       0x10 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/boards_common_atmega/board.o
- .debug_ranges  0x00000000000007e0       0x20 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/mutex.o
- .debug_ranges  0x0000000000000800       0x28 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/sched.o
- .debug_ranges  0x0000000000000828       0x28 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/rmutex.o
- .debug_ranges  0x0000000000000850      0x230 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/atomic_c11.o
- .debug_ranges  0x0000000000000a80       0x60 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/thread.o
- .debug_ranges  0x0000000000000ae0       0x20 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/init.o
- .debug_ranges  0x0000000000000b00       0x18 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/panic.o
- .debug_ranges  0x0000000000000b18       0xe0 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
- .debug_ranges  0x0000000000000bf8       0xa8 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer.o
- .debug_ranges  0x0000000000000ca0       0x18 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/pm.o
- .debug_ranges  0x0000000000000cb8       0x30 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/eeprom.o
- .debug_ranges  0x0000000000000ce8       0x30 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/cpu.o
- .debug_ranges  0x0000000000000d18       0x30 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/thread_arch.o
- .debug_ranges  0x0000000000000d48       0x18 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/eeprom.o
- .debug_ranges  0x0000000000000d60       0x10 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/auto_init/auto_init.o
- .debug_ranges  0x0000000000000d70       0x20 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/avr_libc_extra/atmega_stdio.o
- .debug_ranges  0x0000000000000d90       0x10 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/boards_common_arduino-atmega/led_init.o
- .debug_ranges  0x0000000000000da0       0x20 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/random/random.o
- .debug_ranges  0x0000000000000dc0       0x28 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/random/xorshift.o
- .debug_ranges  0x0000000000000de8       0x20 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/stdio_uart/stdio_uart.o
- .debug_ranges  0x0000000000000e08       0x10 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/init.o
- .debug_ranges  0x0000000000000e18       0x70 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/i2c.o
- .debug_ranges  0x0000000000000e88       0x38 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/luid/luid.o
- .debug_ranges  0x0000000000000ec0       0x10 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/cpuid.o
+ .debug_ranges  0x0000000000000038       0x88 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/main.o
+ .debug_ranges  0x00000000000000c0      0x2a0 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/application_master/MFRC522.o
+ .debug_ranges  0x0000000000000360       0x30 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/PLiFi.o
+ .debug_ranges  0x0000000000000390       0xc0 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/LiFi.o
+ .debug_ranges  0x0000000000000450       0x10 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/LiFi_module/crc16_ccitt.o
+ .debug_ranges  0x0000000000000460       0x70 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/base.o
+ .debug_ranges  0x00000000000004d0      0x138 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/serialport.o
+ .debug_ranges  0x0000000000000608       0x88 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/arduino/SPI.o
+ .debug_ranges  0x0000000000000690       0x28 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/irq_arch.o
+ .debug_ranges  0x00000000000006b8       0x48 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/uart.o
+ .debug_ranges  0x0000000000000700       0x40 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/gpio.o
+ .debug_ranges  0x0000000000000740       0x30 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/spi.o
+ .debug_ranges  0x0000000000000770       0x70 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/timer.o
+ .debug_ranges  0x00000000000007e0       0x20 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/adc.o
+ .debug_ranges  0x0000000000000800       0x10 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/boards_common_atmega/board.o
+ .debug_ranges  0x0000000000000810       0x20 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/mutex.o
+ .debug_ranges  0x0000000000000830       0x28 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/sched.o
+ .debug_ranges  0x0000000000000858       0x28 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/rmutex.o
+ .debug_ranges  0x0000000000000880      0x230 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/atomic_c11.o
+ .debug_ranges  0x0000000000000ab0       0x60 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/thread.o
+ .debug_ranges  0x0000000000000b10       0x20 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/init.o
+ .debug_ranges  0x0000000000000b30       0x18 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/core/panic.o
+ .debug_ranges  0x0000000000000b48       0xe0 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer_core.o
+ .debug_ranges  0x0000000000000c28       0xa8 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/xtimer/xtimer.o
+ .debug_ranges  0x0000000000000cd0       0x18 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/pm.o
+ .debug_ranges  0x0000000000000ce8       0x30 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/eeprom.o
+ .debug_ranges  0x0000000000000d18       0x30 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/cpu.o
+ .debug_ranges  0x0000000000000d48       0x30 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common/thread_arch.o
+ .debug_ranges  0x0000000000000d78       0x18 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/eeprom.o
+ .debug_ranges  0x0000000000000d90       0x10 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/auto_init/auto_init.o
+ .debug_ranges  0x0000000000000da0       0x20 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/avr_libc_extra/atmega_stdio.o
+ .debug_ranges  0x0000000000000dc0       0x10 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/boards_common_arduino-atmega/led_init.o
+ .debug_ranges  0x0000000000000dd0       0x20 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/random/random.o
+ .debug_ranges  0x0000000000000df0       0x28 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/random/xorshift.o
+ .debug_ranges  0x0000000000000e18       0x20 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/stdio_uart/stdio_uart.o
+ .debug_ranges  0x0000000000000e38       0x10 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/periph_common/init.o
+ .debug_ranges  0x0000000000000e48       0x70 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/i2c.o
+ .debug_ranges  0x0000000000000eb8       0x38 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/luid/luid.o
+ .debug_ranges  0x0000000000000ef0       0x10 /home/srivamsimalladi/LiFi/Li-Fi-in-Industry-4.0/riot/ProcessC/bin/arduino-mega2560/atmega_common_periph/cpuid.o
 
 .debug_macro    0x0000000000000000    0x26aec
  *(.debug_macro)

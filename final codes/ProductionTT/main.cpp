@@ -15,11 +15,16 @@ int state2 = 0;
 int message_received_on = -1;
 uint8_t device_id;
 uint8_t control_info[] = {0x7e};
+uint8_t request_data[] = {0x7d};
+uint8_t pallet_types[] = {0xaa, 0xbb, 0xcc, 0xaf, 0xbf, 0xa0, 0xb0};
 uint8_t sink1[] = {0xd6, 0xd7, 0xd8};
 uint8_t sink2[] = {0xd0, 0xd1, 0xd2};
 uint8_t sink3[] = {0xd3, 0xd4, 0xd5};
-uint8_t conveyor[] = {0xa6, 0xa7, 0xa8};
+uint8_t conveyor[] = {0xa6, 0xa7, 0xa8, 0xa9, 0xb1, 0xb2};
+uint8_t hiBay_data[] = {0xa1, 0xa2, 0xa3};
 uint8_t control_data[255];
+uint8_t msg2[2];
+// char userRequest = '0';
 
 static char tx_stack1[THREAD_STACKSIZE_DEFAULT];
 static char rx_stack1[THREAD_STACKSIZE_DEFAULT];
@@ -32,12 +37,14 @@ static char rx_stack4[THREAD_STACKSIZE_DEFAULT];
 
 static void on_rx(PLiFi *lifi, const uint8_t *msg, uint8_t len);
 static void control_message(const uint8_t *msg, uint8_t len);
+static void request_message(const uint8_t *msg, uint8_t len);
 // static void on_message_for_me(const uint8_t *msg, uint8_t len);
 
-PLiFi lifi1(2, 0, on_rx, NULL); //A
-PLiFi lifi2(4, 2, on_rx, NULL); //C
-PLiFi lifi3(3, 1, on_rx, NULL); //B
-PLiFi lifi4(12, 3, on_rx, NULL); //D
+PLiFi lifi1(28, 3, on_rx, NULL); //A
+PLiFi lifi2(24, 1, on_rx, NULL); //B
+PLiFi lifi3(22, 0, on_rx, NULL); //C
+PLiFi lifi4(26, 2, on_rx, NULL); //D
+
 
 void *tx_loop(void *arg)
 {
@@ -65,6 +72,10 @@ static void on_rx(PLiFi *lifi, const uint8_t *msg, uint8_t len)
         else if (msg[0] == control_info[0])
         {
             control_message(msg + 1, len - 1);
+        }
+        else if (msg[0] == request_data[0])
+        {
+            request_message(msg + 1, len - 1);
         }
         else
         {
@@ -107,12 +118,128 @@ static void control_message(const uint8_t *msg, uint8_t len)
             state2 = 1;
             message_received_on = 3;
         }
-        if(state2==9 && control_data[0] == conveyor[1]) {
+        if(state2==9 && control_data[0] == conveyor[3]) {
             state2 = 10;
         }
-        if(state2==10 && control_data[0] == conveyor[2]) {
+        if(state2==10 && control_data[0] == conveyor[4]) {
             state2 = 0;
         }
+    }
+    else
+    {
+        Serial.println("Got: Empty message");
+    }
+}
+
+static void request_message(const uint8_t *msg, uint8_t len)
+{
+    if (len > 0)
+    {
+        Serial.print("Got: 0x");
+        for (uint8_t i = 0; i < len - 1; i++)
+        {
+            Serial.print(msg[i], HEX);
+            Serial.print(", 0x");
+        }
+        Serial.println(msg[len - 1], HEX);
+        control_data[0] = msg[len - 1];
+        
+        if (control_data[0] == pallet_types[0])
+        {
+            // userRequest = 'a';
+            msg2[0] = request_data[0];
+            msg2[1] = pallet_types[0];
+            if (lifi1.send_data(msg2, sizeof(msg2))) {
+                delay(10);
+            }
+            if (lifi2.send_data(msg2, sizeof(msg2))) {
+                delay(10);
+            }
+            if (lifi3.send_data(msg2, sizeof(msg2))) {
+                delay(10);
+            }
+        }
+        else if (control_data[0] == pallet_types[1])
+        {
+            // userRequest = 'b';
+            msg2[0] = request_data[0];
+            msg2[1] = pallet_types[1];
+            if (lifi1.send_data(msg2, sizeof(msg2))) {
+                delay(10);
+            }
+            if (lifi2.send_data(msg2, sizeof(msg2))) {
+                delay(10);
+            }
+            if (lifi3.send_data(msg2, sizeof(msg2))) {
+                delay(10);
+            }
+        }
+        else if (control_data[0] == pallet_types[2])
+        {
+            // userRequest = 'c';
+            msg2[0] = request_data[0];
+            msg2[1] = pallet_types[2];
+            if (lifi1.send_data(msg2, sizeof(msg2))) {
+                delay(10);
+            }
+            if (lifi2.send_data(msg2, sizeof(msg2))) {
+                delay(10);
+            }
+            if (lifi3.send_data(msg2, sizeof(msg2))) {
+                delay(10);
+            }
+        }
+        else if (control_data[0] == pallet_types[3])
+        {
+            // userRequest = '1';
+            msg2[0] = request_data[0];
+            msg2[1] = pallet_types[3];
+            if (lifi1.send_data(msg2, sizeof(msg2))) {
+                delay(10);
+            }
+        }
+        else if (control_data[0] == pallet_types[4])
+        {
+            // userRequest = '2';
+            msg2[0] = request_data[0];
+            msg2[1] = pallet_types[4];
+            if (lifi2.send_data(msg2, sizeof(msg2))) {
+                delay(10);
+            }
+        }
+        else if (control_data[0] == pallet_types[5]) {
+            msg2[0] = request_data[0];
+            msg2[1] = pallet_types[5];
+            if (lifi1.send_data(msg2, sizeof(msg2)))
+            {
+                delay(10);
+            }
+        }
+        else if (control_data[0] == pallet_types[6]) {
+            msg2[0] = request_data[0];
+            msg2[1] = pallet_types[6];
+            if (lifi2.send_data(msg2, sizeof(msg2)))
+            {
+                delay(10);
+            }
+        }
+        else if(control_data[0] == hiBay_data[2]) {
+            msg2[0] = request_data[0];
+            msg2[1] = hiBay_data[2];
+            if (lifi1.send_data(msg2, sizeof(msg2)))
+            {
+                delay(10);
+            }
+            if (lifi2.send_data(msg2, sizeof(msg2)))
+            {
+                delay(10);
+            }
+            if (lifi3.send_data(msg2, sizeof(msg2)))
+            {
+                delay(10);
+            }
+        }
+        // userRequest = '0';
     }
     else
     {
@@ -177,18 +304,22 @@ void setup()
                   THREAD_CREATE_STACKTEST, rx_loop, &lifi4, "rx4");
     delay(1);
 
-    pinMode(6, INPUT_PULLUP); //parallel
-    pinMode(7, INPUT_PULLUP); //perpendicular
-    pinMode(5, INPUT);
-    pinMode(8, OUTPUT);
+    pinMode(30, INPUT_PULLUP); //parallel
+    pinMode(32, INPUT_PULLUP); //perpendicular
+    pinMode(3, INPUT);
+    pinMode(6, OUTPUT);
     pinMode(9, OUTPUT);
+    pinMode(4, OUTPUT);
+    digitalWrite(4, HIGH);
     pinMode(10, OUTPUT);
     pinMode(11, OUTPUT);
+    pinMode(5, OUTPUT);
+    digitalWrite(5, HIGH);
 
-    digitalWrite(8, LOW); //HIGH for forward
-    digitalWrite(9, LOW);
+    digitalWrite(6, LOW);
+    digitalWrite(9, LOW); //HIGH for forward
     
-    digitalWrite(10, LOW); //HIGH for forward
+    digitalWrite(10, LOW); //HIGH for clockwise
     digitalWrite(11, LOW);
 
     Serial.println("setup() done");
@@ -203,86 +334,48 @@ void loop()
 {
     uint8_t msg[2];
 
-    // state2 = -1;
-    // msg[0] = control_info[0];
-    // msg[1] = conveyor[0];
-    // if (lifi4.send_data(msg, sizeof(msg)))
-    // {
-    //     delay(10);
-    // }
-
-    // Serial.println(digitalRead(6));
-    // Serial.println(digitalRead(7));
-    // Serial.println("-------");
-
-    // digitalWrite(8, LOW); //HIGH for forward
-    // digitalWrite(9, LOW);
-
-    // digitalWrite(10, LOW); //HIGH for anti-clockwise
-    // digitalWrite(11, LOW);
-
-    // if(digitalRead(6)==HIGH) {
-    //     digitalWrite(10, HIGH); //HIGH for anti-clockwise
-    //     digitalWrite(11, LOW);
-    // }
-    // else {
-    //     digitalWrite(10, LOW); //HIGH for anti-clockwise
-    //     digitalWrite(11, LOW);
-    // }
-    // state2 = -1;
-    // if(digitalRead(7)==HIGH) {
-    //     digitalWrite(10, LOW); //HIGH for anti-clockwise
-    //     digitalWrite(11, HIGH);
-    // }
-    // else {
-    //     digitalWrite(10, LOW); //HIGH for anti-clockwise
-    //     digitalWrite(11, LOW);
-    // }
-    // msg[0] = control_info[0];
-    // msg[1] = sink1[0];
-
     switch(state2) {
         case 0:
             Serial.println("In state2 0");
-            digitalWrite(8, LOW); //HIGH for forward
-            digitalWrite(9, LOW);
-
-            digitalWrite(10, LOW); //HIGH for anti-clockwise
-            digitalWrite(11, LOW);
+            digitalWrite(6, LOW);
+            digitalWrite(9, LOW); //HIGH for forward
+            
+            digitalWrite(10, LOW); //HIGH for clockwise
+            digitalWrite(11, LOW);            
             break;
 
         case 1:
             Serial.println("In state2 1");
             if(message_received_on == 1) {
-                if(digitalRead(7)!=LOW) {
-                    digitalWrite(10, LOW); //HIGH for anti-clockwise
-                    digitalWrite(11, HIGH);
+                if(digitalRead(30)!=LOW) {
+                    digitalWrite(10, HIGH); //HIGH for clockwise
+                    digitalWrite(11, LOW);
                 }
                 else {
                     state2 = 4;
-                    digitalWrite(10, LOW); //HIGH for anti-clockwise
+                    digitalWrite(10, LOW); //HIGH for clockwise
                     digitalWrite(11, LOW);
                 }
             }
             else if(message_received_on == 2) {
-                if(digitalRead(7)!=LOW) {
-                    digitalWrite(10, LOW); //HIGH for anti-clockwise
+                if(digitalRead(32)!=LOW) {
+                    digitalWrite(10, LOW); //HIGH for clockwise
                     digitalWrite(11, HIGH);
                 }
                 else {
                     state2 = 4;
-                    digitalWrite(10, LOW); //HIGH for anti-clockwise
+                    digitalWrite(10, LOW); //HIGH for clockwise
                     digitalWrite(11, LOW);
                 }
             }
             else if(message_received_on == 3) {
-                if(digitalRead(6)!=LOW) {
-                    digitalWrite(10, HIGH); //HIGH for anti-clockwise
-                    digitalWrite(11, LOW);
+                if(digitalRead(32)!=LOW) {
+                    digitalWrite(10, LOW); //HIGH for clockwise
+                    digitalWrite(11, HIGH);
                 }
                 else {
                     state2 = 4;
-                    digitalWrite(10, LOW); //HIGH for anti-clockwise
+                    digitalWrite(10, LOW); //HIGH for clockwise
                     digitalWrite(11, LOW);
                 }
             }
@@ -318,29 +411,29 @@ void loop()
         case 5:
             Serial.println("In state2 5");
             if(message_received_on == 1) {
-                digitalWrite(8, HIGH); //HIGH for forward
-                digitalWrite(9, LOW);
+                digitalWrite(6, LOW);
+                digitalWrite(9, HIGH); //HIGH for forward
             }
             else if(message_received_on == 2) {
-                digitalWrite(8, LOW); //HIGH for forward
-                digitalWrite(9, HIGH);
+                digitalWrite(6, LOW);
+                digitalWrite(9, HIGH); //HIGH for forward
             }
             else if(message_received_on == 3) {
-                digitalWrite(8, HIGH); //HIGH for forward
-                digitalWrite(9, LOW);
+                digitalWrite(6, HIGH); 
+                digitalWrite(9, LOW); //HIGH for forward
             }
 
-            if(digitalRead(5)==HIGH) {
+            if(digitalRead(3)==HIGH) {
                 state2 = 6;
             }
             break;
 
         case 6:
             Serial.println("In state2 6");
-            digitalWrite(8, LOW); //HIGH for forward
-            digitalWrite(9, LOW);
+            digitalWrite(6, LOW); 
+            digitalWrite(9, LOW); //HIGH for forward
 
-            digitalWrite(10, LOW); //HIGH for anti-clockwise
+            digitalWrite(10, LOW); //HIGH for clockwise
             digitalWrite(11, LOW);
 
             msg[0] = control_info[0];
@@ -373,13 +466,13 @@ void loop()
         
         case 7:
             Serial.println("In state2 7");
-            if(digitalRead(6)!=LOW) {
-                digitalWrite(10, HIGH); //HIGH for anti-clockwise
+            if(digitalRead(30)!=LOW) {
+                digitalWrite(10, HIGH); //HIGH for clockwise
                 digitalWrite(11, LOW);
             }
             else {
                 state2 = 8;
-                digitalWrite(10, LOW); //HIGH for anti-clockwise
+                digitalWrite(10, LOW); //HIGH for clockwise
                 digitalWrite(11, LOW);
             }
             break;
@@ -387,7 +480,15 @@ void loop()
         case 8:
             Serial.println("In state2 8");
             msg[0] = control_info[0];
-            msg[1] = conveyor[0];
+            if(message_received_on == 1) {
+                msg[1] = conveyor[0];
+            }
+            else if(message_received_on == 2) {
+                msg[1] = conveyor[1];
+            }
+            else if(message_received_on == 3) {
+                msg[1] = conveyor[2];
+            }
             if (lifi4.send_data(msg, sizeof(msg)))
             {
                 delay(10);
@@ -401,8 +502,8 @@ void loop()
 
         case 10:
             Serial.println("In state2 10");
-            digitalWrite(8, HIGH); //HIGH for forward
-            digitalWrite(9, LOW);
+            digitalWrite(6, LOW);
+            digitalWrite(9, HIGH); //HIGH for forward
             break;
         
     }
