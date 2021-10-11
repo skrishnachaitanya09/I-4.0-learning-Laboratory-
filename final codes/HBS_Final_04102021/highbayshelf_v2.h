@@ -4,39 +4,23 @@ bool end1;
 bool storingCompleted = false;
 int storageState = 0;
 
-int udsrrlt_sw[3] = {digitalRead(29), digitalRead(31), digitalRead(33)};
-int rlsrlt_sw[3] = {digitalRead(2), digitalRead(35), digitalRead(37)};
-int hbslt_sw[4] = {digitalRead(41), digitalRead(43), digitalRead(45), digitalRead(47)};
-int udsrllt_sw[3] = {digitalRead(38), digitalRead(48), digitalRead(40)};
+int sc2sens = 4; //Check and delete, unused pin
+int sc3sens = 10; //Sensor on the First Conveyor in Storage
+int srbsens = 44; //Sensor on the Storage-Retrieval Belt
+int storage = 5;
+int dsens = 28;
+int slt_sw = 27; 
+
+int udsrrlt_sw[3] = {29,31,33}; //Up and down Belt Right Side Switches, starting from bottom
+int rlsrlt_sw[3] = {2,35,37}; //Storage-Retrieval Belt Switches from Right to Left
+int hbslt_sw[4] = {41,43,45,47}; //High bay switches, from wall to source
+int udsrllt_sw[3] = {38,48,40}; //Up and down Belt Right Side Switches, starting from bottom
 
 void store(int row, int column)
 {
-    int sc2sens = digitalRead(4); //pin4
-  int sc3sens = digitalRead(10); //pin10
-  int srbsens = digitalRead(44); //pin44
-  int storage = digitalRead(5);
-  int dsens = digitalRead(28);
-  int slt_sw = digitalRead(27); //27
-//  int udsrrlt_sw1 = digitalRead(29); //29 up down belt right side down switch
-//  int udsrrlt_sw2 = digitalRead(31); //31 up down belt right side middle switch
-//  int udsrrlt_sw3 = digitalRead(33); //33 up down belt right side up switch
-//  int rlsrlt_sw1 = digitalRead(2); //2 right
-//  int rlsrlt_sw2 = digitalRead(35); //35 middle
-//  int rlsrlt_sw3 = digitalRead(37); //37 left
-//  int hbslt_sw1 = digitalRead(41); //41 towards wall
-//  int hbslt_sw2 = digitalRead(43); //43
-//  int hbslt_sw3 = digitalRead(45); //45
-//  int hbslt_sw4 = digitalRead(47); //47 towards source and destination
-//  int udsrllt_sw1 = digitalRead(38); //38 up down belt left side down switch
-//  int udsrllt_sw2 = digitalRead(48); //48 up down belt left side middle switch
-//  int udsrllt_sw3 = digitalRead(40); //40 up down belt left side top switch
-
-
-  if ((sc2sens == 1) && (sc3sens == 1) && (srbsens == 1))
-  {
-    Serial1.write(0xa3);
+     Serial1.write(0xa3);
     storingCompleted = false;
-    while(!((sc2sens == 0) && (sc3sens == 0) && (srbsens == 1) && (rlsrlt_sw[0] == 1))) {
+    while(!digitalRead(sc3sens)) {
       Serial.println("Second & Third belt forward");
     digitalWrite(6, HIGH);
     digitalWrite(7, HIGH);
@@ -45,11 +29,9 @@ void store(int row, int column)
     digitalWrite(11, HIGH);
     digitalWrite(12, LOW);
     }
-    
+  
 
-  }
-
-  while (!(rlsrlt_sw[0] == 1))
+  while (digitalRead(rlsrlt_sw[0]))
   {
 
     Serial.println("All belts stop. Bring SRB towards source");
@@ -62,7 +44,7 @@ void store(int row, int column)
     digitalWrite(30, LOW);
     digitalWrite(32, HIGH);
   }
-  while(!(udsrrlt_sw[1] == 1))
+  while(digitalRead(udsrrlt_sw[1]))
   {
     Serial.println("SRB stop. Third Belt forward");
     digitalWrite(30, HIGH);
@@ -82,7 +64,7 @@ void store(int row, int column)
 
   }
   
-  while(!(rlsrlt_sw[1] == 1))
+  while(digitalRead(rlsrlt_sw[1]))
   {
     Serial.println("SRB BACKWARD");
     digitalWrite(30, HIGH);
@@ -95,9 +77,9 @@ void store(int row, int column)
     digitalWrite(12, HIGH);
   }
 
-  //break
+  //Until here, common for storage of both A and B
 
-  while(!(udsrrlt_sw[column]))
+  while(digitalRead(udsrrlt_sw[column]))
   {
     digitalWrite(11, HIGH);
     digitalWrite(12, HIGH);
@@ -108,7 +90,7 @@ void store(int row, int column)
     Serial.println("MATERIAL IS INSIDE STOP ALL MOTORS & Move ASRS UP");
   }
 
-  while(!(hbslt_sw[row] == 0)) 
+  while(digitalRead(hbslt_sw[row])) 
   {
     digitalWrite(26, HIGH);
     digitalWrite(24, HIGH);
@@ -118,7 +100,7 @@ void store(int row, int column)
   }
 
 
-  while(!(rlsrlt_sw[0] == 0))
+  while(digitalRead(rlsrlt_sw[0]))
   {
     digitalWrite(36, HIGH);
     digitalWrite(34, HIGH);
@@ -129,7 +111,7 @@ void store(int row, int column)
     Serial.println("STOP AT SHELF AND MOVE THE SRB TOWARDS SHELF");
   }
 
-  while(!(udsrllt_sw[column] == 0))
+  while(digitalRead(udsrllt_sw[column]))
   {
     digitalWrite(26, LOW);
     digitalWrite(24, HIGH);
@@ -140,7 +122,7 @@ void store(int row, int column)
     Serial.println("SRB AT CORNER AND MOVE THE BELT DOWNWARDS ");
   }
 
-  while(!(rlsrlt_sw[1] == 0))
+  while(digitalRead(rlsrlt_sw[1]))
   {
     digitalWrite(26, HIGH);
     digitalWrite(24, HIGH);
@@ -151,7 +133,7 @@ void store(int row, int column)
     Serial.println("MOVE BACK  S & R BELT AFTER STORING MATERIAL "); //Recent changes here
   }
 
-  while(!(udsrrlt_sw[0] == 0))
+  while(digitalRead(udsrrlt_sw[0]))
   {
     digitalWrite(26, LOW);
     digitalWrite(24, HIGH);
@@ -162,7 +144,7 @@ void store(int row, int column)
     Serial.println("STOP S & R BELT AFTER STORING MATERIAL AND MOVE BELT DOWNWARDS ");
   }
 
-  while(!(hbslt_sw[0] == 0))
+  while(digitalRead(hbslt_sw[0]))
   {
     digitalWrite(26, HIGH);
     digitalWrite(24, HIGH);
@@ -174,7 +156,7 @@ void store(int row, int column)
     storageState = 1;
   }
 
-  if ((udsrllt_sw[0] == 0) && (srbsens == 1) && (slt_sw == 0) && (rlsrlt_sw[1] == 0) && (sc3sens == 1) && storageState == 1)
+  if (storageState == 1)
   {
     digitalWrite(26, HIGH);
     digitalWrite(24, HIGH);
@@ -189,42 +171,23 @@ void store(int row, int column)
 }
 
 
-void storeL32()
+void storeL(int row, int column)
 {
-  int sc2sens = digitalRead(4); //pin4
-  int sc3sens = digitalRead(10); //pin10
-  int srbsens = digitalRead(44); //pin44
-  int storage = digitalRead(5);
-  int dsens = digitalRead(28);
-  int slt_sw = digitalRead(27); //27
-  int udsrrlt_sw1 = digitalRead(29); //29 up down belt right side down switch
-  int udsrrlt_sw2 = digitalRead(31); //31 up down belt right side middle switch
-  int udsrrlt_sw3 = digitalRead(33); //33 up down belt right side up switch
-  int rlsrlt_sw1 = digitalRead(2); //2 right
-  int rlsrlt_sw2 = digitalRead(35); //35 middle
-  int rlsrlt_sw3 = digitalRead(37); //37 left
-  int hbslt_sw1 = digitalRead(41); //41 towards wall
-  int hbslt_sw2 = digitalRead(43); //43
-  int hbslt_sw3 = digitalRead(45); //45
-  int hbslt_sw4 = digitalRead(47); //47 towards source and destination
-  int udsrllt_sw1 = digitalRead(38); //38 up down belt left side down switch
-  int udsrllt_sw2 = digitalRead(48); //48 up down belt left side middle switch
-  int udsrllt_sw3 = digitalRead(40); //40 up down belt left side top switch
-
-  if ((sc2sens == 1) && (sc3sens == 1) && (srbsens == 1))
-  {
-    Serial1.write(0xa3);
-    Serial.println("Second & Third belt forward");
+  
+     Serial1.write(0xa3);
+    storingCompleted = false;
+    while(!digitalRead(sc3sens)) {
+      Serial.println("Second & Third belt forward");
     digitalWrite(6, HIGH);
     digitalWrite(7, HIGH);
     digitalWrite(8, HIGH);
     digitalWrite(9, LOW);
     digitalWrite(11, HIGH);
     digitalWrite(12, LOW);
+    }
+  
 
-  }
-
-  if ((sc2sens == 0) && (sc3sens == 0) && (srbsens == 1) && (rlsrlt_sw1 == 1))
+  while (digitalRead(rlsrlt_sw[0]))
   {
 
     Serial.println("All belts stop. Bring SRB towards source");
@@ -236,9 +199,8 @@ void storeL32()
     digitalWrite(12, HIGH);
     digitalWrite(30, LOW);
     digitalWrite(32, HIGH);
-
   }
-  if ((sc2sens == 0) && (sc3sens == 0) && (srbsens == 1) && (rlsrlt_sw1 == 0))
+  while(digitalRead(udsrrlt_sw[1]))
   {
     Serial.println("SRB stop. Third Belt forward");
     digitalWrite(30, HIGH);
@@ -249,7 +211,6 @@ void storeL32()
     digitalWrite(9, HIGH);
     digitalWrite(11, HIGH);
     digitalWrite(12, LOW);
-    delay(500);
     while (digitalRead(48)) {
       digitalWrite(24, LOW);
       digitalWrite(26, HIGH);
@@ -257,9 +218,9 @@ void storeL32()
     digitalWrite(26, HIGH);
     digitalWrite(24, HIGH);
 
-
   }
-  if ((srbsens == 1) && (rlsrlt_sw1 == 0) && (rlsrlt_sw2 == 1) && (hbslt_sw3 == 1))
+  
+  while(digitalRead(rlsrlt_sw[1]))
   {
     Serial.println("SRB BACKWARD");
     digitalWrite(30, HIGH);
@@ -272,7 +233,9 @@ void storeL32()
     digitalWrite(12, HIGH);
   }
 
-  if ((rlsrlt_sw2 == 0) && (srbsens == 0)  && (hbslt_sw3 == 1) && (udsrrlt_sw2 == 1))
+  //Until here, common for storage of both A and B
+
+  while(digitalRead(udsrrlt_sw[column]))
   {
     digitalWrite(11, HIGH);
     digitalWrite(12, HIGH);
@@ -283,7 +246,7 @@ void storeL32()
     Serial.println("MATERIAL IS INSIDE STOP ALL MOTORS & Move ASRS UP");
   }
 
-  if ((udsrrlt_sw2 == 0) && (srbsens == 0) && (hbslt_sw3 == 1) && (udsrllt_sw1 == 1))
+  while(digitalRead(hbslt_sw[row])) 
   {
     digitalWrite(26, HIGH);
     digitalWrite(24, HIGH);
@@ -292,19 +255,19 @@ void storeL32()
     Serial.println("STOP MOVING ASRS UP AND MOVE IT TOWARDS SHELF");
   }
 
-  if ((hbslt_sw3 == 0) && (srbsens == 0) && (udsrrlt_sw2 == 0))
+
+  while(digitalRead(rlsrlt_sw[2]))
   {
     digitalWrite(36, HIGH);
     digitalWrite(34, HIGH);
     digitalWrite(26, HIGH);
     digitalWrite(24, HIGH);
-    digitalWrite(32, LOW);
-    digitalWrite(30, HIGH);
+    digitalWrite(32, HIGH);
+    digitalWrite(30, LOW);
     Serial.println("STOP AT SHELF AND MOVE THE SRB TOWARDS SHELF");
-
   }
 
-  if ((hbslt_sw3 == 0) && (rlsrlt_sw3 == 0) && (udsrrlt_sw2 == 0))
+  while(digitalRead(udsrllt_sw[column]))
   {
     digitalWrite(26, LOW);
     digitalWrite(24, HIGH);
@@ -314,17 +277,19 @@ void storeL32()
     digitalWrite(34, HIGH);
     Serial.println("SRB AT CORNER AND MOVE THE BELT DOWNWARDS ");
   }
-  if ((hbslt_sw3 == 0) && (rlsrlt_sw3 == 0) && (udsrllt_sw2 == 0) && (udsrrlt_sw2 == 1))
+
+  while(digitalRead(rlsrlt_sw[1]))
   {
     digitalWrite(26, HIGH);
     digitalWrite(24, HIGH);
     digitalWrite(36, HIGH);
     digitalWrite(34, HIGH);
-    digitalWrite(32, HIGH);
-    digitalWrite(30, LOW);
-    Serial.println("MOVE BACK  S & R BELT AFTER STORING MATERIAL ");
+    digitalWrite(32, LOW);
+    digitalWrite(30, HIGH);
+    Serial.println("MOVE BACK  S & R BELT AFTER STORING MATERIAL "); //Recent changes here
   }
-  if ((hbslt_sw3 == 0) && (rlsrlt_sw2 == 0) && (udsrllt_sw2 == 0) && (srbsens == 1))
+
+  while(digitalRead(udsrrlt_sw[0]))
   {
     digitalWrite(26, LOW);
     digitalWrite(24, HIGH);
@@ -334,7 +299,8 @@ void storeL32()
     digitalWrite(30, HIGH);
     Serial.println("STOP S & R BELT AFTER STORING MATERIAL AND MOVE BELT DOWNWARDS ");
   }
-  if ((hbslt_sw3 == 0) && (rlsrlt_sw2 == 0) && (udsrllt_sw1 == 0) && (srbsens == 1))
+
+  while(digitalRead(hbslt_sw[0]))
   {
     digitalWrite(26, HIGH);
     digitalWrite(24, HIGH);
@@ -342,10 +308,11 @@ void storeL32()
     digitalWrite(34, HIGH);
     digitalWrite(32, HIGH);
     digitalWrite(30, HIGH);
-    storageState = 1;
     Serial.println("BRING BACK SRB TO INITIAL POSITION ");
+    storageState = 1;
   }
-  if ((udsrllt_sw1 == 0) && (srbsens == 1) && (slt_sw == 0) && (rlsrlt_sw2 == 0) && (sc3sens == 1) && storageState == 1)
+
+  if (storageState == 1)
   {
     digitalWrite(26, HIGH);
     digitalWrite(24, HIGH);
